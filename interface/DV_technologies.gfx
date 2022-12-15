@@ -1,0 +1,585 @@
+
+spriteTypes = {
+
+	#Folder Tab
+
+	SpriteType = {
+		name = "GFX_wmd_folder_tab"
+		texturefile = "gfx/interface/techtree_wmd_tab.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_space_folder_tab"
+		textureFile = "gfx/interface/techtree_space_tab.dds"
+		noOfFrames = 2		
+	}
+	
+	#Backgrounds
+	spriteType = {
+		name = "GFX_space_techtree_bg"
+		textureFile = "gfx/interface/space_techtree_bg.dds"
+		allwaystransparent = yes		
+	}
+	
+	SpriteType = {
+		name = "GFX_wmd_techtree_bg"
+		texturefile = "gfx/interface/wmd_techstree_bg.dds"
+	}
+	
+	#Actual Techs
+	
+	#### RON NUCLEAR TECHS
+	
+	SpriteType = {
+		name = "GFX_RON_Radioactive_Materials_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Atomic_Sprite.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Radiography_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Atomic_Sprite.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Nuclear_Fission_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Atomic_Sprite.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Atomic_Research_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Atomic_Sprite.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Nuclear_Reactor_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Nuclear_Reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Nukes_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Nukes.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Thermonuclear_Bomb_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Thermonuclear_Bomb.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Thermonuclear_Bomb2_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Thermonuclear_Bomb2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Thermonuclear_Bomb3_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Thermonuclear_Bomb3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Neutron_Bomb_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Neutron_Bomb.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Improved_Miniaturization_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Improved_Miniaturization.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Orbital_Launch_Site_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Orbital_Launch_Site.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Antimatter_Bomb_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Antimatter_Bomb.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_MIRV_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_MIRV.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_MHD_Department_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_MHD_Department.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Nuclear_Reactor_MK1_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Nuclear_Reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Tomahawk_Reactor_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Nuclear_Reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Fission_Reactor1_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Nuclear_Reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Fission_Reactor2_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Nuclear_Reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Fission_Reactor3_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Nuclear_Reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_EPR_Technology_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Nuclear_Reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Fusion_Reactor_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/RON_Nuclear_Reactor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_SRBM1_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+	
+SpriteType = {
+		name = "GFX_RON_SRBM2_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+
+SpriteType = {
+		name = "GFX_RON_SRBM3_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+
+SpriteType = {
+		name = "GFX_RON_SRBM4_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+
+SpriteType = {
+		name = "GFX_RON_SRBM5_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+	
+SpriteType = {
+		name = "GFX_RON_SRBM6_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_IRBM1_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+	
+SpriteType = {
+		name = "GFX_RON_IRBM2_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+
+SpriteType = {
+		name = "GFX_RON_IRBM3_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+
+SpriteType = {
+		name = "GFX_RON_IRBM4_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+
+SpriteType = {
+		name = "GFX_RON_IRBM5_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+	
+SpriteType = {
+		name = "GFX_RON_IRBM6_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_ICBM1_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+	
+SpriteType = {
+		name = "GFX_RON_ICBM2_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+
+SpriteType = {
+		name = "GFX_RON_ICBM3_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+
+SpriteType = {
+		name = "GFX_RON_ICBM4_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+
+SpriteType = {
+		name = "GFX_RON_ICBM5_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}
+	
+SpriteType = {
+		name = "GFX_RON_ICBM6_medium"
+		texturefile = "gfx/interface/technologies/Nuclear/Vanilla_Missile_Sprite.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Early_Rocketry_medium"
+		texturefile = "gfx/interface/technologies/Space/Blueprint.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Pulsoreactors_medium"
+		texturefile = "gfx/interface/technologies/Space/Blueprint.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Integrated_Guidance_System_medium"
+		texturefile = "gfx/interface/technologies/Space/Blueprint.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Experimental_Rockets_medium"
+		texturefile = "gfx/interface/technologies/Space/experimental_rockets.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Rocket_Engines_medium"
+		texturefile = "gfx/interface/technologies/Space/rocket_engines.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Jet_Engines_medium"
+		texturefile = "gfx/interface/technologies/Space/jet_engines.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Improved_Rocket_Engines_medium"
+		texturefile = "gfx/interface/technologies/Space/rocket_engines.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Advanced_Rocket_Engines_medium"
+		texturefile = "gfx/interface/technologies/Space/rocket_engines.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Rocket_Engines_medium"
+		texturefile = "gfx/interface/technologies/Space/rocket_engines.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Multi_Staged_Rockets_medium"
+		texturefile = "gfx/interface/technologies/Space/rocket_engines.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Develop_Missiles_medium"
+		texturefile = "gfx/interface/technologies/Space/experimental_rockets.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_First_Satellite_medium"
+		texturefile = "gfx/interface/technologies/Space/Satellite.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Early_Spy_Satellite_medium"
+		texturefile = "gfx/interface/technologies/Space/Spy_Satellite.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Modernization_medium"
+		texturefile = "gfx/interface/technologies/Space/rocket_engines.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Reusability_Era_medium"
+		texturefile = "gfx/interface/technologies/Space/Recycle.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Life_Support_medium"
+		texturefile = "gfx/interface/technologies/Space/Astronaut.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Manned_Orbital_Flights_medium"
+		texturefile = "gfx/interface/technologies/Space/Orbital_Flight.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Interplanetary_Probes_medium"
+		texturefile = "gfx/interface/technologies/Space/Probes.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_First_Moon_Flyby_medium"
+		texturefile = "gfx/interface/technologies/Space/Moon.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Moon_Soft_Landing_medium"
+		texturefile = "gfx/interface/technologies/Space/Moon_Soft_Landing.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_First_Spacewalk_medium"
+		texturefile = "gfx/interface/technologies/Space/Astronaut.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Massive_Rockets_medium"
+		texturefile = "gfx/interface/technologies/Space/rocket_engines.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Lunar_Modules_medium"
+		texturefile = "gfx/interface/technologies/Space/Lunar_Module.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_First_Man_On_The_Moon_medium"
+		texturefile = "gfx/interface/technologies/Space/Moon_Landing.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_A_New_Era_medium"
+		texturefile = "gfx/interface/technologies/Space/New_Era.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Orbital_Stations_medium"
+		texturefile = "gfx/interface/technologies/Space/International_Space_Station.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Moon_Base_medium"
+		texturefile = "gfx/interface/technologies/Space/Moon_Base.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Martian_Orbit_medium"
+		texturefile = "gfx/interface/technologies/Space/Mars.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Martian_Landing_medium"
+		texturefile = "gfx/interface/technologies/Space/Mars_Landing.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Martian_Rover_medium"
+		texturefile = "gfx/interface/technologies/Space/Mars_Rover.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_First_Man_On_Mars_medium"
+		texturefile = "gfx/interface/technologies/Space/Man_on_Mars.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Mars_Colony_medium"
+		texturefile = "gfx/interface/technologies/Space/Mars_Base.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Venus_Flyby_medium"
+		texturefile = "gfx/interface/technologies/Space/Venus.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Venus_Landing_medium"
+		texturefile = "gfx/interface/technologies/Space/Venus_Landing.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_The_Grand_Tour_medium"
+		texturefile = "gfx/interface/technologies/Space/Solar_System.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Leave_The_Solar_System_medium"
+		texturefile = "gfx/interface/technologies/Space/Solar_System.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RON_Comet_Landing_medium"
+		texturefile = "gfx/interface/technologies/Space/Comet.dds"
+	}
+	
+	#### MISSILES
+	
+	### SURFACE TO AIR
+	
+	SpriteType = {
+		name = "GFX_RON_STAM_medium"
+		texturefile = "gfx/interface/technologies/Space/Surface_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_STAM2_medium"
+		texturefile = "gfx/interface/technologies/Space/Surface_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_STAM3_medium"
+		texturefile = "gfx/interface/technologies/Space/Surface_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_STAM4_medium"
+		texturefile = "gfx/interface/technologies/Space/Surface_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_STAM5_medium"
+		texturefile = "gfx/interface/technologies/Space/Surface_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_STAM6_medium"
+		texturefile = "gfx/interface/technologies/Space/Surface_To_Air_Missile_small.dds"
+	}
+	
+	### AIR TO AIR
+	
+	SpriteType = {
+		name = "GFX_RON_ATAM_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATAM2_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATAM3_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATAM4_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATAM5_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Air_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATAM6_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Air_Missile_small.dds"
+	}
+	
+	### AIR TO SURFACE
+	
+	SpriteType = {
+		name = "GFX_RON_ATS_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Surface_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATS2_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Surface_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATS3_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Surface_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATS4_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Surface_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATS5_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Surface_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATS6_medium"
+		texturefile = "gfx/interface/technologies/Space/Air_To_Surface_Missile_small.dds"
+	}
+	
+	### AIR TO SHIP MISSILE
+	
+	SpriteType = {
+		name = "GFX_RON_ASHM_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Ship_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ASHM2_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Ship_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ASHM3_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Ship_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ASHM4_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Ship_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ASHM5_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Ship_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ASHM6_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Ship_Missile_small.dds"
+	}
+	
+	
+	### ANTI TANK MISSILE
+	
+	SpriteType = {
+		name = "GFX_RON_ATM_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Tank_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATM2_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Tank_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATM3_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Tank_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATM4_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Tank_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATM5_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Tank_Missile_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_ATM6_medium"
+		texturefile = "gfx/interface/technologies/Space/Anti_Tank_Missile_small.dds"
+	}				
+
+
+}
+
+#####-----------------------------------------------------------> End

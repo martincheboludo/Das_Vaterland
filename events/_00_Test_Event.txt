@@ -1,0 +1,51 @@
+add_namespace = rontestevent
+
+country_event = {
+	id = rontestevent.1
+	title = "Coring"
+	desc = "Haha"
+	is_triggered_only = yes
+
+	option = {
+		name = "lol"
+		
+			every_country = {
+					limit = {
+						exists = yes
+					}
+					load_focus_tree = generic_focus
+				}
+
+	every_state = {
+			limit = {
+				OR = {
+					is_core_of = MON
+					is_core_of = CHI
+					is_core_of = KOR
+				}
+			}
+			add_core_of = SOV
+		}
+		
+		MON = {
+			every_unit_leader = {
+				set_nationality = SOV
+			}
+		}
+		SOV = { annex_country = { target = MON transfer_troops = yes } }
+		CHI = {
+			every_unit_leader = {
+				set_nationality = SOV
+			}
+		}
+		SOV = { annex_country = { target = CHI transfer_troops = yes } }
+		KOR = {
+			every_unit_leader = {
+				set_nationality = SOV
+			}
+		}
+		SOV = { annex_country = { target = KOR transfer_troops = yes } }
+
+
+	}
+}
