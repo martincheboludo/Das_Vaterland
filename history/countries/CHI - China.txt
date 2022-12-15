@@ -413,6 +413,8 @@ if = {
 #########################################
 
 1946.1.1 = {
+
+set_oob = "CHI_1946"
 	
 #white_peace = JAP
 dismantle_faction = yes

@@ -262,10 +262,10 @@ create_import = {
 	#complete_national_focus = JAP_bicycle_battalions
 	#complete_national_focus = JAP_small_arms_modernization
 
-	declare_war_on = {
-		target = CHI
-		type = puppet_wargoal_focus
-	}
+	#declare_war_on = {
+	#	target = CHI
+	#	type = puppet_wargoal_focus
+	#}
 	#declare_war_on = {
 	#	target = GXC
 	#	type = puppet_focus
@@ -378,49 +378,49 @@ create_import = {
 
 set_convoys = 400
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-		not = { has_dlc = "Waking the Tiger" }
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_integrated_puppet
-	}
-}
-if = {
-	limit = { 
-		not = {
-			has_dlc = "Waking the Tiger"
-			has_dlc = "Together for Victory"
-		}
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = { 
-		has_dlc = "Waking the Tiger"
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#		not = { has_dlc = "Waking the Tiger" }
+#	}
+#	set_autonomy = {
+#		target = MEN
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#	set_autonomy = {
+#		target = MAN
+#		autonomous_state = autonomy_integrated_puppet
+#	}
+#}
+#if = {
+#	limit = { 
+#		not = {
+#			has_dlc = "Waking the Tiger"
+#			has_dlc = "Together for Victory"
+#		}
+#	}
+#	set_autonomy = {
+#		target = MEN
+#		autonomous_state = autonomy_puppet
+#	}
+#	set_autonomy = {
+#		target = MAN
+#		autonomous_state = autonomy_puppet
+#	}
+#}
+#if = {
+#	limit = { 
+#		has_dlc = "Waking the Tiger"
+#	}
+#	set_autonomy = {
+#		target = MEN
+#		autonomous_state = autonomy_wtt_imperial_protectorate
+#	}
+#	set_autonomy = {
+#		target = MAN
+#		autonomous_state = autonomy_wtt_imperial_protectorate
+#	}
+#}
 
 set_politics = {
 	ruling_party = fascism
@@ -1483,6 +1483,10 @@ if = {
 #########################################
 
 1946.1.1 = {
+
+set_oob = "JAP_1946"
+set_naval_oob = "JAP_1946_naval_legacy"
+set_air_oob = "JAP_1946_air_legacy"
 	
 #white_peace = CHI
 

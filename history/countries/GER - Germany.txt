@@ -1262,6 +1262,10 @@ if = {
 
 1946.1.1 = {
 
+	set_oob = "GER_1946_nsb"
+	set_naval_oob = "GER_1946_naval_mtg"
+	set_air_oob = "GER_1946_air_bba"
+
 	#Add Waffen-SS Units
 	set_technology = {
 		Waffen_SS_units_tech = 1
