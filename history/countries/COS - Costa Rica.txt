@@ -110,3 +110,25 @@ set_popularities = {
 	retire_character = COS_ricardo_jiménez_oreamuno
 
 }
+
+1946.1.1 = {
+
+	create_country_leader = {
+		name = "Teodoro Picado Michalski"
+		picture = "Teodoro_Picado_Michalski.dds"
+		ideology = liberalism
+	}
+
+	set_popularities = {
+		democratic = 98
+		fascism = 2
+	}
+	
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1946.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+}

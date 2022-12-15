@@ -107,3 +107,23 @@ set_popularities = {
 	promote_character = CUB_federico_laredo_bru
 	retire_character = CUB_josé_agripino_barnet
 }
+
+1946.1.1 = {
+
+	create_country_leader = {
+		name = "Ramón Grau"
+		ideology = conservatism
+		picture = "Ramon_Grau.dds"
+	}
+
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1946.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 98
+		communism = 2
+	}
+}

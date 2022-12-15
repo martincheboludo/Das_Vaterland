@@ -106,3 +106,23 @@ set_popularities = {
 	retire_character = PAN_harmodio_arias_madrid
 	retire_character = PAN_bartolomé_sinibaldi
 }
+
+1946.1.1 = {
+
+	create_country_leader = {
+		name = "Enrique Adolfo Jiménez"
+		picture = "Enrique_Adolfo_Jimenez.dds"
+		ideology = liberalism
+	}
+
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1945.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+
+}
