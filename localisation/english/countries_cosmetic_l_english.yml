@@ -1553,10 +1553,13 @@
  FORM_GGR_islamism_ADJ:0 "Germanic"
  
  #Puppets
+ #German
+ SWE_GER_fascism_autonomy_satellite:0 "Swedish Rike"
  NOR_GER_fascism_autonomy_satellite:0 "Norwegian Rike"
  DEN_GER_fascism_autonomy_satellite:0 "Danish Rike"
  BEL_GER_fascism_autonomy_satellite:0 "Belgian State"
  HOL_GER_fascism_autonomy_satellite:0 "Dutch State"
+ #American
  JAP_USA_autonomy_dominion:0 "American-Occupied Japan"
  JAP_USA_autonomy_colony:0 "American Japan"
  JAP_USA_autonomy_puppet:0 "Japanese Territory"

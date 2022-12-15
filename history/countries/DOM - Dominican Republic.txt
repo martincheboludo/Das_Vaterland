@@ -8,7 +8,7 @@ set_technology = {
 	gw_artillery = 1
 }
 
-recruit_character = DOM_rafael_trujillo
+#recruit_character = DOM_rafael_trujillo
 recruit_character = DOM_jacinto_gonzáles
 recruit_character = DOM_fernando_bayo
 recruit_character = DOM_horacio_cabral
@@ -92,7 +92,28 @@ set_popularities = {
 }
 
 1939.1.1 = {
-	recruit_character = DOM_jacinto_peynado
-	promote_character = DOM_jacinto_peynado
-	retire_character = DOM_rafael_trujillo
+	#recruit_character = DOM_jacinto_peynado
+	#promote_character = DOM_jacinto_peynado
+	#retire_character = DOM_rafael_trujillo
+}
+
+1946.1.1 = {
+
+	create_country_leader = {
+		name = "Rafael Trujillo"
+		ideology = fascism_ideology
+		picture = "portrait_dom_rafael_trujillo.dds"
+	}
+
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1946.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		fascism = 100
+	}
+
 }
