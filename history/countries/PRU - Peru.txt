@@ -223,3 +223,26 @@ if = {
 		}
 	}
 }
+
+
+1946.1.1 = {
+
+	create_country_leader = {
+		name = "José Luis Bustamante y Rivero"
+		ideology = conservatism
+		picture = "portrait_pru_jose_luis_bustamante_y_rivero.dds"
+	}
+
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1946.1.1"
+		election_frequency = 96
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		democratic = 70
+		fascism = 30
+	}
+
+}

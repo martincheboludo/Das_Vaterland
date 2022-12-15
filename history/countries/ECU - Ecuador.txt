@@ -110,3 +110,24 @@ set_popularities = {
 	promote_character = ECU_aurelio_mosquera
 	retire_character = ECU_federico_páez
 }
+
+1946.1.1 = {
+
+	create_country_leader = {
+		name = "José María Velasco Ibarra"
+		ideology = conservatism
+		picture = "portrait_ecu_jose_maria_velasco_ibarra.dds"
+	}
+
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1946.1.1"
+		election_frequency = 84
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		democratic = 100
+	}
+
+}

@@ -125,9 +125,31 @@ set_popularities = {
 		neutrality = 50
 	}
 
-	recruit_character = PAR_higinio_morinigo
-	promote_character = PAR_higinio_morinigo
+	#recruit_character = PAR_higinio_morinigo
+	#promote_character = PAR_higinio_morinigo
 	retire_character = PAR_manuel_de_la_cruz
 
 
+}
+
+1946.1.1 = {
+
+	create_country_leader = {
+		name = "Higinio Morínigo"
+		ideology = despotism
+		picture = "Higinio_Morinigo_Martinez.dds"
+	}
+
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1946.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		democratic = 20
+		communism = 30
+		neutrality = 50
+	}
 }

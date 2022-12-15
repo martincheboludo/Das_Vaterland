@@ -111,3 +111,25 @@ set_popularities = {
 	fascism = 80
 	communism = 15
 }
+
+1946.1.1 = {
+
+	create_country_leader = {
+		name = "Rómulo Betancourt"
+		ideology = socialism
+		picture = "portrait_ven_romulol_betancourt.dds"
+	}
+
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1946.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		fascism = 5
+		democratic = 80
+		communism = 15
+	}
+}
