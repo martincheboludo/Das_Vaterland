@@ -128,3 +128,24 @@ set_popularities = {
 	}
 
 }
+
+1946.1.1 = {
+
+	create_country_leader = {
+		name = "Gualberto Villarroel"
+		ideology = despotism
+		picture = "Gualberto_Villarroel.dds"
+	}
+
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1946.1.1"
+		election_frequency = 72
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		neutrality = 100
+	}
+
+}
