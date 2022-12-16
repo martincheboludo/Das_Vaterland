@@ -1239,7 +1239,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 83
 		}
-		location = 11969
+		location = 7081
 		division_template = "Division d'Infanterie" 				# 'Series A' division (less experience, 2nd tier equip)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1250,7 +1250,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 84
 		}
-		location = 11969
+		location = 7081
 		division_template = "Division d'Infanterie" 				# 'Series A' division (less experience, 2nd tier equip)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1261,7 +1261,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 88
 		}
-		location = 9994
+		location = 7081
 		division_template = "Division d'Infanterie" 				# 'Series A' division (less experience, 2nd tier equip)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1269,7 +1269,7 @@ units = {
 	}
 	division= {	
 		name = "2e Grmpt. de Cavalerie d'Afrique"
-		location = 11969
+		location = 7081
 		division_template = "Division de Cavalerie" 				# Represents 4e, 5e Bges; Colonial unit (low experience, reserve equipment)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -1282,7 +1282,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 81
 		}
-		location = 11957
+		location = 12051
 		division_template = "Division d'Infanterie" 				# Colonial unit (low experience, reserve equipment)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -1294,7 +1294,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 180
 		}
-		location = 1105
+		location = 12051
 		division_template = "Division d'Infanterie" 				# Colonial unit (low experience, reserve equipment)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1
@@ -1303,7 +1303,7 @@ units = {
 	}
 	division= {	
 		name = "Front Sud-Tunisien"
-		location = 11957
+		location = 12051
 		division_template = "Brigade Coloniale" 				# Colonial garrison unit (low experience, reserve equipment)
 		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
 		start_experience_factor = 0.1

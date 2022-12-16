@@ -5,10 +5,10 @@ units= {
 	# Admiralty North (CO: Castex) #
 	fleet = {
 		name = "Amiral Nord"			
-		naval_base = 575 # Dunkerque
+		naval_base = 485 # Dieppe
 		task_force = {				
 			name = "1ère Région Navale"					# CO: Le Bigot	
-			location = 575 # Dunkerque			
+			location = 485 # Dieppe			
 			# 11e Légère Division des Contre-Torpilleurs
 			ship = { name = "La Cordelière" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }		
 			ship = { name = "L'Incomprise" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }		
@@ -16,7 +16,7 @@ units= {
 		}
 		task_force = {				
 			name = "Sous-Marins Force du Nord"			
-			location = 575 # Dunkerque			
+			location = 485 # Dieppe			
 			# 16e Division des Sous-Marins
 			ship = { name = "Orphée" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
 			ship = { name = "Amazone" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630 Series" } } }
@@ -68,8 +68,8 @@ units= {
 			name = "Force de Raid"						# CO: Gensoul
 			location = 3552 # Brest			
 			ship = { name = "Béarn" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = FRA version_name = "Béarn Class" } } }
-			ship = { name = "Dunkerque" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Dunkerque Class" } } }					
-			ship = { name = "Strasbourg" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Dunkerque Class" } } }					
+			ship = { name = "Dieppe" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Dieppe Class" } } }					
+			ship = { name = "Strasbourg" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Dieppe Class" } } }					
 			ship = { name = "Gloire" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
 			ship = { name = "Montcalm" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
 			ship = { name = "Georges Leygues" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
@@ -199,7 +199,7 @@ units= {
 		naval_base = 7132 # Oran
 		task_force = {				
 			name = "4ème Région Navale"					# CO: Rivet	
-			location = 9994 # Bizerte, Tunisia	
+			location = 7081 # Annaba, Algeria	
 			# 12e Légère Division des Contre-Torpilleurs
 			ship = { name = "La Pomone" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }		
 			ship = { name = "La Bombarde" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }		
@@ -241,7 +241,7 @@ units= {
 		}
 		task_force = {				
 			name = "Attack Force Légère"			# CO: Marquis
-			location = 9994 # Bizerte, Tunisia	
+			location = 7081 # Annaba, Algeria	
 			ship = { name = "La Marseillaise" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
 			ship = { name = "Jean de Vienne" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
 			ship = { name = "La Galissonnière" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
@@ -288,7 +288,7 @@ units= {
 		}				
 		task_force = {				
 			name = "6ème Escadron Sous-Marins"			# CO: de Manin
-			location = 9994 # Bizerte, Tunisia	
+			location = 7081 # Annaba, Algeria	
 			# 9e Division des Sous-Marins
 			ship = { name = "Caïman" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600 Series" } } }				
 			ship = { name = "Morse" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600 Series" } } }				
