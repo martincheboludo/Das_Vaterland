@@ -577,7 +577,94 @@ SpriteType = {
 	SpriteType = {
 		name = "GFX_RON_ATM6_medium"
 		texturefile = "gfx/interface/technologies/Space/Anti_Tank_Missile_small.dds"
-	}				
+	}		
+
+		# Infantry TECHS
+		
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons_a_medium"
+		texturefile = "gfx/interface/technologies/Infantry/infantry_weapons_a.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons_c_medium"
+		texturefile = "gfx/interface/technologies/Infantry/infantry_weapons_b.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons_d_medium"
+		texturefile = "gfx/interface/technologies/Infantry/infantry_weapons_c.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/Infantry/USA_GUN_1949.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/Infantry/USA_GUN_1960.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons_f_medium"
+		texturefile = "gfx/interface/technologies/Infantry/USA_GUN_1975.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons_g_medium"
+		texturefile = "gfx/interface/technologies/Infantry/USA_GUN_1990.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_night_vision_a_medium"
+		texturefile = "gfx/interface/technologies/Infantry/NIGHT_VISION_1956.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_night_vision_b_medium"
+		texturefile = "gfx/interface/technologies/Infantry/NIGHT_VISION_1975.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_night_vision_c_medium"
+		texturefile = "gfx/interface/technologies/Infantry/NIGHT_VISION_1990.dds"
+	}
+	
+	
+#-<><><>
+	
+	SpriteType = {
+		name = "GFX_support_weapons_a_medium"
+		texturefile = "gfx/interface/technologies/Infantry/support_weapons_a.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_support_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/Infantry/support_weapons_b.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_support_weapons_c_medium"
+		texturefile = "gfx/interface/technologies/Infantry/support_weapons_c.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_at_a_medium"
+		texturefile = "gfx/interface/technologies/Infantry/infantry_at_a.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_at_b_medium"
+		texturefile = "gfx/interface/technologies/Infantry/infantry_at_b.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_at_c_medium"
+		texturefile = "gfx/interface/technologies/Infantry/infantry_at_c.dds"
+	}
 
 
 }
