@@ -48,8 +48,8 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"FRA" = {
-			history = "FRA_END_OF_WW2_DESC"
+		"VIF" = {
+			history = "VIF_END_OF_WW2_DESC"
 			ideology = democratic
 			ideas = {
 			}
