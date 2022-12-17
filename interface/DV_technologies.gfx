@@ -665,6 +665,29 @@ SpriteType = {
 		name = "GFX_infantry_at_c_medium"
 		texturefile = "gfx/interface/technologies/Infantry/infantry_at_c.dds"
 	}
+	
+	#Mechanized
+	
+	SpriteType = {
+		name = "GFX_mechanised_infantry_a_medium"
+		texturefile = "gfx/interface/technologies/Mechanised/USA_APC_1949.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_mechanised_infantry_b_medium"
+		texturefile = "gfx/interface/technologies/Mechanised/USA_APC_1960.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mechanised_infantry_c_medium"
+		texturefile = "gfx/interface/technologies/Mechanised/USA_APC_1975.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mechanised_infantry_d_medium"
+		texturefile = "gfx/interface/technologies/Mechanised/USA_APC_1984.dds"
+	}
 
 
 }

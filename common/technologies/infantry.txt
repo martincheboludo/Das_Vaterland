@@ -2042,6 +2042,11 @@ technologies = {
 			soft_attack = 0.15
 			hard_attack = 0.15
 		}
+		
+		path = {
+			leads_to_tech = mechanised_infantry_a
+			research_cost_coeff = 1
+		}
 
 		research_cost = 3
 		start_year = 1944
@@ -2628,6 +2633,141 @@ technologies = {
 
 			#DATE
 			modifier = { factor = 0 date < 1958.6.1 }
+		}
+	}
+	
+	###------> New Mechanized Infantry   <><> <><> <><> <><> <><>
+
+	mechanised_infantry_a = {
+
+		enable_equipments = {
+			mechanized_equipment_4
+		}
+
+		path = {
+			leads_to_tech = mechanised_infantry_b
+			research_cost_coeff = 1
+		}
+
+
+
+		research_cost = 3
+		start_year = 1949
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1949 }
+		}
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+
+		ai_will_do = { 
+			factor = 50
+
+			#DATE
+			modifier = { factor = 0 date < 1949.1.1 }
+		}
+	}
+
+	mechanised_infantry_b = {
+
+		enable_equipments = {
+			mechanized_equipment_5
+		}
+
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+
+		path = {
+			leads_to_tech = mechanised_infantry_c
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 50
+
+			#DATE
+			modifier = { factor = 0 date < 1960.1.1 }
+		}
+	}
+
+	mechanised_infantry_c = {
+
+		enable_equipments = {
+			mechanized_equipment_6
+		}
+
+
+		research_cost = 3
+		start_year = 1975
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1975 }
+		}
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+
+		path = {
+			leads_to_tech = mechanised_infantry_d
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 50
+
+			#DATE
+			modifier = { factor = 0 date < 1975.1.1 }
+		}
+	}
+
+	mechanised_infantry_d = {
+
+		enable_equipments = {
+			mechanized_equipment_7
+		}
+
+
+		research_cost = 3
+		start_year = 1984
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1984 }
+		}
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+
+		path = {
+			leads_to_tech = mechanised_infantry_e
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 50
+
+			#DATE
+			modifier = { factor = 0 date < 1984.1.1 }
 		}
 	}
 	
