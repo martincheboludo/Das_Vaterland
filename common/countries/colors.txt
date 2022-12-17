@@ -877,3 +877,84 @@ TTS = {
 }
 
 # END OF VANILLA FILE
+# Das Vaterland Countries
+
+DMA = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RPB = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RPD = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+SSB = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKH = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKK = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKM = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKN = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKO = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKS = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKT = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKU = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKB = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RKD = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+PGG = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+VIF = {
+	color = rgb { 0 18 127 }
+	color_ui = rgb { 0 18 127 }
+}
