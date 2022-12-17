@@ -27,8 +27,9 @@ state={
 			}
 		}
 		1946.1.1 = {
-			owner = GER
-			controller = GER
+			owner = RKO
+			controller = RKO
+			add_core_of = RKO
 		}
 	}
 
