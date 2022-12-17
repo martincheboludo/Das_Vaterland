@@ -157,6 +157,8 @@ set_stability = 0.75
 
 1946.1.1 = {
 
+oob = "BEL_1946"
+
 set_cosmetic_tag = RKB_cosmetic
 
 set_politics = {

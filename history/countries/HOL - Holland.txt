@@ -586,6 +586,10 @@ if = {
 
 1946.1.1 = {
 
+oob = "FREE_HOL_1946"
+set_naval_oob = "FREE_HOL_1946_naval_mtg"
+set_air_oob = "FREE_HOL_1946_air_bba"
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1945.6.25"

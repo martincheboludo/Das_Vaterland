@@ -1,0 +1,37 @@
+﻿### Air Wings
+air_wings = {
+	# Luchtvaartafdeling
+	7 = {
+		small_plane_airframe_1 = {	owner = "HOL" amount = 36 version_name = "Fokker D.XXI"}				# 2 Fighter Group -- Fokker D.XXI
+		small_plane_cas_airframe_0 = {		
+			owner = "HOL" 
+			amount = 12
+			version_name = "Fokker C.X"
+		}
+		medium_plane_airframe_1 = {		
+			owner = "HOL" 
+			amount = 16
+			version_name = "Fokker T.V"
+		}
+		small_plane_airframe_1 = {		
+			owner = "HOL" 
+			amount = 36
+			version_name = "Fokker G.I"
+		}
+	}
+
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_1
+			creator = "HOL"
+			version_name = "Fokker D.XXI"
+		}
+		requested_factories = 1
+		progress = 0.44
+		efficiency = 100
+	}
+}
