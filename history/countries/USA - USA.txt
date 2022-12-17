@@ -1297,6 +1297,9 @@ add_to_faction = CAN
 add_to_faction = AUS
 add_to_faction = NZL
 add_to_faction = IRE
+add_to_faction = FRA
+add_to_faction = BEL
+add_to_faction = HOL
 
 # DIPLOMACY
 if = {
