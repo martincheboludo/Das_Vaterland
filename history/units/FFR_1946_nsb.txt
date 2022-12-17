@@ -224,6 +224,71 @@ units = {
 		start_experience_factor = 0.0
 		start_equipment_factor = 0.7
 	}
+	
+	# Troupes de Madagascar #
+	division= {	
+		name = "Troupes de Madagascar"	
+		location = 5222
+		division_template = "Brigade Coloniale"				# Miltia unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.15
+
+	}
+
+	# Troupes de Senegal #
+	division= {	
+		name = "Troupes de Sénégalais"
+		location = 4948
+		division_template = "Brigade Coloniale"  			# Miltia unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.3
+
+	}
+	# Troupes de Afrique Equatoriale #
+	division= {	
+		name = "Troupes de Afrique Equatoriale Française"	
+		location = 5139
+		division_template = "Brigade Coloniale"			 	# Miltia unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.15
+
+	}
+
+	##### Troupes d'Indochine (CO: Catroux) #####
+	division= {	# "Division de Tonkin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 91
+		}
+		location = 4075
+		division_template = "Division Coloniale" 			# Reserve Division (low experience, reserve equip)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "Division de Cochinchine-Cambodge"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 92
+		}
+		location = 4401
+		division_template = "Division Coloniale" 			# Reserve Division (low experience, reserve equip)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Brigade d'Annam-Laos"	
+		location = 7376
+		division_template = "Brigade Coloniale"				# Reserve Brigade (low experience, reserve equip)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
 }
 
 

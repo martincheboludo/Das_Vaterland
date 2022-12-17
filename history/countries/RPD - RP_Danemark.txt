@@ -282,7 +282,7 @@ if = {
 
 1946.1.1 = {
 
-set_cosmetic_tag = DEN
+set_cosmetic_tag = RPD_cosmetic
 
 set_politics = {
 	ruling_party = fascism

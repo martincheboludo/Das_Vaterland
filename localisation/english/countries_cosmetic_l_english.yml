@@ -1559,6 +1559,11 @@
  DEN_GER_fascism_autonomy_satellite:0 "Danish Rike"
  BEL_GER_fascism_autonomy_satellite:0 "Belgian State"
  HOL_GER_fascism_autonomy_satellite:0 "Dutch State"
+ RKS_GER_fascism_autonomy_satellite:0 "Swedish Rike"
+ RKN_GER_fascism_autonomy_satellite:0 "Norwegian Rike"
+ RPD_GER_fascism_autonomy_satellite:0 "Danish Rike"
+ RKB_GER_fascism_autonomy_satellite:0 "Belgian State"
+ RKH_GER_fascism_autonomy_satellite:0 "Dutch State"
  #American
  JAP_USA_autonomy_dominion:0 "American-Occupied Japan"
  JAP_USA_autonomy_colony:0 "American Japan"

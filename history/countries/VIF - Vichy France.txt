@@ -169,11 +169,11 @@ if = {
 
 	#adding ministers
 	add_ideas = {
-		FRA_charles_tillon
-		francois_darlan
-		philippe_fequant
+		#FRA_charles_tillon
+		#francois_darlan
+		#philippe_fequant
 		famh
-		jean_marie_bergeret
+		#jean_marie_bergeret
 		renault_fra
 		FRA_full_employment
 	    FRA_political_violence
@@ -351,9 +351,9 @@ add_ideas = {
 	FRA_inefficient_economy_2
 }
 
-give_guarantee = CZE
-give_guarantee = YUG
-give_guarantee = ROM
+#give_guarantee = CZE
+#give_guarantee = YUG
+#give_guarantee = ROM
 
 #recruit_character = FRA_philippe_petain
 #recruit_character = FRA_maurice_thorez
@@ -412,50 +412,6 @@ give_guarantee = ROM
 #recruit_character = FRA_maurice_gauche
 #recruit_character = FRA_jacques_duclos
 #recruit_character = FRA_marcel_bucard
-
-
-if = {
-	limit = { has_dlc = "La Resistance" }
-	create_operative_leader = {
-		name = "Jeannie Rousseau"
-		GFX = GFX_portrait_jennie_rousseau
-		traits = { operative_linguist }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { FRA }
-	}
-
-	create_operative_leader = {
-		name = "Odette Samson"
-		GFX = GFX_portrait_odette_samson
-		traits = { operative_tough }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { FRA }
-	}
-
-	create_operative_leader = {
-		name = "René Joyeuse"
-		GFX = GFX_portrait_rene_joyeuse
-		traits = { operative_infiltrator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { FRA }
-	}
-
-	create_operative_leader = {
-		name = "Gilbert Renault"
-		GFX = GFX_portrait_gilbert_renault
-		traits = { }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { FRA }
-	}
-
-	#recruit_character = FRA_rene_nicod
-}
 
 ### VARIANTS ###
 # 1936 Start #

@@ -317,7 +317,7 @@ if = {
 
 1946.1.1 = {
 
-set_cosmetic_tag = NOR
+set_cosmetic_tag = RKN_cosmetic
 
 set_politics = {
 	ruling_party = fascism

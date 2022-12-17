@@ -988,3 +988,20 @@ RUS_Cosmetic = {
 	color = rgb { 50 100 50 }
 	color_ui = rgb { 40 90 40 }
 }
+
+RKB_cosmetic = { 
+	color = rgb { 193 120 8  }
+	color_ui = rgb { 193 120 8  }
+}
+RKH_cosmetic = { 
+	color = rgb { 203 138 8 }
+	color_ui = rgb { 203 138 8 }
+}
+RKN_cosmetic = {
+	color = rgb { 135 100 192 }
+	color_ui = rgb { 135 100 192 }
+}
+RPD_cosmetic = {
+	color = rgb { 159 20 20 }
+	color_ui = rgb { 159 20 20 }
+}
