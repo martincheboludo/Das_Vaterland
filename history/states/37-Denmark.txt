@@ -31,6 +31,13 @@ state= {
 			}
 		}
 		add_core_of = DEN
+		1946.1.1 = {
+			owner = RPD
+			controller = RPD
+			add_core_of = RPD
+		}
+		
+		
 	}
 
 	provinces= {

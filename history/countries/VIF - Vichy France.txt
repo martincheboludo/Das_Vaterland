@@ -1295,7 +1295,7 @@ set_oob = "FRA_1946_nsb"
 set_naval_oob = "FRA_1946_naval_mtg"
 set_air_oob = "FRA_1946_air_bba"
 
-set_cosmetic_tag = FRA_VICHY
+#set_cosmetic_tag = FRA_VICHY
 
 set_politics = {
 	ruling_party = neutrality

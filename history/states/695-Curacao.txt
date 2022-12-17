@@ -23,10 +23,6 @@ state={
 				coastal_bunker = 2
 			}
 		}
-		1946.1.1 = {
-			owner = USA
-			controller = USA
-		}
 	}
 
 	provinces={

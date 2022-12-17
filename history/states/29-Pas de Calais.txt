@@ -36,9 +36,9 @@ state={
 			}
 		}
 		1946.1.1 = {
-			owner = BEL
-			controller = BEL
-			add_core_of = BEL
+			owner = RKB
+			controller = RKB
+			add_core_of = RKB
 		}
 	}
 

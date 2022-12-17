@@ -1,5 +1,4 @@
-RON_universal_setup = yes
-  
+ 
 capital = 295 # Leopoldville
 
 oob = "GER_1946_nsb"

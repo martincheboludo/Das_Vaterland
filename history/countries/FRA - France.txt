@@ -365,7 +365,7 @@ recruit_character = FRA_maurice_gamelin
 recruit_character = FRA_maxime_weygand
 recruit_character = FRA_alphonse_georges
 recruit_character = FRA_antoinemariebenoit_besson
-recruit_character = FRA_charles_de_gaulle
+#recruit_character = FRA_charles_de_gaulle
 recruit_character = FRA_philippe_leclerc
 recruit_character = FRA_henri_giraud
 recruit_character = FRA_charles_huntziger
@@ -1291,28 +1291,32 @@ if = {
 
 1946.1.1 = {
 
-set_oob = "FRA_1946_nsb"
-set_naval_oob = "FRA_1946_naval_mtg"
-set_air_oob = "FRA_1946_air_bba"
-
-set_cosmetic_tag = FRA_VICHY
+set_oob = "FFR_1946_nsb"
+set_naval_oob = "FFR_1946_naval_mtg"
+set_air_oob = "FFR_1946_air_bba"
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1940.1.1"
+	ruling_party = democratic
+	last_election = "1932.5.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
-
-add_popularity = {
-	ideology = neutrality
-	popularity = 0.50
+set_popularities = {
+	democratic = 64
+	fascism = 1
+	neutrality = 15
+	communism = 20
 }
 
 create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "gfx/leaders/FRA/Portrait_France_Philippe_Petain.dds"
+	name = "Charles De Gaulle"
+	picture = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "Charles De Gaulle"
+	picture = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
 	ideology = despotism
 }
 

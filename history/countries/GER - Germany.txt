@@ -191,10 +191,10 @@ create_import = {
 	
 	
 	
-	set_autonomy = {
-		target = SLO
-		autonomous_state = autonomy_puppet
-	}
+	#set_autonomy = {
+	#	target = SLO
+	#	autonomous_state = autonomy_puppet
+	#}
 	
 	give_military_access = SLO
 	create_wargoal = {
@@ -1282,30 +1282,85 @@ if = {
 			has_dlc = "Death or Dishonor"
 		}
 		set_autonomy = {
-			target = DEN
+			target = RPD
 			autonomous_state = autonomy_satellite
 			freedom_level = 0.1
 		}
 		set_autonomy = {
-			target = NOR
+			target = RKN
 			autonomous_state = autonomy_satellite
 			freedom_level = 0.1
 		}
 		set_autonomy = {
-			target = HOL
+			target = RKH
 			autonomous_state = autonomy_satellite
 			freedom_level = 0.1
 		}
 		set_autonomy = {
-			target = BEL
+			target = RKB
 			autonomous_state = autonomy_satellite
+			freedom_level = 0.1
+		}
+		set_autonomy = {
+			target = SLO
+			autonomous_state = autonomy_satellite
+			freedom_level = 0.1
+		}
+		set_autonomy = {
+			target = RPB
+			autonomous_state = autonomy_reichskommissariat
+			freedom_level = 0.1
+		}
+		set_autonomy = {
+			target = PGG
+			autonomous_state = autonomy_reichskommissariat
+			freedom_level = 0.1
+		}
+		
+		set_autonomy = {
+			target = RKD
+			autonomous_state = autonomy_reichskommissariat
+			freedom_level = 0.1
+		}
+		set_autonomy = {
+			target = RKK
+			autonomous_state = autonomy_reichskommissariat
+			freedom_level = 0.1
+		}
+		set_autonomy = {
+			target = RKM
+			autonomous_state = autonomy_reichskommissariat
+			freedom_level = 0.1
+		}
+		set_autonomy = {
+			target = RKO
+			autonomous_state = autonomy_reichskommissariat
+			freedom_level = 0.1
+		}
+		set_autonomy = {
+			target = RKT
+			autonomous_state = autonomy_reichskommissariat
+			freedom_level = 0.1
+		}
+		set_autonomy = {
+			target = RKU
+			autonomous_state = autonomy_reichskommissariat
 			freedom_level = 0.1
 		}
 		else = {
-			puppet = DEN
-			puppet = NOR
-			puppet = HOL
-			puppet = BEL
+			puppet = RPD
+			puppet = RKN
+			puppet = RKH
+			puppet = RKB
+			puppet = SLO
+			puppet = RPB
+			puppet = PGG
+			puppet = RKD
+			puppet = RKK
+			puppet = RKM
+			puppet = RKO
+			puppet = RKT
+			puppet = RKU
 		}
 	}
 }

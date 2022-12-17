@@ -22,8 +22,9 @@ state={
 		}
 		add_core_of = POL
 		1946.1.1 = {
-			owner = GER
-			controller = GER
+			owner = PGG
+			controller = PGG
+			add_core_of = PGG
 		}
 	}
 

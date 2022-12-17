@@ -27,6 +27,12 @@ state={
 			owner = GER
 			controller = GER
 		}
+		
+		1946.1.1 = {
+			owner = RPB
+			controller = RPB
+			add_core_of = RPB
+		}
 	}
 
 	provinces={

@@ -28,6 +28,11 @@ state={
 			}
 		}
 		add_core_of = NOR
+		1946.1.1 = {
+			owner = RKN
+			controller = RKN
+			add_core_of = RKN
+		}
 	}
 
 	provinces={

@@ -25,6 +25,12 @@ state={
 
 		}
 		add_core_of = BEL
+		
+		1946.1.1 = {
+			owner = RKB
+			controller = RKB
+			add_core_of = RKB
+		}
 	}
 
 	provinces={

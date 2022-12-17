@@ -19,6 +19,11 @@ state={
 		victory_points = {
 			11562 1 
 		}
+		1946.1.1 = {
+			owner = RKH
+			controller = RKH
+			add_core_of = RKH
+		}
 
 	}
 

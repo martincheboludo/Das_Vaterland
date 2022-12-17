@@ -24,6 +24,11 @@ state={
 			air_base = 5
 		}
 		add_core_of = FRA
+		1946.1.1 = {
+			owner = VIF
+			controller = VIF
+			add_core_of = VIF
+		}
 	}
 
 	provinces={

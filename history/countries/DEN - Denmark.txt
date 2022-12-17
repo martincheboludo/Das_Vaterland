@@ -283,21 +283,27 @@ if = {
 1946.1.1 = {
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1940.1.1"
+	ruling_party = democratic
+	last_election = "1945.11.7"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
-
-add_popularity = {
-	ideology = fascism
-	popularity = 0.25
+set_popularities = {
+	democratic = 97
+	fascism = 1
+	communism = 2
 }
 
 create_country_leader = {
 	name = "Frits Clausen"
 	picture = "gfx/leaders/DEN/Portrait_Denmark_Frits_Clausen.dds"
 	ideology = nazism
+}
+
+create_country_leader = {
+	name = "Knud Kristensen"
+	picture = "gfx/leaders/DEN/Knud_Kristensen.dds"
+	ideology = socialism
 }
 
 }

@@ -158,21 +158,28 @@ set_stability = 0.75
 1946.1.1 = {
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1940.1.1"
+	ruling_party = democratic
+	last_election = "1945.2.12"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
-add_popularity = {
-	ideology = fascism
-	popularity = 0.50
+set_popularities = {
+	democratic = 83
+	fascism = 11
+	communism = 6
 }
 
 create_country_leader = {
 	name = "Leon Degrelle"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle.dds"
 	ideology = rexism
+}
+
+create_country_leader = {
+	name = "Achille Van Acker"
+	picture = "gfx/leaders/BEL/Portrait_van_acker.dds"
+	ideology = socialism
 }
 
 }

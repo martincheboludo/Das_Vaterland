@@ -13,10 +13,6 @@ state={
 
 		}
 		add_core_of = CAN
-		1946.1.1 = {
-			owner = USA
-			controller = USA
-		}
 
 	}
 
