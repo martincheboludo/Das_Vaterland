@@ -21,6 +21,10 @@ state={
 		}
 
 		add_core_of = LEB
+		1946.1.1 = {
+			owner = VIF
+			controller = VIF
+		}
 	}
 
 	provinces={

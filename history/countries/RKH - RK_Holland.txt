@@ -600,4 +600,10 @@ add_popularity = {
 	popularity = 0.25
 }
 
+create_country_leader = {
+	name = "Anton Mussert"
+	picture = "gfx/leaders/HOL/portrait_hol_anton_mussert.dds"
+	ideology = nazism
+}
+
 }

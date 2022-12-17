@@ -24,6 +24,10 @@ state={
 				naval_base = 4
 			}
 		}
+		1946.1.1 = {
+			owner = VIF
+			controller = VIF
+		}
 	}
 
 	provinces={

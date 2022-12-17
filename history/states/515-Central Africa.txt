@@ -12,6 +12,10 @@ state={
 			infrastructure = 1
 
 		}
+		1946.1.1 = {
+			owner = VIF
+			controller = VIF
+		}
 
 	}
 

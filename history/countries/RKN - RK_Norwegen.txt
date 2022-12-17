@@ -331,4 +331,10 @@ add_popularity = {
 	popularity = 0.50
 }
 
+create_country_leader = {
+	name = "Vidkun Quisling"
+	picture = "gfx/leaders/NOR/Portrait_Norway_Vidkun_Quisling.dds"
+	ideology = nazism
+}
+
 }
