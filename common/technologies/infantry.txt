@@ -2391,11 +2391,6 @@ technologies = {
 			infantry_weapons
 		}
 
-		path = {
-			leads_to_tech = advanced_infantry_weapons_h
-			research_cost_coeff = 1
-		}
-
 		ai_will_do = {
 			factor = 50
 
@@ -2756,11 +2751,6 @@ technologies = {
 			motorized_equipment
 			infantry_tech
 			cat_mechanized_equipment
-		}
-
-		path = {
-			leads_to_tech = mechanised_infantry_e
-			research_cost_coeff = 1
 		}
 
 		ai_will_do = { 
