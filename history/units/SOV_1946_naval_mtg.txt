@@ -5,10 +5,10 @@ units= {
 	### Northern Fleet -- Murmansk
 	fleet = {
 		name = "Severnyy Flot"
-		naval_base = 3134 # Murmansk
+		naval_base = 957 # Murmansk
 		task_force = {				
 			name = "Severnyy Flot"
-			location = 3134 # Murmansk
+			location = 957 # Murmansk
 			# 1ya Flotiliya Esmintsev
 			ship = { name = "Dzerzhinskiy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
 			ship = { name = "Nezamozhnik" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
@@ -24,7 +24,7 @@ units= {
 		}	
 		task_force = {	
 			name = "Severniy Podvodniy Flot"
-			location = 3134 # Murmansk
+			location = 957 # Murmansk
 			# 5iy Podvodniy Flot
 			ship = { name = "D-1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
 			ship = { name = "D-2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
@@ -48,10 +48,10 @@ units= {
 	### Baltic Fleet -- Leningrad
 	fleet = {
 		name = "Baltiyskiy Flot"
-		naval_base = 3151 # Leningrad
+		naval_base = 957 # Leningrad
 		task_force = {	
 			name = "Baltiyskiy Flot"
-			location = 3151 # Leningrad
+			location = 957 # Leningrad
 			ship = { name = "Marat" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Marat Class" } } }
 			ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Marat Class" } } }
 			ship = { name = "Kirov" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Kirov Class" } } }	
@@ -71,7 +71,7 @@ units= {
 		}	
 		task_force = {	
 			name = "Baltiyskiy Podvodniy Flot"
-			location = 3151 # Leningrad
+			location = 957 # Leningrad
 			ship = { name = "B-2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
 			ship = { name = "L-55" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
 			# 1iy Podvodniy Flot
@@ -112,10 +112,10 @@ units= {
 	### Black Sea Fleet -- Sevastopol
 	fleet = {
 		name = "Chernomorskiy Flot"
-		naval_base = 3686 # Sevastopopl
+		naval_base = 957 # Sevastopopl
 		task_force = {	
 			name = "Chernomorskiy Flot"
-			location = 3686 # Sevastopopl
+			location = 957 # Sevastopopl
 			ship = { name = "Parizhskaya Kommuna" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Marat Class" } } }
 			ship = { name = "Krasni Kavkaz" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Chervona Ukraina Class" } } }
 			ship = { name = "Krasny Krym" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Chervona Ukraina Class" } } }
@@ -136,7 +136,7 @@ units= {
 		}	
 		task_force = {	
 			name = "Chernomorskiy Podvodniy Flot"
-			location = 3686 # Sevastopopl
+			location = 957 # Sevastopopl
 			# 9iy Podvodniy Flot
 			ship = { ordered_name = 201 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
 			ship = { ordered_name = 202 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			

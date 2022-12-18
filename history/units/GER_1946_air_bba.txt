@@ -3,7 +3,7 @@
 ###### Luftwaffe (CO: Göring) ######
 air_wings = {
 	##### Luftflotte 1 (CO: Kesselring) #####
-	64 = { 																		# Berlin 
+	214 = { 																		# Berlin 
 		### 7. Flieger-Division (CO: Student) ###
 		transport_plane_equipment_1 = { owner = "GER" amount = 66 }	
 		transport_plane_equipment_1 = { owner = "GER" amount = 66 }				# Kampfgeschwader zbV 1 -- Ju 52 (true number is divided by 4)
@@ -16,7 +16,7 @@ air_wings = {
 							# I./Jagdgeschwader 3 -- Bf 109E (REVISIT -- VARIANT)
 		small_plane_airframe_1  = { owner = "GER"  amount = 30 version_name = "Bf 110 C" }				# II./Jagdgeschwader 3 -- Bf 110C
 	}
-	62 = { 																		# Stettin
+	214 = { 																		# Stettin
 		### 1. Flieger-Division (CO: Grauert) ###
 		medium_plane_airframe_1 = { owner = "GER" amount = 77 version_name = "He 111" } 					# Kampfgeschwader 1 -- He 111H (REVISIT -- VARIANT)
 		medium_plane_airframe_1 = { owner = "GER" amount = 77 version_name = "He 111" } 					# Kampfgeschwader 1 -- He 111H (REVISIT -- VARIANT)
@@ -27,7 +27,7 @@ air_wings = {
 		small_plane_airframe_1 = { owner = "GER"  version_name = "Bf 109 E" amount = 72 }					# Lehrgeschwader 2 -- Bf 109E (REVISIT -- VARIANT)
 		small_plane_airframe_1  = { owner = "GER"  amount = 30 version_name = "Bf 110 C" }				# Zerstörergeschwader 1 -- Bf 110C
 	}
-	763 = { 																		# Konigsberg 
+	236 = { 																		# Konigsberg 
 		### Luftwaffenkommando Ostpreussen (CO: Grauert) ###		
 		small_plane_cas_airframe_0 =  { owner = "GER" version_name = "Do 17" amount = 77 }						# I./Kampfgeschwader 3 -- Do 17Z
 		small_plane_cas_airframe_0 =  { owner = "GER" version_name = "Do 17" amount = 77 }						# I./Kampfgeschwader 3 -- Do 17Z
@@ -41,7 +41,7 @@ air_wings = {
 	}
 
 	##### Luftflotte 4 (CO: Löhr) #####
-	66 = { 																		# Breslau
+	229 = { 																		# Breslau
 		### 2. Flieger-Division (CO: Loerzer) ###
 		medium_plane_airframe_1 = { owner = "GER" amount = 96 version_name = "He 111"} 					# Kampfgeschwader 4 -- He 111H (REVISIT -- VARIANT)
 		small_plane_cas_airframe_0 =  { owner = "GER" version_name = "Do 17" amount = 84 }						# Kampfgeschwader 76 -- Do 17Z
@@ -62,7 +62,7 @@ air_wings = {
 	}
 
 	##### Luftflotte 2 (CO: Felmy) #####
-	51 = { 																		# Münster
+	28 = { 																		# Münster
 		### 3. Flieger-Division (CO: Putzier) ###
 		medium_plane_airframe_1 = { owner = "GER" amount = 84 version_name = "He 111"} 					# Kampfgeschwader 54 -- He 111H (REVISIT -- VARIANT)
 		### Luftwaffenkommando VI (CO: Schmidt) ###
@@ -76,7 +76,7 @@ air_wings = {
 			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
 		}
 	}
-	59 = { 
+	28 = { 
 		### 4. Flieger-Division (CO: Keller) ###
 		medium_plane_airframe_1 = { owner = "GER" amount = 96 version_name = "He 111"} 					# Kampfgeschwader 27 -- He 111H (REVISIT -- VARIANT)
 		medium_plane_airframe_1 = { owner = "GER" amount = 96 version_name = "He 111"} 					# Kampfgeschwader 27 -- He 111H (REVISIT -- VARIANT)
@@ -88,7 +88,7 @@ air_wings = {
 	}
 
 	##### Luftflotte 3 (CO: Sperrle) #####
-	52 = { 																		# Münich
+	64 = { 																		# Münich
 		### 5. Flieger-Division (CO: von Greim) ###
 		medium_plane_airframe_1 = { owner = "GER" amount = 72 version_name = "He 111"} 					# Kampfgeschwader 51 -- He 111H (REVISIT -- VARIANT)
 		### Luftwaffenkommando VII (CO: Zenetti) ###
@@ -98,7 +98,7 @@ air_wings = {
 							# Jagdgeschwader 51 -- Bf 109E (REVISIT -- VARIANT)
 							# Jagdgeschwader 72 -- Bf 109D (REVISIT -- VARIANT)
 	}
-	55 = { 																		# Frankfurt
+	51 = { 																		# Frankfurt
 		### 6. Flieger-Division (CO: Dessloch) ###
 		medium_plane_airframe_1 = { owner = "GER" amount = 72 version_name = "He 111"} 					# Kampfgeschwader 53 -- He 111H (REVISIT -- VARIANT)
 		small_plane_cas_airframe_1 =  { owner = "GER" amount = 30 version_name = "Ju 87" }						# Sturzkampfgeschwader 51 -- Ju 87B (REVISIT -- VARIANT)
@@ -109,20 +109,20 @@ air_wings = {
 							# IV./Jagdgeschwader 52 -- Bf 109D (REVISIT -- VARIANT)
 							# Jagdgeschwader 53 -- Bf 109E (REVISIT -- VARIANT)
 	}
-	54 = { 																		# Nürnberg
+	4 = { 																		# Nürnberg
 		### Luftwaffenkommando XIII (CO: Heilingbrunner) ###
 		small_plane_airframe_1 = { owner = "GER"  amount = 24 version_name = "Bf 109 D" }					# Jagdgeschwader 70 -- Bf 109D (REVISIT -- VARIANT)
 	}
 
 	#### Flieger ObdM (Naval Air) (CO: Ritter) ###
-	56 = { 																		# Wilhemshaven
+	4 = { 																		# Wilhemshaven
 		#### FdL West (CO: Bruch) ###
 		small_plane_naval_bomber_airframe_1 = { owner = "GER" amount = 54 version_name = "Do 22"}					# Küstenfliegergruppe 106 -- He 59, Do 18
 		small_plane_naval_bomber_airframe_1 = { owner = "GER" amount = 54 version_name = "Do 22"}					# Küstenfliegergruppe 106 -- He 59, Do 18
 							# Küstenfliegergruppe 306 -- Do 18
 							# Küstenfliegergruppe 406 -- He 59, Do 18
 	}
-	62 = { 																		# Stettin
+	763 = { 																		# Stettin
 		#### FdL Ost -- Stettin ###
 		small_plane_naval_bomber_airframe_1 = { owner = "GER" amount = 54 version_name = "Do 22"}					# Küstenfliegergruppe 506 -- He 59
 							# Küstenfliegergruppe 706 -- He 59
