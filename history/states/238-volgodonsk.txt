@@ -16,8 +16,9 @@ state={
 			775 1 # City of Volgodonsk only founded in 1950 to service the new reservoir
 		}
 		1946.1.1 = {
-			owner = GER
-			controller = GER
+			owner = RKK
+			controller = RKK
+			add_core_of = RKK
 		}
 	}
 

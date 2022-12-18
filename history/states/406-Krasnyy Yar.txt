@@ -13,13 +13,13 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = KAZ
+		add_core_of = RKT
 		victory_points = {
 			3618 1
 		}
 		1946.1.1 = {
-			owner = GER
-			controller = GER
-			add_core_of = RKT
+			owner = RKT
+			controller = RKT
 		}
 	}
 
