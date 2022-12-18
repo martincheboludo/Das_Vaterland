@@ -1292,8 +1292,8 @@ if = {
 1946.1.1 = {
 
 set_oob = "FFR_1946_nsb"
-set_naval_oob = "FFR_1946_naval_mtg"
-set_air_oob = "FFR_1946_air_bba"
+set_naval_oob = "Empty_Naval"
+set_air_oob = "Empty_Air"
 
 set_politics = {
 	ruling_party = democratic
