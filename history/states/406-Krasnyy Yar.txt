@@ -19,6 +19,7 @@ state={
 		1946.1.1 = {
 			owner = GER
 			controller = GER
+			add_core_of = RKT
 		}
 	}
 
