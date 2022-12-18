@@ -7,7 +7,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "lol"
+		name = "Form Sino-Soviet Union"
 		
 			every_country = {
 					limit = {
@@ -45,6 +45,69 @@ country_event = {
 			}
 		}
 		SOV = { annex_country = { target = KOR transfer_troops = yes } }
+
+
+	}
+	
+	option = {
+		name = "Chinese Civil War"
+		
+		CHI = {
+			start_civil_war = {
+					ruling_party = neutrality
+					ideology = communism
+					size = 0.5
+					capital = 608
+					states = { 622 598 597 614 615 746 621 608 609 610 611 612 761 714 715 328 716 717 743 }
+				}
+				random_other_country = {
+					limit = {
+						original_tag = CHI
+						has_government = communism
+					}
+					set_cosmetic_tag = PRC_cosmetic
+					create_country_leader = {
+						name = "Mao Zedong"
+						picture = "Portrait_China_Mao_Zedong.dds"
+						ideology = marxism
+					}
+					remove_ideas = {
+						CHI_nine_power_treaty
+						CHI_army_corruption_1
+						CHI_ineffective_bureaucracy
+						CHI_incompetent_officers
+						CHI_hyper_inflation_1
+					}
+				}
+			}
+
+
+	}
+	
+	option = {
+		name = "Korean Civil War"
+		
+		KOR = {
+			start_civil_war = {
+					ruling_party = neutrality
+					ideology = communism
+					size = 0.5
+					capital = 527
+					states = { 527 }
+				}
+				random_other_country = {
+					limit = {
+						original_tag = KOR
+						has_government = communism
+					}
+					set_cosmetic_tag = KOR_cosmetic
+					create_country_leader = {
+						name = "Kim Il-sung"
+						picture = "North_Korea_Kim_Il_Sung.dds"
+						ideology = stalinism
+					}
+				}
+			}
 
 
 	}
