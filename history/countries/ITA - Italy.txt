@@ -1688,6 +1688,8 @@ if = {
 
 1946.1.1 = {
 
+set_oob = "ITA_1946_nsb"
+
 create_faction = "Pact of Rome"
 
 # DIPLOMACY

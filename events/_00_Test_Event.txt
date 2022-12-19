@@ -89,7 +89,7 @@ country_event = {
 		
 		KOR = {
 			start_civil_war = {
-					ruling_party = neutrality
+					ruling_party = democratic
 					ideology = communism
 					size = 0.5
 					capital = 527
