@@ -887,6 +887,48 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Support/Hospital.dds"
 	}
 	
+	#Armour
+	
+	SpriteType = {
+		name = "GFX_main_battle_tank_a_medium"
+		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1949.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_main_battle_tank_b_medium"
+		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1951.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_main_battle_tank_c_medium"
+		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1956.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_main_battle_tank_d_medium"
+		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_main_battle_tank_e_medium"
+		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1964.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_main_battle_tank_f_medium"
+		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1976.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_main_battle_tank_g_medium"
+		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_main_battle_tank_h_medium"
+		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1991.dds"
+	}
+	
 
 
 }

@@ -12,6 +12,16 @@ technologies = {
 	@1944 = 11
 	@1945 = 12
 	@1946 = 20
+	@1949 = 14
+	@1951 = 16
+	@1956 = 18
+	@1960 = 20
+	@1964 = 22
+	@1975 = 24
+	@1976 = 24
+	@1984 = 26
+	@1985 = 26
+	@1991 = 28
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank_chassis = { #Leichttraktor
@@ -741,6 +751,11 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1945 }
 		}
+		
+		path = {
+			leads_to_tech = main_battle_tank_a
+			research_cost_coeff = 1
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -1450,4 +1465,264 @@ technologies = {
 			armor
 		}
 	}
+	
+	#End of Vanilla
+	#Start of DV
+	
+	###------> New Tanks <><> <><> <><> <><> <><>
+
+	main_battle_tank_a = { #E-60
+
+		enable_equipments = {
+			modern_tank_chassis_2
+			modern_tank_destroyer_chassis_2
+			modern_tank_artillery_chassis_2
+			modern_tank_aa_chassis_2
+		}
+		path = {
+			leads_to_tech = main_battle_tank_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1949
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1949 }
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	main_battle_tank_b = {
+
+		enable_equipments = {
+			modern_tank_chassis_3
+			modern_tank_destroyer_chassis_3
+			modern_tank_artillery_chassis_3
+			modern_tank_aa_chassis_3
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_c
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 2.5
+		start_year = 1951
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1951 }
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	main_battle_tank_c = {
+
+		enable_equipments = {
+			modern_tank_chassis_4
+			modern_tank_destroyer_chassis_4
+			modern_tank_artillery_chassis_4
+			modern_tank_aa_chassis_4
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_d
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 2.5
+		start_year = 1956
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1956 }
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	main_battle_tank_d = {
+
+		enable_equipments = {
+			modern_tank_chassis_5
+			modern_tank_destroyer_chassis_5
+			modern_tank_artillery_chassis_5
+			modern_tank_aa_chassis_5
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_e
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 2.5
+		start_year = 1960
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1960 }
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	main_battle_tank_e = {
+
+		enable_equipments = {
+			modern_tank_chassis_6
+			modern_tank_destroyer_chassis_6
+			modern_tank_artillery_chassis_6
+			modern_tank_aa_chassis_6
+		}
+
+		research_cost = 2.5
+		start_year = 1964
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1964 }
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_f
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	main_battle_tank_f = {
+
+		enable_equipments = {
+			modern_tank_chassis_7
+			modern_tank_destroyer_chassis_7
+			modern_tank_artillery_chassis_7
+			modern_tank_aa_chassis_7
+		}
+
+		research_cost = 2.5
+		start_year = 1976
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1976 }
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_g
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+
+	main_battle_tank_g = {
+
+		enable_equipments = {
+			modern_tank_chassis_8
+			modern_tank_destroyer_chassis_8
+			modern_tank_artillery_chassis_8
+			modern_tank_aa_chassis_8
+		}
+
+		research_cost = 2.5
+		start_year = 1985
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1985 }
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_h
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+
+	main_battle_tank_h = {
+
+		enable_equipments = {
+			modern_tank_chassis_9
+			modern_tank_destroyer_chassis_9
+			modern_tank_artillery_chassis_9
+			modern_tank_aa_chassis_9
+		}
+
+		research_cost = 2.5
+		start_year = 1991
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = @1991 }
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	
 }
