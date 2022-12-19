@@ -1,0 +1,46 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_Waffen_SS_1"
+		texturefile = "gfx/leaders/GER/Waffen_SS/Portrait_Germany_Generic_Waffen_SS_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_Waffen_SS_2"
+		texturefile = "gfx/leaders/GER/Waffen_SS/Portrait_Germany_Generic_Waffen_SS_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_Waffen_SS_3"
+		texturefile = "gfx/leaders/GER/Waffen_SS/Portrait_Germany_Generic_Waffen_SS_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_Waffen_SS_4"
+		texturefile = "gfx/leaders/GER/Waffen_SS/Portrait_Germany_Generic_Waffen_SS_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_Waffen_SS_5"
+		texturefile = "gfx/leaders/GER/Waffen_SS/Portrait_Germany_Generic_Waffen_SS_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_Waffen_SS_6"
+		texturefile = "gfx/leaders/GER/Waffen_SS/Portrait_Germany_Generic_Waffen_SS_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_Waffen_SS_7"
+		texturefile = "gfx/leaders/GER/Waffen_SS/Portrait_Germany_Generic_Waffen_SS_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_Waffen_SS_8"
+		texturefile = "gfx/leaders/GER/Waffen_SS/Portrait_Germany_Generic_Waffen_SS_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_Waffen_SS_9"
+		texturefile = "gfx/leaders/GER/Waffen_SS/Portrait_Germany_Generic_Waffen_SS_9.dds"
+	}
+}

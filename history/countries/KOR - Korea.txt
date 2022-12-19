@@ -47,6 +47,8 @@ create_country_leader = {
 
 1946.1.1 = {
 
+inherit_technology = JAP
+
 oob = "KOR_1946"
 
 create_country_leader = {

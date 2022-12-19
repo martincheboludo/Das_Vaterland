@@ -9,11 +9,6 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
 }
 division_template = {
 	name = "Seonbag Sadan"
@@ -36,47 +31,12 @@ division_template = {
 	}
 	priority = 2
 }
-division_template = {
-	name = "Gongsuui Sadan"
 
-	regiments = {
-		paratrooper = { x = 0 y = 0 }
-		paratrooper = { x = 0 y = 1 }
-		paratrooper = { x = 0 y = 2 }
-		paratrooper = { x = 1 y = 0 }
-		paratrooper = { x = 1 y = 1 }
-		paratrooper = { x = 1 y = 2 }
-		paratrooper = { x = 2 y = 0 }
-		paratrooper = { x = 2 y = 1 }
-		paratrooper = { x = 2 y = 2 }
-	}
-	priority = 2
-}
 division_template = {
-	name = "Jeondong Bobyeong Sadan"
+	name = "Bich Gigyehwa Doen Bobyeong Sadan"
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		motorized = { x = 0 y = 3 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		motorized = { x = 1 y = 3 }
-		light_sp_artillery_brigade = { x = 2 y = 0 }
-		light_sp_artillery_brigade = { x = 2 y = 1 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-	}
-}
-division_template = {
-	name = "Bich Gigyehwa Doen Bobyeong  Sadan"
-
-	regiments = {
-		mechanized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
 		motorized = { x = 0 y = 3 }
@@ -85,76 +45,6 @@ division_template = {
 	support = {
 		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
-	}
-}
-division_template = {
-	name = "Mugeoun Gigyehwa Doen Bobyeong Sadan"
-
-	regiments = {
-		mechanized = { x = 0 y = 0 }
-		mechanized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		modern_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		light_sp_artillery_brigade = { x = 2 y = 0 }
-		light_sp_artillery_brigade = { x = 2 y = 1 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-	}
-}
-division_template = {
-	name = "Bich Gigab Doen Sadan"
-
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		mechanized = { x = 2 y = 0 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Maejil Gigab Doen Sadan"
-
-	regiments = {
-		modern_armor = { x = 0 y = 0 }
-		modern_armor = { x = 0 y = 1 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-		mechanized = { x = 2 y = 0 }
-		mechanized = { x = 2 y = 1 }
-		modern_sp_artillery_brigade = { x = 2 y = 0 }
-		modern_sp_artillery_brigade = { x = 2 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Mugeoun Gigab Doen Sadan"
-
-	regiments = {
-		heavy_armor = { x = 0 y = 0 }
-		heavy_armor = { x = 0 y = 1 }
-		heavy_armor = { x = 0 y = 2 }
-		modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
-		mechanized = { x = 2 y = 0 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		artillery = { x = 0 y = 2 }
 	}
 }
 instant_effect = {
@@ -174,7 +64,7 @@ units = {
 	division = {
 		name = "Capital Guard Command"
 		location = 7125
-		division_template = "Bich Gigyehwa Doen Bobyeong  Sadan"
+		division_template = "Bich Gigyehwa Doen Bobyeong Sadan"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}

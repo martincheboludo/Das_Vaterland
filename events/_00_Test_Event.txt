@@ -111,4 +111,26 @@ country_event = {
 
 
 	}
+	
+	option = {
+		name = "Release Burgundy"
+		
+		SSB = {
+			transfer_state = 29
+			transfer_state = 34
+			transfer_state = 6
+			transfer_state = 785
+			transfer_state = 18
+			transfer_state = 17
+			
+			add_state_core = 29
+			add_state_core = 34
+			add_state_core = 6
+			add_state_core = 785
+			add_state_core = 18
+			add_state_core = 17
+		}
+
+
+	}
 }
