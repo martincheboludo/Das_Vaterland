@@ -1474,10 +1474,7 @@ technologies = {
 	main_battle_tank_a = { #E-60
 
 		enable_equipments = {
-			modern_tank_chassis_2
-			modern_tank_destroyer_chassis_2
-			modern_tank_artillery_chassis_2
-			modern_tank_aa_chassis_2
+			modern_tank_equipment_2
 		}
 		path = {
 			leads_to_tech = main_battle_tank_b
@@ -1505,10 +1502,7 @@ technologies = {
 	main_battle_tank_b = {
 
 		enable_equipments = {
-			modern_tank_chassis_3
-			modern_tank_destroyer_chassis_3
-			modern_tank_artillery_chassis_3
-			modern_tank_aa_chassis_3
+			modern_tank_equipment_3
 		}
 
 		path = {
@@ -1538,10 +1532,7 @@ technologies = {
 	main_battle_tank_c = {
 
 		enable_equipments = {
-			modern_tank_chassis_4
-			modern_tank_destroyer_chassis_4
-			modern_tank_artillery_chassis_4
-			modern_tank_aa_chassis_4
+			modern_tank_equipment_4
 		}
 
 		path = {
@@ -1571,10 +1562,7 @@ technologies = {
 	main_battle_tank_d = {
 
 		enable_equipments = {
-			modern_tank_chassis_5
-			modern_tank_destroyer_chassis_5
-			modern_tank_artillery_chassis_5
-			modern_tank_aa_chassis_5
+			modern_tank_equipment_5
 		}
 
 		path = {
@@ -1604,10 +1592,7 @@ technologies = {
 	main_battle_tank_e = {
 
 		enable_equipments = {
-			modern_tank_chassis_6
-			modern_tank_destroyer_chassis_6
-			modern_tank_artillery_chassis_6
-			modern_tank_aa_chassis_6
+			modern_tank_equipment_6
 		}
 
 		research_cost = 2.5
@@ -1636,10 +1621,7 @@ technologies = {
 	main_battle_tank_f = {
 
 		enable_equipments = {
-			modern_tank_chassis_7
-			modern_tank_destroyer_chassis_7
-			modern_tank_artillery_chassis_7
-			modern_tank_aa_chassis_7
+			modern_tank_equipment_7
 		}
 
 		research_cost = 2.5
@@ -1668,10 +1650,7 @@ technologies = {
 	main_battle_tank_g = {
 
 		enable_equipments = {
-			modern_tank_chassis_8
-			modern_tank_destroyer_chassis_8
-			modern_tank_artillery_chassis_8
-			modern_tank_aa_chassis_8
+			modern_tank_equipment_8
 		}
 
 		research_cost = 2.5
@@ -1700,10 +1679,7 @@ technologies = {
 	main_battle_tank_h = {
 
 		enable_equipments = {
-			modern_tank_chassis_9
-			modern_tank_destroyer_chassis_9
-			modern_tank_artillery_chassis_9
-			modern_tank_aa_chassis_9
+			modern_tank_equipment_9
 		}
 
 		research_cost = 2.5
