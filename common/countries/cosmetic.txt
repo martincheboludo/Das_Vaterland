@@ -998,8 +998,8 @@ RKH_cosmetic = {
 	color_ui = rgb { 203 138 8 }
 }
 RKN_cosmetic = {
-	color = rgb { 135 100 192 }
-	color_ui = rgb { 135 100 192 }
+	color = rgb { 161 213 230 }
+	color_ui = rgb { 161 213 230 }
 }
 RPD_cosmetic = {
 	color = rgb { 159 20 20 }
