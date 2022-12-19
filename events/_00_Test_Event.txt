@@ -65,7 +65,9 @@ country_event = {
 						original_tag = CHI
 						has_government = communism
 					}
-					set_cosmetic_tag = PRC_cosmetic
+					set_politics = {
+						ruling_party = communism
+					}
 					create_country_leader = {
 						name = "Mao Zedong"
 						picture = "Portrait_China_Mao_Zedong.dds"
@@ -100,7 +102,9 @@ country_event = {
 						original_tag = KOR
 						has_government = communism
 					}
-					set_cosmetic_tag = KOR_cosmetic
+					set_politics = {
+						ruling_party = communism
+					}
 					create_country_leader = {
 						name = "Kim Il-sung"
 						picture = "North_Korea_Kim_Il_Sung.dds"
