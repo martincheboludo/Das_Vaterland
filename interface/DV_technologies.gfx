@@ -716,6 +716,37 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Mechanised/USA_APC_1984.dds"
 	}
 	
+	#Armored Car
+	
+	SpriteType = {
+		name = "GFX_advanced_armoured_car_medium"
+		texturefile = "gfx/interface/technologies/Armored_Cars/advanced_armoured_car.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_armoured_car2_medium"
+		texturefile = "gfx/interface/technologies/Armored_Cars/advanced_armoured_car2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_armoured_car3_medium"
+		texturefile = "gfx/interface/technologies/Armored_Cars/USA_ARMORED_CAR_1960.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_armoured_car4_medium"
+		texturefile = "gfx/interface/technologies/Armored_Cars/USA_ARMORED_CAR_1976.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_armoured_car5_medium"
+		texturefile = "gfx/interface/technologies/Armored_Cars/USA_ARMORED_CAR_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_armoured_car6_medium"
+		texturefile = "gfx/interface/technologies/Armored_Cars/USA_ARMORED_CAR_1991.dds"
+	}
+	
 	#Support
 	
 	SpriteType = {

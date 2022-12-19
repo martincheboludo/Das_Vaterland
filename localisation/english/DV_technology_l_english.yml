@@ -551,6 +551,22 @@ irbm_equipment:0 "Intermediate-Range Ballistic Missiles"
  mechanized_equipment_7_desc:0 "These vehicles can take our troops anywhere safely and effectively, bringing real power to the frontlines."
  mechanized_equipment_7_short:0 "1984 Mechanized"
  
+ armoured_car_equipment_5:0 "Mid-War Armored Car"
+ armoured_car_equipment_5_desc:0 "Armored cars are armored, wheel-based vehicles that are fast but lightly armed and used primarily for reconnaissance."
+ armoured_car_equipment_5_short:0 "Armored Car 1943"
+ armoured_car_equipment_6:0 "Late War Armored Car"
+ armoured_car_equipment_6_desc:0 "Armored cars are armored, wheel-based vehicles that are fast but lightly armed and used primarily for reconnaissance."
+ armoured_car_equipment_6_short:0 "Armored Car 1945"
+ armoured_car_equipment_7:0 "Utility Vehicle 1960"
+ armoured_car_equipment_7_desc:0 "Utility Vehicles are the vehicles employed by Motorized Infantry Forces as transports to the battlefield. The earlier generation models, jeeps and trucks, are virtually unarmored and differ mainly from their civilian counterparts by being more rugged and having greater mobility in difficult terrain. Later generation models feature Humvee-like vehicles with better armor, and mine-resistant vehicles with further improvements in crew protection. If the vehicles are armed at all, it's usually lighter weaponry, such as machine guns."
+ armoured_car_equipment_8:0 "Utility Vehicle 1976"
+ armoured_car_equipment_8_desc:1 "Utility Vehicles are the vehicles employed by Motorized Infantry Forces as transports to the battlefield. The earlier generation models, jeeps and trucks, are virtually unarmored and differ mainly from their civilian counterparts by being more rugged and having greater mobility in difficult terrain. Later generation models feature Humvee-like vehicles with better armor, and mine-resistant vehicles with further improvements in crew protection. If the vehicles are armed at all, it's usually lighter weaponry, such as machine guns."
+ armoured_car_equipment_9:0 "Utility Vehicle 1985"
+ armoured_car_equipment_9_desc:1 "Utility Vehicles are the vehicles employed by Motorized Infantry Forces as transports to the battlefield. The earlier generation models, jeeps and trucks, are virtually unarmored and differ mainly from their civilian counterparts by being more rugged and having greater mobility in difficult terrain. Later generation models feature Humvee-like vehicles with better armor, and mine-resistant vehicles with further improvements in crew protection. If the vehicles are armed at all, it's usually lighter weaponry, such as machine guns."
+ armoured_car_equipment_desc:0 "An armored, wheel-based vehicle that is fast but lightly armed and used primarily for reconnaissance."
+ armoured_car_equipment_10:0 "Utility Vehicle 1991"
+ armoured_car_equipment_10_desc:1 "Utility Vehicles are the vehicles employed by Motorized Infantry Forces as transports to the battlefield. The earlier generation models, jeeps and trucks, are virtually unarmored and differ mainly from their civilian counterparts by being more rugged and having greater mobility in difficult terrain. Later generation models feature Humvee-like vehicles with better armor, and mine-resistant vehicles with further improvements in crew protection. If the vehicles are armed at all, it's usually lighter weaponry, such as machine guns."
+ 
  #Support Equipment
  
  tech_recon_a:0 "Recon Company V"
