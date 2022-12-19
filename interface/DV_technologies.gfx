@@ -669,27 +669,27 @@ SpriteType = {
 	#Motorized
 	
 	SpriteType = {
-		name = "GFX_motorized_equipment_2_medium"
+		name = "GFX_motorised_infantry2_medium"
 		texturefile = "gfx/interface/technologies/Motorized/USA_TRUCK_1950.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_motorized_equipment_3_medium"
+		name = "GFX_motorised_infantry3_medium"
 		texturefile = "gfx/interface/technologies/Motorized/USA_TRUCK_1960.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_motorized_equipment_4_medium"
+		name = "GFX_motorised_infantry4_medium"
 		texturefile = "gfx/interface/technologies/Motorized/USA_TRUCK_1970.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_motorized_equipment_5_medium"
+		name = "GFX_motorised_infantry5_medium"
 		texturefile = "gfx/interface/technologies/Motorized/USA_TRUCK_1980.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_motorized_equipment_6_medium"
+		name = "GFX_motorised_infantry6_medium"
 		texturefile = "gfx/interface/technologies/Motorized/USA_TRUCK_1990.dds"
 	}
 	
