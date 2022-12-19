@@ -22,11 +22,6 @@ spriteTypes = {
 		allwaystransparent = yes		
 	}
 	
-	SpriteType = {
-		name = "GFX_wmd_techtree_bg"
-		texturefile = "gfx/interface/wmd_techstree_bg.dds"
-	}
-	
 	#Actual Techs
 	
 	#### RON NUCLEAR TECHS
