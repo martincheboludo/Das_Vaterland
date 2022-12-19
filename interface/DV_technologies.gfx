@@ -716,6 +716,33 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Mechanised/USA_APC_1984.dds"
 	}
 	
+	#Amphibious
+	
+	SpriteType = {
+		name = "GFX_amphibious_mechanized_infantry_3_medium"
+		texturefile = "gfx/interface/technologies/Mechanised/AMP_1950.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_amphibious_mechanized_infantry_4_medium"
+		texturefile = "gfx/interface/technologies/Mechanised/AMP_1960.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_amphibious_mechanized_infantry_5_medium"
+		texturefile = "gfx/interface/technologies/Mechanised/AMP_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_amphibious_mechanized_infantry_6_medium"
+		texturefile = "gfx/interface/technologies/Mechanised/AMP_1980.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_amphibious_mechanized_infantry_7_medium"
+		texturefile = "gfx/interface/technologies/Mechanised/AMP_1990.dds"
+	}
+	
 	#Armored Car
 	
 	SpriteType = {

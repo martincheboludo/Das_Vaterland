@@ -1994,7 +1994,10 @@ technologies = {
 			amphibious_mechanized_equipment_2
 		}
 
-		
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_3
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1943
@@ -2973,7 +2976,7 @@ technologies = {
 
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = @1943 }
+			position = { x = 6 y = @1944 }
 		}
 
 		ai_will_do = { 
@@ -3002,7 +3005,7 @@ technologies = {
 
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = @1945 }
+			position = { x = 6 y = @1946 }
 		}
 
 		ai_will_do = { 
@@ -3129,6 +3132,158 @@ technologies = {
 			motorized_equipment
 			armor
 			cat_armored_cars
+		}
+	}
+	
+	amphibious_mechanized_infantry_3 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_3
+		}
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1949
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1949 }
+		}
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	amphibious_mechanized_infantry_4 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_4
+		}
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1960 }
+		}
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	amphibious_mechanized_infantry_5 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_5
+		}
+
+
+
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1975 }
+		}
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_6
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	amphibious_mechanized_infantry_6 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_6
+		}
+
+
+
+		research_cost = 2
+		start_year = 1980
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1984 }
+		}
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_7
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	amphibious_mechanized_infantry_7 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_7
+		}
+
+
+
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1990 }
+		}
+
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+		}
+
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	
