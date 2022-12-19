@@ -1060,7 +1060,7 @@ technologies = {
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1936 }
+			position = { x = 5 y = @1936 }
 		}
 
 		ai_will_do = {
@@ -1115,7 +1115,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1938 }
+			position = { x = 5 y = @1938 }
 		}
 
 		ai_will_do = {
@@ -1168,7 +1168,7 @@ technologies = {
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1941 }
+			position = { x = 5 y = @1941 }
 		}
 
 		ai_will_do = {
@@ -1210,7 +1210,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1944 }
+			position = { x = 5 y = @1944 }
 		}
 
 		on_research_complete = {
@@ -1266,7 +1266,7 @@ technologies = {
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 0 y = @1936 }
 		}
 
 		ai_will_do = {
@@ -1319,7 +1319,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1938 }
+			position = { x = 0 y = @1938 }
 		}
 
 		ai_will_do = {
@@ -1370,7 +1370,7 @@ technologies = {
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1941 }
+			position = { x = 0 y = @1941 }
 		}
 
 		ai_will_do = {
@@ -1412,7 +1412,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1944 }
+			position = { x = 0 y = @1944 }
 		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt
