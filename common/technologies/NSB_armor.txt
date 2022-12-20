@@ -1475,6 +1475,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_2
+			modern_tank_destroyer_equipment_2
+			modern_tank_artillery_equipment_2
+			modern_tank_aa_equipment_2
 		}
 		path = {
 			leads_to_tech = main_battle_tank_b
@@ -1503,6 +1506,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_3
+			modern_tank_destroyer_equipment_3
+			modern_tank_artillery_equipment_3
+			modern_tank_aa_equipment_3
 		}
 
 		path = {
@@ -1533,6 +1539,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_4
+			modern_tank_destroyer_equipment_4
+			modern_tank_artillery_equipment_4
+			modern_tank_aa_equipment_4
 		}
 
 		path = {
@@ -1563,6 +1572,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_5
+			modern_tank_destroyer_equipment_5
+			modern_tank_artillery_equipment_5
+			modern_tank_aa_equipment_5
 		}
 
 		path = {
@@ -1593,6 +1605,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_6
+			modern_tank_destroyer_equipment_6
+			modern_tank_artillery_equipment_6
+			modern_tank_aa_equipment_6
 		}
 
 		research_cost = 2.5
@@ -1622,6 +1637,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_7
+			modern_tank_destroyer_equipment_7
+			modern_tank_artillery_equipment_7
+			modern_tank_aa_equipment_7
 		}
 
 		research_cost = 2.5
@@ -1651,6 +1669,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_8
+			modern_tank_destroyer_equipment_8
+			modern_tank_artillery_equipment_8
+			modern_tank_aa_equipment_8
 		}
 
 		research_cost = 2.5
@@ -1680,6 +1701,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_9
+			modern_tank_destroyer_equipment_9
+			modern_tank_artillery_equipment_9
+			modern_tank_aa_equipment_9
 		}
 
 		research_cost = 2.5
