@@ -229,6 +229,97 @@ equipments = {
 			steel = 2
 		}
 	}
+	
+	light_tank_chassis_4 = {
+		abbreviation = "lt4"
+		derived_variant_name = light_tank_equipment_4
+		visual_level = 3
+		year = 1945
+		archetype = light_tank_chassis
+		parent = light_tank_chassis_3
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 2.2
+		maximum_speed = 5
+		reliability = 1.3
+		armor_value = 25
+		resources = {
+			steel = 4
+			chromium = 1
+		}
+	}
+	light_tank_chassis_5 = {
+		abbreviation = "lt5"
+		derived_variant_name = light_tank_equipment_5
+		visual_level = 4
+		year = 1949
+		archetype = light_tank_chassis
+		parent = light_tank_chassis_4
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 2.6
+		maximum_speed = 5
+		reliability = 1.3
+		armor_value = 28.6
+		resources = {
+			steel = 4
+			chromium = 1
+		}
+	}
+	light_tank_chassis_6 = {
+		abbreviation = "lt6"
+		derived_variant_name = light_tank_equipment_6
+		visual_level = 4
+		year = 1960
+		archetype = light_tank_chassis
+		parent = light_tank_chassis_5
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 4
+		maximum_speed = 5
+		reliability = 1.3
+		armor_value = 44.6
+		resources = {
+			steel = 4
+			chromium = 1
+		}
+	}
+	light_tank_chassis_7 = {
+		abbreviation = "lt7"
+		derived_variant_name = light_tank_equipment_7
+		visual_level = 4
+		year = 1976
+		archetype = light_tank_chassis
+		parent = light_tank_chassis_6
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 5.2
+		maximum_speed = 5
+		reliability = 1.3
+		armor_value = 60
+		resources = {
+			steel = 4
+			chromium = 1
+		}
+	}
+	light_tank_chassis_8 = {
+		abbreviation = "lt8"
+		derived_variant_name = light_tank_equipment_8
+		visual_level = 4
+		year = 1991
+		archetype = light_tank_chassis
+		parent = light_tank_chassis_7
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 7
+		maximum_speed = 5
+		reliability = 1.3
+		armor_value = 80.6
+		resources = {
+			steel = 4
+			chromium = 1
+		}
+	}
 
 	
 
