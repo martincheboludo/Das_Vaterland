@@ -886,42 +886,256 @@ SpriteType = {
 	
 	SpriteType = {
 		name = "GFX_main_battle_tank_a_medium"
-		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1949.dds"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1949.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_main_battle_tank_b_medium"
-		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1951.dds"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1951.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_main_battle_tank_c_medium"
-		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1956.dds"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1956.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_main_battle_tank_d_medium"
-		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1960.dds"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1960.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_main_battle_tank_e_medium"
-		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1964.dds"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1964.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_main_battle_tank_f_medium"
-		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1976.dds"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1976.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_main_battle_tank_g_medium"
-		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1985.dds"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1985.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_main_battle_tank_h_medium"
-		texturefile = "gfx/interface/technologies/Tanks/USA_MBT_1991.dds"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1991.dds"
+	}
+	
+	#Actual Equipment Sprites
+	
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1949.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1951.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1956.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1964.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1976.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_9_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1991.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_aa_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1949.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_aa_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1951.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_aa_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1956.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_aa_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_aa_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1964.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_aa_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1976.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_aa_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_aa_equipment_9_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1991.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1949.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1951.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_artillery_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1956.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_artillery_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_artillery_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1964.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_artillery_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1976.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_artillery_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_artillery_equipment_9_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1991.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_destroyer_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1949.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_destroyer_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1951.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_destroyer_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1956.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_destroyer_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1960.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_destroyer_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1964.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_destroyer_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1976.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_destroyer_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_tank_destroyer_equipment_9_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Medium_Tanks/USA_MBT_1991.dds"
+	}
+	
+	#Light Tanks
+	
+	SpriteType = {
+		name = "GFX_advanced_light_tank_a_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1945.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_tank_b_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1951.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_tank_c_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1960.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_tank_d_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1976.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_light_tank_e_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1990.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1945.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_tank_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1951.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_tank_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1960.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_tank_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1976.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_tank_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1990.dds"
 	}
 	
 

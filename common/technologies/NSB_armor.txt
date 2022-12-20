@@ -460,6 +460,11 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = -4 y = 8 }
 		}
+		
+		path = {
+			leads_to_tech = advanced_light_tank_a
+			research_cost_coeff = 1
+		}
 
 		ai_will_do = {
 			factor = 0.5
@@ -1475,6 +1480,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_2
+			modern_tank_destroyer_equipment_2
+			modern_tank_artillery_equipment_2
+			modern_tank_aa_equipment_2
 		}
 		path = {
 			leads_to_tech = main_battle_tank_b
@@ -1503,6 +1511,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_3
+			modern_tank_destroyer_equipment_3
+			modern_tank_artillery_equipment_3
+			modern_tank_aa_equipment_3
 		}
 
 		path = {
@@ -1533,6 +1544,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_4
+			modern_tank_destroyer_equipment_4
+			modern_tank_artillery_equipment_4
+			modern_tank_aa_equipment_4
 		}
 
 		path = {
@@ -1563,6 +1577,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_5
+			modern_tank_destroyer_equipment_5
+			modern_tank_artillery_equipment_5
+			modern_tank_aa_equipment_5
 		}
 
 		path = {
@@ -1593,6 +1610,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_6
+			modern_tank_destroyer_equipment_6
+			modern_tank_artillery_equipment_6
+			modern_tank_aa_equipment_6
 		}
 
 		research_cost = 2.5
@@ -1622,6 +1642,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_7
+			modern_tank_destroyer_equipment_7
+			modern_tank_artillery_equipment_7
+			modern_tank_aa_equipment_7
 		}
 
 		research_cost = 2.5
@@ -1651,6 +1674,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_8
+			modern_tank_destroyer_equipment_8
+			modern_tank_artillery_equipment_8
+			modern_tank_aa_equipment_8
 		}
 
 		research_cost = 2.5
@@ -1680,6 +1706,9 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_equipment_9
+			modern_tank_destroyer_equipment_9
+			modern_tank_artillery_equipment_9
+			modern_tank_aa_equipment_9
 		}
 
 		research_cost = 2.5
@@ -1697,6 +1726,153 @@ technologies = {
 		categories = {
 			armor
 			cat_medium_armor
+		}
+	}
+	
+	#Light Tanks
+	
+	advanced_light_tank_a = {
+
+		enable_equipments = {
+			light_tank_equipment_4
+		}
+
+		path = {
+			leads_to_tech = advanced_light_tank_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1945
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = @1945 }
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	advanced_light_tank_b = {
+
+		enable_equipments = {
+			light_tank_equipment_5
+		}
+
+		path = {
+			leads_to_tech = advanced_light_tank_c
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1951
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = @1951 }
+		}
+
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+
+
+	advanced_light_tank_c = {
+
+		enable_equipments = {
+			light_tank_equipment_6
+		}
+
+
+		path = {
+			leads_to_tech = advanced_light_tank_d
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = @1960 }
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	advanced_light_tank_d = {
+
+		enable_equipments = {
+			light_tank_equipment_7
+		}
+
+		path = {
+			leads_to_tech = advanced_light_tank_e
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1976
+
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = @1976 }
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	advanced_light_tank_e = {
+
+		enable_equipments = {
+			light_tank_equipment_8
+		}
+
+		research_cost = 2
+		start_year = 1991
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = @1991 }
+		}
+
+		ai_will_do = { 
+			factor = 100
+		}
+
+		categories = {
+			armor
+			cat_light_armor
 		}
 	}
 	
