@@ -1138,6 +1138,26 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Tanks/Light_Tanks/USA_LT_1990.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_amphibious_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Amphibious_Tanks/AMP_TANK_1949.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_amphibious_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Amphibious_Tanks/AMP_TANK_1963.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_amphibious_tank_3_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Amphibious_Tanks/AMP_TANK_1949.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_amphibious_tank_4_medium"
+		texturefile = "gfx/interface/technologies/Tanks/Amphibious_Tanks/AMP_TANK_1963.dds"
+	}
+	
 
 
 }

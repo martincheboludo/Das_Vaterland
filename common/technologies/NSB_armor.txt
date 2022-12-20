@@ -413,6 +413,11 @@ technologies = {
 			name = nsb_armour_folder
 			position = { x = -1 y = 8 }
 		}
+		
+		path = {
+			leads_to_tech = amphibious_tank_3
+			research_cost_coeff = 1
+		}
 
 		ai_will_do = {
 			factor = 0.5
@@ -1873,6 +1878,99 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+		}
+	}
+	
+	amphibious_tank_3 = { #tauchPanzer III
+
+		enable_equipments = {
+			amphibious_tank_equipment_3
+		}
+
+		research_cost = 2
+		start_year = 1949
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = @1949 }
+		}
+
+		path = {
+			leads_to_tech = amphibious_tank_4
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				OR = {
+					original_tag = USA
+					original_tag = JAP
+				}
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
+		}
+
+		categories = {
+			armor
+			tp_tech
+		}
+	}
+
+	amphibious_tank_4 = { #tauchPanzer III
+
+		enable_equipments = {
+			amphibious_tank_equipment_4
+		}
+
+		research_cost = 2
+		start_year = 1963
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = @1964 }
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				OR = {
+					original_tag = USA
+					original_tag = JAP
+				}
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
+		}
+
+		categories = {
+			armor
+			tp_tech
 		}
 	}
 	
