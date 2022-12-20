@@ -1158,6 +1158,27 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Tanks/Amphibious_Tanks/AMP_TANK_1963.dds"
 	}
 	
+	#Artillery
+	SpriteType = {
+		name = "GFX_basic_light_artillery_cw_medium"
+		texturefile = "gfx/interface/technologies/Artillery/Light_Artillery_Nato_CW.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_light_artillery_cw_medium"
+		texturefile = "gfx/interface/technologies/Artillery/Light_Artillery_Nato_CW.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_artillery_cw_medium"
+		texturefile = "gfx/interface/technologies/Artillery/Light_Artillery_Nato_CW.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_artillery_upgrade5_medium"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
+	}
+	
 
 
 }

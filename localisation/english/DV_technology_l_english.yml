@@ -783,3 +783,16 @@ irbm_equipment:0 "Intermediate-Range Ballistic Missiles"
  amphibious_tank_equipment_4:0 "1963 Amphibious Tank"
  amphibious_tank_equipment_4_short:0 "1963 Amphibious Tank"
  amphibious_tank_equipment_4_desc:0 "An amphibious vehicle (or simply amphibian), is a vehicle that is a means of transport viable on land as well as on or under water."
+ 
+ #Artillery
+ artillery_equipment_4:0 "Light Artillery Equipment IV"
+ artillery_equipment_4_desc:0 "A field gun is a field artillery piece. Originally the term referred to smaller guns that could accompany a field army on the march, that when in combat could be moved about the battlefield in response to changing circumstances (field artillery), as opposed to guns installed in a fort (garrison artillery or coastal artillery), or to siege cannons and mortars which are too large to be moved quickly, and would be used only in a prolonged siege."
+ artillery_equipment_4_short:0 "Field Gun IV"
+ artillery_equipment_5:0 "Light Artillery Equipment V"
+ artillery_equipment_5_desc:0 "A field gun is a field artillery piece. Originally the term referred to smaller guns that could accompany a field army on the march, that when in combat could be moved about the battlefield in response to changing circumstances (field artillery), as opposed to guns installed in a fort (garrison artillery or coastal artillery), or to siege cannons and mortars which are too large to be moved quickly, and would be used only in a prolonged siege."
+ artillery_equipment_5_short:0 "Field Gun V"
+ artillery_equipment_6:0 "Light Artillery Equipment VI"
+ artillery_equipment_6_desc:0 "A field gun is a field artillery piece. Originally the term referred to smaller guns that could accompany a field army on the march, that when in combat could be moved about the battlefield in response to changing circumstances (field artillery), as opposed to guns installed in a fort (garrison artillery or coastal artillery), or to siege cannons and mortars which are too large to be moved quickly, and would be used only in a prolonged siege."
+ artillery_equipment_6_short:0 "Field Gun VI"
+ 
+ light_artillery_upgrade5:0 "Light Artillery Upgrade V"
