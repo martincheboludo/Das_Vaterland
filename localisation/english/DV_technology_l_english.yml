@@ -803,3 +803,14 @@ irbm_equipment:0 "Intermediate-Range Ballistic Missiles"
  anti_tank_equipment_md1:0 "Basic Modern Anti-Tank Gun"
  anti_tank_equipment_md1_desc:0 ""
  anti_tank_equipment_md1_short:0 "Basic M. Anti-Tank"
+ 
+ antiair_a:0 "Advanced Anti-Air Upgrade"
+ antiair_a_desc:0 "Why does the Army need expensive new guns? Have the pilots we've been shooting at over the years started complaining?"
+ antiair_b:0 "Advanced Anti-Air Upgrade II"
+ antiair_b_desc:0 "On my left the shooting had the sharp explosion of the infantry artillery, on my right could be heard the 
+ antiair2_md:0 "Modern Anti-Air Upgrade"
+ antiair2_md_desc:0 "With faster reloading mechanisms, anti-air guns carrying large rounds can still maintain necessary firing rates."
+ 
+ anti_air_equipment_md1:0 "Basic Modern Anti-Air Gun"
+ anti_air_equipment_md1_desc:0 "Anti-aircraft guns are weapons designed to attack aircraft. Such weapons commonly have a high rate of fire and are able to fire shells designed to damage aircraft. They also are capable of firing at high angles, but are also usually able to hit ground targets as well in a direct fire role."
+ anti_air_equipment_md1_short:0 "Basic M. Anti-Air"

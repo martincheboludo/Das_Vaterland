@@ -1194,6 +1194,28 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Artillery/AT_2_allies.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_antiair_a_medium"
+		texturefile = "gfx/interface/technologies/antiair1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_antiair_b_medium"
+		texturefile = "gfx/interface/technologies/antiair2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_antiair2_md_medium"
+		texturefile = "gfx/interface/technologies/antiair1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_antiair1_md_medium"
+		texturefile = "gfx/interface/technologies/Artillery/AA_1_allies.dds"
+	}
+	
+	
+	
 
 
 }

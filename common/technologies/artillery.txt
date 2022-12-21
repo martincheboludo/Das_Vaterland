@@ -924,6 +924,11 @@ technologies = {
 			tank_anti_air_cannon_3
 			auto_loader
 		}
+		
+		path = {
+			leads_to_tech = antiair_a
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 
@@ -1708,6 +1713,141 @@ technologies = {
 		categories = {
 			artillery
 			cat_anti_tank
+		}
+	}
+	
+	###------> New Anti-Air <><> <><> <><> <><> <><>
+
+	antiair_a = {
+
+		path = {
+			leads_to_tech = antiair_b
+			research_cost_coeff = 1
+		}
+
+		anti_air = {
+			air_attack = 0.1
+		}
+
+		industry_air_damage_factor = -0.08
+
+		research_cost = 1
+
+		start_year = 1950
+
+		folder = {
+			name = artillery_folder
+			position = { x = @anti_air y = @1950 }
+		}
+
+		ai_will_do = { 
+			factor = 50
+
+			#DATE
+			modifier = { factor = 0 date < 1943.6.1 }
+		}
+
+		categories = {
+			artillery
+			aa_tech
+		}
+	}
+
+	antiair_b = {
+
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		industry_air_damage_factor = -0.08
+
+		path = {
+			leads_to_tech = antiair1_md
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1960
+
+		folder = {
+			name = artillery_folder
+			position = { x = @anti_air y = @1960 }
+		}
+
+		ai_will_do = { 
+			factor = 50
+
+			#DATE
+			modifier = { factor = 0 date < 1944.6.1 }
+		}
+
+		categories = {
+			artillery
+			aa_tech
+		}
+	}
+	
+	antiair1_md = {
+
+		enable_equipments = {
+			anti_air_equipment_md1
+		}
+
+		enable_building = {
+			building = anti_air
+			level = 5
+		}
+
+		path = {
+			leads_to_tech = antiair2_md
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 1970
+
+		folder = {
+			name = artillery_folder
+			position = { x = @anti_air y = @1970 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			artillery
+			aa_tech
+		}
+	}
+
+	antiair2_md = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		research_cost = 1
+
+		start_year = 1990
+
+		folder = {
+			name = artillery_folder
+			position = { x = @anti_air y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			artillery
+			aa_tech
 		}
 	}
 
