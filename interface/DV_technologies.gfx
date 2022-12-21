@@ -1312,6 +1312,103 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Electronics/internet1.dds"
 	}
 	
+	#Industry
+	
+	SpriteType = {
+		name = "GFX_demobilization_ww2_a_medium"
+		texturefile = "gfx/interface/technologies/Industry/demobilization2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_demobilization_ww2_b_medium"
+		texturefile = "gfx/interface/technologies/Industry/demobilization2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_demobilization_ww2_c_medium"
+		texturefile = "gfx/interface/technologies/Industry/demobilization2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_demobilization_ww2_d_medium"
+		texturefile = "gfx/interface/technologies/Industry/demobilization2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_demobilization_ww2_e_medium"
+		texturefile = "gfx/interface/technologies/Industry/demobilization2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_demobilization_ww2_f_medium"
+		texturefile = "gfx/interface/technologies/Industry/demobilization2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_demobilization_ww2_g_medium"
+		texturefile = "gfx/interface/technologies/Industry/demobilization2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_flexible_line_a_medium"
+		texturefile = "gfx/interface/technologies/Industry/software1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_flexible_line_b_medium"
+		texturefile = "gfx/interface/technologies/Industry/software2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_flexible_line_c_medium"
+		texturefile = "gfx/interface/technologies/Industry/software3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_streamlined_line_a_medium"
+		texturefile = "gfx/interface/technologies/Industry/machine_tools1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_streamlined_line_b_medium"
+		texturefile = "gfx/interface/technologies/Industry/machine_tools2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_streamlined_line_c_medium"
+		texturefile = "gfx/interface/technologies/Industry/machine_tools3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_concentrated_industry_a_medium"
+		texturefile = "gfx/interface/technologies/Industry/robotics1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_dispersed_industry_a_medium"
+		texturefile = "gfx/interface/technologies/Industry/manufacturing1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_oil1_medium"
+		texturefile = "gfx/interface/technologies/Industry/oil1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_oil2_medium"
+		texturefile = "gfx/interface/technologies/Industry/oil2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_construction_a_medium"
+		texturefile = "gfx/interface/technologies/Industry/construction1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_excavation_a_medium"
+		texturefile = "gfx/interface/technologies/Industry/excavation1.dds"
+	}
+	
 	
 
 
