@@ -612,6 +612,11 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1943
+		
+		path = {
+			leads_to_tech = rocket_artillery_a
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = artillery_folder
@@ -1749,7 +1754,7 @@ technologies = {
 
 		categories = {
 			artillery
-			aa_tech
+			cat_anti_air
 		}
 	}
 
@@ -1784,7 +1789,7 @@ technologies = {
 
 		categories = {
 			artillery
-			aa_tech
+			cat_anti_air
 		}
 	}
 	
@@ -1819,7 +1824,7 @@ technologies = {
 
 		categories = {
 			artillery
-			aa_tech
+			cat_anti_air
 		}
 	}
 
@@ -1847,7 +1852,148 @@ technologies = {
 
 		categories = {
 			artillery
-			aa_tech
+			cat_anti_air
+		}
+	}
+	
+	###------> New Rocket Artillery <><> <><> <><> <><> <><>
+
+	rocket_artillery_a = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+		}
+
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = rocket_artillery_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1950
+
+		folder = {
+			name = artillery_folder
+			position = { x = @rocket_artillery y = @1950 }
+		}
+
+		ai_will_do = { 
+			factor = 50
+
+			#DATE
+			modifier = { factor = 0 date < 1945.1.1 }
+		}
+
+		categories = {
+			rocketry
+		}
+	}
+
+	rocket_artillery_b = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+		}
+
+		motorized_rocket_brigade = {
+			soft_attack = 0.3
+		}
+
+		path = {
+			leads_to_tech = rocket_artillery1_md
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1960
+
+		folder = {
+			name = artillery_folder
+			position = { x = @rocket_artillery y = @1960 }
+		}
+
+		ai_will_do = { 
+			factor = 50
+
+			#DATE
+			modifier = { factor = 0 date < 1945.1.1 }
+		}
+
+		categories = {
+			rocketry
+		}
+	}
+	
+	rocket_artillery1_md = {
+
+		enable_equipments = {
+			rocket_artillery_equipment_md1
+		}
+		#		enable_subunits = {
+		#			rocket_artillery_brigade
+		#		}
+
+		path = {
+			leads_to_tech = rocket_artillery2_md
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 1980
+
+		folder = {
+			name = artillery_folder
+			position = { x = @rocket_artillery y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rocketry
+		}
+	}
+
+	rocket_artillery2_md = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = rocket_artillery3_md
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1990
+
+		folder = {
+			name = artillery_folder
+			position = { x = @rocket_artillery y = @1990 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			rocketry
 		}
 	}
 

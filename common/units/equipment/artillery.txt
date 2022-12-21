@@ -212,6 +212,27 @@ equipments = {
 		}
 	}
 	
+	###------> New Rocket Artillery <><> <><> <><> <><> <><>
+
+	rocket_artillery_equipment_md1 = {
+		year = 1970
+
+		archetype = rocket_artillery_equipment
+		parent = rocket_artillery_equipment_2
+		priority = 60
+		visual_level = 2
+
+		defense = 23
+		breakthrough = 19
+		soft_attack = 59
+
+		build_cost_ic = 8
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+	}
+	
 	#Katyusha 
 	motorized_rocket_equipment = {
 		year = 1934

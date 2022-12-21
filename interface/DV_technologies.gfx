@@ -1214,6 +1214,25 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Artillery/AA_1_allies.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_rocket_artillery_a_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_rocket_artillery_b_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_rocket_artillery2_md_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_rocket_artillery1_md_medium"
+		texturefile = "gfx/interface/technologies/Artillery/Rocket_Art_1_allies.dds"
+	}	
 	
 	
 
