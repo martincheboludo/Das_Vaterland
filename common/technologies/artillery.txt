@@ -1415,6 +1415,11 @@ technologies = {
 			name = artillery_folder
 			position = { x = @anti_tank y = @1943 }
 		}
+		
+		path = {
+			leads_to_tech = antitank_a
+			research_cost_coeff = 1
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -1602,6 +1607,107 @@ technologies = {
 
 			#WEIGHT
 			modifier = { factor = 20 date > 1991.1.1 }
+		}
+	}
+	
+	###------> New Anti-Tank <><> <><> <><> <><> <><>
+
+	antitank_a = {
+
+		anti_tank = {
+			hard_attack = 0.1
+			ap_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = antitank_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1950
+
+		folder = {
+			name = artillery_folder
+			position = { x = @anti_tank y = @1950 }
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = {
+				factor = 0
+				date < 1946.1.1
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+
+	antitank_b = {
+
+		anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = antitank1_md
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1960
+
+		folder = {
+			name = artillery_folder
+			position = { x = @anti_tank y = @1960 }
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = {
+				factor = 0
+				date < 1945.1.1
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+	
+	antitank1_md = {
+
+		enable_equipments = {
+			anti_tank_equipment_md1
+		}
+
+		research_cost = 1
+
+		start_year = 1980
+
+		folder = {
+			name = artillery_folder
+			position = { x = @anti_tank y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			artillery
+			cat_anti_tank
 		}
 	}
 

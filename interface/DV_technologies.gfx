@@ -1179,6 +1179,21 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_antitank_a_medium"
+		texturefile = "gfx/interface/technologies/antitank1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_antitank_b_medium"
+		texturefile = "gfx/interface/technologies/antitank2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_antitank1_md_medium"
+		texturefile = "gfx/interface/technologies/Artillery/AT_2_allies.dds"
+	}
+	
 
 
 }

@@ -794,5 +794,12 @@ irbm_equipment:0 "Intermediate-Range Ballistic Missiles"
  artillery_equipment_6:0 "Light Artillery Equipment VI"
  artillery_equipment_6_desc:0 "A field gun is a field artillery piece. Originally the term referred to smaller guns that could accompany a field army on the march, that when in combat could be moved about the battlefield in response to changing circumstances (field artillery), as opposed to guns installed in a fort (garrison artillery or coastal artillery), or to siege cannons and mortars which are too large to be moved quickly, and would be used only in a prolonged siege."
  artillery_equipment_6_short:0 "Field Gun VI"
- 
  light_artillery_upgrade5:0 "Light Artillery Upgrade V"
+ 
+ antitank_a:0 "Advanced Anti-Tank Upgrade"
+ antitank_a_desc:0 "If the tanks succeed, then victory will follow. If they fail, we are lost."
+ antitank_b:0 "Advanced Anti-Tank Upgrade II"
+ antitank_b_desc:0 "Your heaviest guns will be your will to live. Keep them going, no matter what, and pray theirs aren't bigger."
+ anti_tank_equipment_md1:0 "Basic Modern Anti-Tank Gun"
+ anti_tank_equipment_md1_desc:0 ""
+ anti_tank_equipment_md1_short:0 "Basic M. Anti-Tank"
