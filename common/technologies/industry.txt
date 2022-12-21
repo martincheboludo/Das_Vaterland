@@ -2302,7 +2302,7 @@ technologies = {
 
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = @1946 }
+			position = { x = 0 y = 10 }
 		}
 
 		ai_will_do = {
@@ -2335,7 +2335,7 @@ technologies = {
 
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = @1946 }
+			position = { x = 2 y = 10 }
 		}
 
 		ai_will_do = {
@@ -2363,7 +2363,7 @@ technologies = {
 
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = @1955 }
+			position = { x = 0 y = 12 }
 		}
 
 		ai_will_do = {
@@ -2392,7 +2392,7 @@ technologies = {
 
 		folder = {
 			name = industry_folder
-			position = { x = 2 y = @1955 }
+			position = { x = 2 y = 12 }
 		}
 
 		ai_will_do = {
