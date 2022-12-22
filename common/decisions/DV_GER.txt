@@ -7,14 +7,12 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = ARG
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			508 = { is_controlled_by_ROOT_or_subject = yes }
+			509 = { is_controlled_by_ROOT_or_subject = yes }
+			510 = { is_controlled_by_ROOT_or_subject = yes }
+			511 = { is_controlled_by_ROOT_or_subject = yes }
+			512 = { is_controlled_by_ROOT_or_subject = yes }
+			278 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 
 		cost = 0
@@ -57,7 +55,7 @@ DV_GER_reichskommissariats = {
 			}
 			else = {
 				ARG = {
-					every_state = { limit = { is_core_of = ARG } ARG = { transfer_state = PREV } }
+					every_state = { limit = { is_core_of = ARG is_controlled_by_ROOT_or_subject = yes } ARG = { transfer_state = PREV } }
 					set_cosmetic_tag = RK_ARG
 					create_country_leader = {
 						name = "Militärregierung"
@@ -128,14 +126,11 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = PRU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			490 = { is_controlled_by_ROOT_or_subject = yes }
+			491 = { is_controlled_by_ROOT_or_subject = yes }
+			303 = { is_controlled_by_ROOT_or_subject = yes }
+			492 = { is_controlled_by_ROOT_or_subject = yes }
+			494 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 
 		cost = 0
@@ -178,7 +173,7 @@ DV_GER_reichskommissariats = {
 			}
 			else = {
 				PRU = {
-					every_state = { limit = { is_core_of = PRU } PRU = { transfer_state = PREV } }
+					every_state = { limit = { is_core_of = PRU is_controlled_by_ROOT_or_subject = yes } PRU = { transfer_state = PREV } }
 					set_cosmetic_tag = RK_PRU
 					create_country_leader = {
 						name = "Militärregierung"
@@ -218,14 +213,9 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = COL
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			493 = { is_controlled_by_ROOT_or_subject = yes }
+			306 = { is_controlled_by_ROOT_or_subject = yes }
+			486 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 
 		cost = 0
@@ -268,7 +258,7 @@ DV_GER_reichskommissariats = {
 			}
 			else = {
 				COL = {
-					every_state = { limit = { is_core_of = COL } COL = { transfer_state = PREV } }
+					every_state = { limit = { is_core_of = COL is_controlled_by_ROOT_or_subject = yes } COL = { transfer_state = PREV } }
 					set_cosmetic_tag = RK_COL
 					create_country_leader = {
 						name = "Militärregierung"
@@ -326,14 +316,18 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = BRA
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			495 = { is_controlled_by_ROOT_or_subject = yes }
+			497 = { is_controlled_by_ROOT_or_subject = yes }
+			498 = { is_controlled_by_ROOT_or_subject = yes }
+			499 = { is_controlled_by_ROOT_or_subject = yes }
+			496 = { is_controlled_by_ROOT_or_subject = yes }
+			500 = { is_controlled_by_ROOT_or_subject = yes }
+			501 = { is_controlled_by_ROOT_or_subject = yes }
+			502 = { is_controlled_by_ROOT_or_subject = yes }
+			503 = { is_controlled_by_ROOT_or_subject = yes }
+			504 = { is_controlled_by_ROOT_or_subject = yes }
+			505 = { is_controlled_by_ROOT_or_subject = yes }
+			280 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 
 		cost = 0
@@ -376,7 +370,7 @@ DV_GER_reichskommissariats = {
 			}
 			else = {
 				BRA = {
-					every_state = { limit = { is_core_of = BRA } BRA = { transfer_state = PREV } }
+					every_state = { limit = { is_core_of = BRA is_controlled_by_ROOT_or_subject = yes } BRA = { transfer_state = PREV } }
 					set_cosmetic_tag = RK_BRA
 					create_country_leader = {
 						name = "Militärregierung"
@@ -418,14 +412,19 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = MEX
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			277 = { is_controlled_by_ROOT_or_subject = yes }
+			485 = { is_controlled_by_ROOT_or_subject = yes }
+			480 = { is_controlled_by_ROOT_or_subject = yes }
+			481 = { is_controlled_by_ROOT_or_subject = yes }
+			482 = { is_controlled_by_ROOT_or_subject = yes }
+			483 = { is_controlled_by_ROOT_or_subject = yes }
+			484 = { is_controlled_by_ROOT_or_subject = yes }
+			477 = { is_controlled_by_ROOT_or_subject = yes }
+			478 = { is_controlled_by_ROOT_or_subject = yes }
+			479 = { is_controlled_by_ROOT_or_subject = yes }
+			474 = { is_controlled_by_ROOT_or_subject = yes }
+			475 = { is_controlled_by_ROOT_or_subject = yes }
+			476 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 
 		cost = 0
@@ -468,7 +467,7 @@ DV_GER_reichskommissariats = {
 			}
 			else = {
 				MEX = {
-					every_state = { limit = { is_core_of = MEX } MEX = { transfer_state = PREV } }
+					every_state = { limit = { is_core_of = MEX is_controlled_by_ROOT_or_subject = yes } MEX = { transfer_state = PREV } }
 					set_cosmetic_tag = RK_MEX
 					create_country_leader = {
 						name = "Militärregierung"
@@ -596,14 +595,49 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = USA
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			261 = { is_controlled_by_ROOT_or_subject = yes }
+			816 = { is_controlled_by_ROOT_or_subject = yes }
+			463 = { is_controlled_by_ROOT_or_subject = yes }
+			394 = { is_controlled_by_ROOT_or_subject = yes }
+			395 = { is_controlled_by_ROOT_or_subject = yes }
+			396 = { is_controlled_by_ROOT_or_subject = yes }
+			390 = { is_controlled_by_ROOT_or_subject = yes }
+			391 = { is_controlled_by_ROOT_or_subject = yes }
+			392 = { is_controlled_by_ROOT_or_subject = yes }
+			393 = { is_controlled_by_ROOT_or_subject = yes }
+			387 = { is_controlled_by_ROOT_or_subject = yes }
+			388 = { is_controlled_by_ROOT_or_subject = yes }
+			389 = { is_controlled_by_ROOT_or_subject = yes }
+			382 = { is_controlled_by_ROOT_or_subject = yes }
+			383 = { is_controlled_by_ROOT_or_subject = yes }
+			384 = { is_controlled_by_ROOT_or_subject = yes }
+			385 = { is_controlled_by_ROOT_or_subject = yes }
+			386 = { is_controlled_by_ROOT_or_subject = yes }
+			378 = { is_controlled_by_ROOT_or_subject = yes }
+			379 = { is_controlled_by_ROOT_or_subject = yes }
+			380 = { is_controlled_by_ROOT_or_subject = yes }
+			381 = { is_controlled_by_ROOT_or_subject = yes }
+			373 = { is_controlled_by_ROOT_or_subject = yes }
+			374 = { is_controlled_by_ROOT_or_subject = yes }
+			375 = { is_controlled_by_ROOT_or_subject = yes }
+			376 = { is_controlled_by_ROOT_or_subject = yes }
+			377 = { is_controlled_by_ROOT_or_subject = yes }
+			369 = { is_controlled_by_ROOT_or_subject = yes }
+			370 = { is_controlled_by_ROOT_or_subject = yes }
+			371 = { is_controlled_by_ROOT_or_subject = yes }
+			372 = { is_controlled_by_ROOT_or_subject = yes }
+			364 = { is_controlled_by_ROOT_or_subject = yes }
+			365 = { is_controlled_by_ROOT_or_subject = yes }
+			366 = { is_controlled_by_ROOT_or_subject = yes }
+			367 = { is_controlled_by_ROOT_or_subject = yes }
+			368 = { is_controlled_by_ROOT_or_subject = yes }
+			360 = { is_controlled_by_ROOT_or_subject = yes }
+			361 = { is_controlled_by_ROOT_or_subject = yes }
+			362 = { is_controlled_by_ROOT_or_subject = yes }
+			363 = { is_controlled_by_ROOT_or_subject = yes }
+			357 = { is_controlled_by_ROOT_or_subject = yes }
+			358 = { is_controlled_by_ROOT_or_subject = yes }
+			359 = { is_controlled_by_ROOT_or_subject = yes }
 		}
 
 		cost = 0
@@ -646,7 +680,7 @@ DV_GER_reichskommissariats = {
 			}
 			else = {
 				USA = {
-					every_state = { limit = { is_core_of = USA } USA = { transfer_state = PREV } }
+					every_state = { limit = { is_core_of = USA is_controlled_by_ROOT_or_subject = yes } USA = { transfer_state = PREV } }
 					set_cosmetic_tag = RK_USA
 					create_country_leader = {
 						name = "Militärregierung"
