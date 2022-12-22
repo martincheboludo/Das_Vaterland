@@ -1,5 +1,6 @@
 on_actions = {
 
+	#Communist Countries Red
 	on_government_change = {
 			effect = {
 				#Make Countries Red if Communism
@@ -56,6 +57,34 @@ on_actions = {
 					set_cosmetic_tag = RUS_Cosmetic
 				}
 			}
+	}
+	
+	#ROOT is subject FROM is previous overlord
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					original_tag = CRI
+				} 
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+	
+	#used when puppeting in a peace conference
+	#ROOT = nation being puppeted, FROM = overlord
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = CRI
+						is_subject_of = GER
+						}
+					 }
+				set_cosmetic_tag = CRI_GER
+			}
+		}
 	}
 
 }
