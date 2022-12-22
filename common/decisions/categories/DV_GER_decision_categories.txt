@@ -1,0 +1,11 @@
+#################
+#### GERMANY ####
+#################
+
+DV_GER_reichskommissariats = {
+
+	allowed = {
+		original_tag = GER
+	}
+
+}
