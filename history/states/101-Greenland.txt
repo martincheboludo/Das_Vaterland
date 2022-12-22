@@ -17,8 +17,8 @@ state=
 		}
 		add_core_of = DEN
 		1946.1.1 = {
-			owner = USA
-			controller = USA
+			owner = DEN
+			controller = DEN
 		}
 	}
 	provinces=

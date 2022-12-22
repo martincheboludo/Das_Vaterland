@@ -20,8 +20,9 @@ state=
 		add_core_of = DEN
 		add_core_of = ICE
 		1946.1.1 = {
-			owner = USA
-			controller = USA
+			owner = NOR
+			controller = NOR
+			add_core_of = NOR
 		}
 	}
 	provinces=

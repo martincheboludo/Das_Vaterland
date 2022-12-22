@@ -47,6 +47,20 @@ division_template = {
 
 
 units = {
+
+######## LAND UNITS ########
+	##### Kongelige Norwegan Overkommando #####
+	division = { # "1. Divisjon"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 12674 #Iceland
+		division_template = "Infanteriet Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
 	
 }
 
