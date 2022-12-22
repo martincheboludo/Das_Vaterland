@@ -686,5 +686,389 @@ DV_GER_reichskommissariats = {
 			
 		}
 	}
+	
+	GER_give_paraguay_to_argentinien = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_government = fascism
+			all_state = {
+				if = {
+					limit = {
+						is_core_of = PAR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			ARG = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+		}
+
+		complete_effect = {
+		
+		every_state = { limit = { is_core_of = PAR } add_core_of = ARG }
+		
+		#Handle Paraguayan States
+			if = {
+				limit = {
+					country_exists = PAR
+					NOT = { is_subject_of = GER }
+				}
+				
+				ARG = { every_state = { limit = { is_core_of = PAR is_controlled_by_ROOT_or_subject = yes  } ARG = { set_state_controller = PREV } } }
+				
+				
+				}
+			else = {
+				every_state = { limit = { is_core_of = PAR is_controlled_by_ROOT_or_subject = yes } ARG = { transfer_state = PREV } }
+			}	
+			
+		}
+	}
+	
+	GER_give_uruguay_to_argentinien = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_government = fascism
+			all_state = {
+				if = {
+					limit = {
+						is_core_of = URG
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			ARG = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+		}
+
+		complete_effect = {
+		
+		every_state = { limit = { is_core_of = URG } add_core_of = ARG }
+		
+			#Handle Uruguayan States
+			if = {
+				limit = {
+					country_exists = URG
+					NOT = { is_subject_of = GER }
+				}
+				
+				ARG = { every_state = { limit = { is_core_of = URG is_controlled_by_ROOT_or_subject = yes  } ARG = { set_state_controller = PREV } } }
+				
+				
+				}
+			else = {
+				every_state = { limit = { is_core_of = URG is_controlled_by_ROOT_or_subject = yes } ARG = { transfer_state = PREV } }
+			}	
+			
+		}
+	}
+	
+	GER_give_paraguay_to_brasilien = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_government = fascism
+			all_state = {
+				if = {
+					limit = {
+						is_core_of = PAR
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			BRA = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+		}
+
+		complete_effect = {
+		
+		every_state = { limit = { is_core_of = PAR } add_core_of = BRA }
+		
+		#Handle Paraguayan States
+			if = {
+				limit = {
+					country_exists = PAR
+					NOT = { is_subject_of = GER }
+				}
+				
+				BRA = { every_state = { limit = { is_core_of = PAR is_controlled_by_ROOT_or_subject = yes  } BRA = { set_state_controller = PREV } } }
+				
+				
+				}
+			else = {
+				every_state = { limit = { is_core_of = PAR is_controlled_by_ROOT_or_subject = yes } BRA = { transfer_state = PREV } }
+			}	
+			
+		}
+	}
+	
+	GER_give_uruguay_to_brasilien = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_government = fascism
+			all_state = {
+				if = {
+					limit = {
+						is_core_of = URG
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			BRA = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+		}
+
+		complete_effect = {
+		
+		every_state = { limit = { is_core_of = URG } add_core_of = BRA }
+		
+			#Handle Uruguayan States
+			if = {
+				limit = {
+					country_exists = URG
+					NOT = { is_subject_of = GER }
+				}
+				
+				BRA = { every_state = { limit = { is_core_of = URG is_controlled_by_ROOT_or_subject = yes  } BRA = { set_state_controller = PREV } } }
+				
+				
+				}
+			else = {
+				every_state = { limit = { is_core_of = URG is_controlled_by_ROOT_or_subject = yes } BRA = { transfer_state = PREV } }
+			}	
+			
+		}
+	}
+	
+	GER_give_ecuador_to_peru = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_government = fascism
+			all_state = {
+				if = {
+					limit = {
+						is_core_of = ECU
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			PRU = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+		}
+
+		complete_effect = {
+		
+		every_state = { limit = { is_core_of = ECU } add_core_of = PRU }
+		
+		#Handle Ecuador States
+			if = {
+				limit = {
+					country_exists = ECU
+					NOT = { is_subject_of = GER }
+				}
+				
+				PRU = { every_state = { limit = { is_core_of = ECU is_controlled_by_ROOT_or_subject = yes  } PRU = { set_state_controller = PREV } } }
+				
+				
+				}
+			else = {
+				every_state = { limit = { is_core_of = ECU is_controlled_by_ROOT_or_subject = yes } PRU = { transfer_state = PREV } }
+			}	
+			
+		}
+	}
+	
+	GER_give_ecuador_to_colombia = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_government = fascism
+			all_state = {
+				if = {
+					limit = {
+						is_core_of = ECU
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			COL = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+		}
+
+		complete_effect = {
+		
+		every_state = { limit = { is_core_of = ECU } add_core_of = COL }
+		
+		#Handle Ecuador States
+			if = {
+				limit = {
+					country_exists = ECU
+					NOT = { is_subject_of = GER }
+				}
+				
+				COL = { every_state = { limit = { is_core_of = ECU is_controlled_by_ROOT_or_subject = yes  } COL = { set_state_controller = PREV } } }
+				
+				
+				}
+			else = {
+				every_state = { limit = { is_core_of = ECU is_controlled_by_ROOT_or_subject = yes } COL = { transfer_state = PREV } }
+			}	
+			
+		}
+	}
+	
+	GER_give_panama_to_colombia = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_government = fascism
+			all_state = {
+				if = {
+					limit = {
+						is_core_of = PAN
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			COL = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+		}
+
+		complete_effect = {
+		
+		every_state = { limit = { is_core_of = PAN } add_core_of = COL }
+		
+		#Handle Paraguayan States
+			if = {
+				limit = {
+					country_exists = PAN
+					NOT = { is_subject_of = GER }
+				}
+				
+				COL = { every_state = { limit = { is_core_of = PAN is_controlled_by_ROOT_or_subject = yes  } COL = { set_state_controller = PREV } } }
+				
+				
+				}
+			else = {
+				every_state = { limit = { is_core_of = PAN is_controlled_by_ROOT_or_subject = yes } COL = { transfer_state = PREV } }
+			}	
+			
+		}
+	}
+	
+	GER_give_panama_to_mexiko = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_government = fascism
+			all_state = {
+				if = {
+					limit = {
+						is_core_of = PAN
+					}
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+			MEX = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+		}
+
+		complete_effect = {
+		
+		every_state = { limit = { is_core_of = PAN } add_core_of = MEX }
+		
+		#Handle Paraguayan States
+			if = {
+				limit = {
+					country_exists = PAN
+					NOT = { is_subject_of = GER }
+				}
+				
+				MEX = { every_state = { limit = { is_core_of = PAN is_controlled_by_ROOT_or_subject = yes  } MEX = { set_state_controller = PREV } } }
+				
+				
+				}
+			else = {
+				every_state = { limit = { is_core_of = PAN is_controlled_by_ROOT_or_subject = yes } MEX = { transfer_state = PREV } }
+			}	
+			
+		}
+	}
 
 }
