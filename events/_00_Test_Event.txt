@@ -140,3 +140,25 @@ country_event = {
 
 	}
 }
+
+country_event = {
+	id = rontestevent.2
+	title = "Coring"
+	desc = "Haha"
+	is_triggered_only = yes
+	
+	option = {
+		name = "End Puppets"
+		
+		GER = {
+			end_puppet = ARG
+			end_puppet = BRA
+			end_puppet = PRU
+			end_puppet = COL
+			end_puppet = MEX
+			end_puppet = USA
+		}
+
+
+	}
+}

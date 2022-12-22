@@ -64,7 +64,15 @@ on_actions = {
 		effect = {
 			if = {
 				limit = { 
-					original_tag = CRI
+					OR = {
+						original_tag = CRI
+						original_tag = ARG
+						original_tag = BRA
+						original_tag = COL
+						original_tag = PRU
+						original_tag = MEX
+						original_tag = USA
+					}
 				} 
 				drop_cosmetic_tag = yes
 			}
@@ -83,6 +91,60 @@ on_actions = {
 						}
 					 }
 				set_cosmetic_tag = CRI_GER
+			}
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = ARG
+						is_subject_of = GER
+						}
+					 }
+				set_cosmetic_tag = RK_ARG
+			}
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = BRA
+						is_subject_of = GER
+						}
+					 }
+				set_cosmetic_tag = RK_BRA
+			}
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = PRU
+						is_subject_of = GER
+						}
+					 }
+				set_cosmetic_tag = RK_PRU
+			}
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = COL
+						is_subject_of = GER
+						}
+					 }
+				set_cosmetic_tag = RK_COL
+			}
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = MEX
+						is_subject_of = GER
+						}
+					 }
+				set_cosmetic_tag = RK_MEX
+			}
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = USA
+						is_subject_of = GER
+						}
+					 }
+				set_cosmetic_tag = RK_USA
 			}
 		}
 	}
