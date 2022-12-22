@@ -1,0 +1,23 @@
+﻿l_english:
+
+ DV_GER_reichskommissariats:0 "Das Vaterland Reichskommissariats"
+ DV_GER_reichskommissariats_desc:0 "Reichskommissariat is a German word for a type of administrative entity headed by a government official known as a Reichskommissar."
+ 
+ GER_reichskommissariat_argentinien:0 "Reichskommissariat Argentinien"
+ GER_reichskommissariat_peru_bolivien:0 "Reichskommissariat Peru Bolivien"
+ GER_reichskommissariat_grosskolumbien:0 "Reichskommissariat Großkolumbien"
+ GER_reichskommissariat_brasilien:0 "Reichskommissariat Brasilien"
+ GER_reichskommissariat_mexiko:0 "Reichskommissariat Zentralamerika"
+ GER_reichskommissariat_nordamerika:0 "Reichskommissariat Nordamerika"
+ 
+ GER_give_paraguay_to_argentinien:0 "Give Paraguay to Argentinien"
+ GER_give_uruguay_to_argentinien:0 "Give Uruguay to Argentinien"
+ GER_give_paraguay_to_brasilien:0 "Give Paraguay to Brasilien"
+ GER_give_uruguay_to_brasilien:0 "Give Uruguay to Brasilien"
+ GER_give_ecuador_to_peru:0 "Give Ecuador to Peru-Bolivien"
+ GER_give_ecuador_to_colombia:0 "Give Ecuador to Großkolumbien"
+ GER_give_panama_to_colombia:0 "Give Panama to Großkolumbien"
+ GER_give_panama_to_mexiko:0 "Give Panama to Zentralamerika"
+ GER_give_chaco_to_peru:0 "Give Chaco to Peru"
+ GER_give_southwest_to_mexiko:0 "Give Southwest to Zentralamerika"
+ GER_give_southwest_to_amerika:0 "Give Southwest to Nordamerika"

@@ -690,6 +690,9 @@ DV_GER_reichskommissariats = {
 	GER_give_paraguay_to_argentinien = {
 
 		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
 
 		available = {
 			has_government = fascism
@@ -711,6 +714,8 @@ DV_GER_reichskommissariats = {
 
 		visible = {
 			has_government = fascism
+			ARG = { is_subject_of = GER }
+			BRA = { is_subject_of = GER }
 		}
 
 		complete_effect = {
@@ -738,6 +743,9 @@ DV_GER_reichskommissariats = {
 	GER_give_uruguay_to_argentinien = {
 
 		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
 
 		available = {
 			has_government = fascism
@@ -759,6 +767,8 @@ DV_GER_reichskommissariats = {
 
 		visible = {
 			has_government = fascism
+			ARG = { is_subject_of = GER }
+			BRA = { is_subject_of = GER }
 		}
 
 		complete_effect = {
@@ -786,6 +796,9 @@ DV_GER_reichskommissariats = {
 	GER_give_paraguay_to_brasilien = {
 
 		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
 
 		available = {
 			has_government = fascism
@@ -807,6 +820,8 @@ DV_GER_reichskommissariats = {
 
 		visible = {
 			has_government = fascism
+			BRA = { is_subject_of = GER }
+			ARG = { is_subject_of = GER }
 		}
 
 		complete_effect = {
@@ -834,6 +849,9 @@ DV_GER_reichskommissariats = {
 	GER_give_uruguay_to_brasilien = {
 
 		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
 
 		available = {
 			has_government = fascism
@@ -855,6 +873,8 @@ DV_GER_reichskommissariats = {
 
 		visible = {
 			has_government = fascism
+			BRA = { is_subject_of = GER }
+			ARG = { is_subject_of = GER }
 		}
 
 		complete_effect = {
@@ -882,6 +902,9 @@ DV_GER_reichskommissariats = {
 	GER_give_ecuador_to_peru = {
 
 		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
 
 		available = {
 			has_government = fascism
@@ -903,6 +926,8 @@ DV_GER_reichskommissariats = {
 
 		visible = {
 			has_government = fascism
+			PRU = { is_subject_of = GER }
+			COL = { is_subject_of = GER }
 		}
 
 		complete_effect = {
@@ -930,6 +955,9 @@ DV_GER_reichskommissariats = {
 	GER_give_ecuador_to_colombia = {
 
 		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
 
 		available = {
 			has_government = fascism
@@ -951,6 +979,8 @@ DV_GER_reichskommissariats = {
 
 		visible = {
 			has_government = fascism
+			COL = { is_subject_of = GER }
+			PRU = { is_subject_of = GER }
 		}
 
 		complete_effect = {
@@ -978,6 +1008,9 @@ DV_GER_reichskommissariats = {
 	GER_give_panama_to_colombia = {
 
 		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
 
 		available = {
 			has_government = fascism
@@ -999,6 +1032,8 @@ DV_GER_reichskommissariats = {
 
 		visible = {
 			has_government = fascism
+			COL = { is_subject_of = GER }
+			MEX = { is_subject_of = GER }
 		}
 
 		complete_effect = {
@@ -1026,6 +1061,9 @@ DV_GER_reichskommissariats = {
 	GER_give_panama_to_mexiko = {
 
 		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
 
 		available = {
 			has_government = fascism
@@ -1047,6 +1085,8 @@ DV_GER_reichskommissariats = {
 
 		visible = {
 			has_government = fascism
+			MEX = { is_subject_of = GER }
+			COL = { is_subject_of = GER }
 		}
 
 		complete_effect = {
@@ -1070,5 +1110,200 @@ DV_GER_reichskommissariats = {
 			
 		}
 	}
+	
+	GER_give_chaco_to_peru = {
+
+		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
+
+		available = {
+			has_government = fascism
+			688 = { is_controlled_by_ROOT_or_subject = yes }
+			PRU = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+			PRU = { is_subject_of = GER }
+			ARG = { is_subject_of = GER }
+			BRA = { is_subject_of = GER }
+		}
+
+		complete_effect = {
+		
+		#Handle Paraguayan States
+			if = {
+				limit = {
+					country_exists = PAR
+					NOT = { is_subject_of = GER }
+				}
+				
+				PRU = { set_state_controller = 688 }
+				
+				
+				}
+			else = {
+				PRU = { transfer_state = 688 }
+			}
+			
+			PRU = { add_state_core = 688 }
+			
+		}
+	}
+	
+	
+
+GER_give_southwest_to_mexiko = {
+
+		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
+
+		available = {
+			has_government = fascism
+			378 = { is_controlled_by_ROOT_or_subject = yes }
+			379 = { is_controlled_by_ROOT_or_subject = yes }
+			380 = { is_controlled_by_ROOT_or_subject = yes }
+			377 = { is_controlled_by_ROOT_or_subject = yes }
+			382 = { is_controlled_by_ROOT_or_subject = yes }
+			376 = { is_controlled_by_ROOT_or_subject = yes }
+			375 = { is_controlled_by_ROOT_or_subject = yes }
+			MEX = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+			MEX = { is_subject_of = GER }
+			USA = { is_subject_of = GER }
+		}
+
+		complete_effect = {
+		
+		#Handle States
+			if = {
+				limit = {
+					country_exists = USA
+					NOT = { is_subject_of = GER }
+				}
+				
+				MEX = { set_state_controller = 378 }
+				MEX = { set_state_controller = 379 }
+				MEX = { set_state_controller = 380 }
+				MEX = { set_state_controller = 377 }
+				MEX = { set_state_controller = 382 }
+				MEX = { set_state_controller = 376 }
+				MEX = { set_state_controller = 375 }
+				
+				
+				
+				}
+			else = {
+				MEX = { transfer_state = 378 }
+				MEX = { transfer_state = 379 }
+				MEX = { transfer_state = 380 }
+				MEX = { transfer_state = 377 }
+				MEX = { transfer_state = 382 }
+				MEX = { transfer_state = 376 }
+				MEX = { transfer_state = 375 }
+			}
+			
+			MEX = { add_state_core = 378 }
+			MEX = { add_state_core = 379 }
+			MEX = { add_state_core = 380 }
+			MEX = { add_state_core = 377 }
+			MEX = { add_state_core = 382 }
+			MEX = { add_state_core = 376 }
+			MEX = { add_state_core = 375 }
+			
+		}
+	}
+	
+	
+##
+GER_give_southwest_to_amerika = {
+
+		icon = ger_reichskommissariats
+		
+		#fire_only_once = no
+		#days_re_enable = 180
+
+		available = {
+			has_government = fascism
+			378 = { is_controlled_by_ROOT_or_subject = yes }
+			379 = { is_controlled_by_ROOT_or_subject = yes }
+			380 = { is_controlled_by_ROOT_or_subject = yes }
+			377 = { is_controlled_by_ROOT_or_subject = yes }
+			382 = { is_controlled_by_ROOT_or_subject = yes }
+			376 = { is_controlled_by_ROOT_or_subject = yes }
+			375 = { is_controlled_by_ROOT_or_subject = yes }
+			USA = { is_subject_of = GER }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			has_government = fascism
+			USA = { is_subject_of = GER }
+			MEX = { is_subject_of = GER }
+		}
+
+		complete_effect = {
+		
+		#Handle States
+			if = {
+				limit = {
+					country_exists = USA
+					NOT = { is_subject_of = GER }
+				}
+				
+				USA = { set_state_controller = 378 }
+				USA = { set_state_controller = 379 }
+				USA = { set_state_controller = 380 }
+				USA = { set_state_controller = 377 }
+				USA = { set_state_controller = 382 }
+				USA = { set_state_controller = 376 }
+				USA = { set_state_controller = 375 }
+				
+				
+				
+				}
+			else = {
+				USA = { transfer_state = 378 }
+				USA = { transfer_state = 379 }
+				USA = { transfer_state = 380 }
+				USA = { transfer_state = 377 }
+				USA = { transfer_state = 382 }
+				USA = { transfer_state = 376 }
+				USA = { transfer_state = 375 }
+			}
+			
+			USA = { add_state_core = 378 }
+			USA = { add_state_core = 379 }
+			USA = { add_state_core = 380 }
+			USA = { add_state_core = 377 }
+			USA = { add_state_core = 382 }
+			USA = { add_state_core = 376 }
+			USA = { add_state_core = 375 }
+			
+		}
+	}
 
 }
+
+#
