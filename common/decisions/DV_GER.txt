@@ -730,14 +730,8 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = PAR
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			688 = { is_controlled_by_ROOT_or_subject = yes }
+			301 = { is_controlled_by_ROOT_or_subject = yes }
 			ARG = { is_subject_of = GER }
 		}
 
@@ -783,14 +777,7 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = URG
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			300 = { is_controlled_by_ROOT_or_subject = yes }
 			ARG = { is_subject_of = GER }
 		}
 
@@ -836,14 +823,8 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = PAR
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			688 = { is_controlled_by_ROOT_or_subject = yes }
+			301 = { is_controlled_by_ROOT_or_subject = yes }
 			BRA = { is_subject_of = GER }
 		}
 
@@ -889,14 +870,7 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = URG
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			300 = { is_controlled_by_ROOT_or_subject = yes }
 			BRA = { is_subject_of = GER }
 		}
 
@@ -942,14 +916,7 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = ECU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			305 = { is_controlled_by_ROOT_or_subject = yes }
 			PRU = { is_subject_of = GER }
 		}
 
@@ -995,14 +962,7 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = ECU
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			305 = { is_controlled_by_ROOT_or_subject = yes }
 			COL = { is_subject_of = GER }
 		}
 
@@ -1048,14 +1008,7 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = PAN
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			304 = { is_controlled_by_ROOT_or_subject = yes }
 			COL = { is_subject_of = GER }
 		}
 
@@ -1101,14 +1054,7 @@ DV_GER_reichskommissariats = {
 
 		available = {
 			has_government = fascism
-			all_state = {
-				if = {
-					limit = {
-						is_core_of = PAN
-					}
-					is_controlled_by_ROOT_or_subject = yes
-				}
-			}
+			304 = { is_controlled_by_ROOT_or_subject = yes }
 			MEX = { is_subject_of = GER }
 		}
 
