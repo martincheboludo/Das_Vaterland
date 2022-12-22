@@ -1347,6 +1347,11 @@ if = {
 			autonomous_state = autonomy_reichskommissariat
 			freedom_level = 0.1
 		}
+		set_autonomy = {
+			target = CRI
+			autonomous_state = autonomy_reichskommissariat
+			freedom_level = 0.1
+		}
 		else = {
 			puppet = RPD
 			puppet = RKN
@@ -1360,7 +1365,7 @@ if = {
 			puppet = RKM
 			puppet = RKO
 			puppet = RKT
-			puppet = RKU
+			puppet = CRI
 		}
 	}
 }

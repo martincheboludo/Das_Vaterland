@@ -58,7 +58,7 @@ country_event = {
 					ideology = communism
 					size = 0.5
 					capital = 608
-					states = { 622 598 597 614 615 746 621 608 609 610 611 612 761 714 715 328 716 717 743 }
+					states = { 622 598 597 614 615 746 621 608 609 610 611 612 761 714 715 328 716 717 743 745 }
 				}
 				random_other_country = {
 					limit = {
@@ -76,9 +76,11 @@ country_event = {
 					remove_ideas = {
 						CHI_nine_power_treaty
 						CHI_army_corruption_1
+						CHI_army_corruption_2
 						CHI_ineffective_bureaucracy
 						CHI_incompetent_officers
 						CHI_hyper_inflation_1
+						CHI_military_affairs_commission
 					}
 				}
 			}
