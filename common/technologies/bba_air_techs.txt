@@ -1426,8 +1426,12 @@ technologies = {
 
 		categories = {
 			light_air
-			jet_technology
+			light_fighter
+			cas_bomber
 			air_equipment
+			naval_air
+			naval_bomber
+			jet_technology
 		}
 
 		ai_will_do = { 
@@ -1471,6 +1475,11 @@ technologies = {
 
 		categories = {
 			light_air
+			light_fighter
+			cas_bomber
+			air_equipment
+			naval_air
+			naval_bomber
 			jet_technology
 		}
 
@@ -1506,6 +1515,11 @@ technologies = {
 
 		categories = {
 			light_air
+			light_fighter
+			cas_bomber
+			air_equipment
+			naval_air
+			naval_bomber
 			jet_technology
 		}
 
@@ -1541,6 +1555,11 @@ technologies = {
 
 		categories = {
 			light_air
+			light_fighter
+			cas_bomber
+			air_equipment
+			naval_air
+			naval_bomber
 			jet_technology
 		}
 
@@ -1576,6 +1595,11 @@ technologies = {
 
 		categories = {
 			light_air
+			light_fighter
+			cas_bomber
+			air_equipment
+			naval_air
+			naval_bomber
 			jet_technology
 		}
 
@@ -1611,6 +1635,11 @@ technologies = {
 
 		categories = {
 			light_air
+			light_fighter
+			cas_bomber
+			air_equipment
+			naval_air
+			naval_bomber
 			jet_technology
 		}
 
@@ -1646,6 +1675,11 @@ technologies = {
 
 		categories = {
 			light_air
+			light_fighter
+			cas_bomber
+			air_equipment
+			naval_air
+			naval_bomber
 			jet_technology
 		}
 
@@ -1681,6 +1715,11 @@ technologies = {
 
 		categories = {
 			light_air
+			light_fighter
+			cas_bomber
+			air_equipment
+			naval_air
+			naval_bomber
 			jet_technology
 		}
 
@@ -1711,6 +1750,11 @@ technologies = {
 
 		categories = {
 			light_air
+			light_fighter
+			cas_bomber
+			air_equipment
+			naval_air
+			naval_bomber
 			jet_technology
 		}
 
@@ -1745,6 +1789,7 @@ technologies = {
 		categories = {
 			medium_air
 			jet_technology
+			cat_heavy_fighter
 			tactical_bomber
 		}
 
@@ -1785,6 +1830,7 @@ technologies = {
 		categories = {
 			medium_air
 			jet_technology
+			cat_heavy_fighter
 			tactical_bomber
 		}
 
@@ -1818,6 +1864,7 @@ technologies = {
 		categories = {
 			medium_air
 			jet_technology
+			cat_heavy_fighter
 			tactical_bomber
 		}
 
@@ -1856,6 +1903,7 @@ technologies = {
 		categories = {
 			medium_air
 			jet_technology
+			cat_heavy_fighter
 			tactical_bomber
 		}
 
@@ -1894,6 +1942,7 @@ technologies = {
 		categories = {
 			medium_air
 			jet_technology
+			cat_heavy_fighter
 			tactical_bomber
 		}
 
@@ -1932,6 +1981,7 @@ technologies = {
 		categories = {
 			medium_air
 			jet_technology
+			cat_heavy_fighter
 			tactical_bomber
 		}
 
@@ -1970,6 +2020,7 @@ technologies = {
 		categories = {
 			medium_air
 			jet_technology
+			cat_heavy_fighter
 			tactical_bomber
 		}
 
