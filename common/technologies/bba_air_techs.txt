@@ -1,4 +1,16 @@
 technologies = {
+
+	@fighter = 0
+
+	@1950 = 14
+	@1955 = 16
+	@1960 = 18
+	@1965 = 20
+	@1970 = 22
+	@1975 = 24
+	@1980 = 26
+	@1985 = 28
+	@1990 = 30
 	
 	iw_small_airframe = {
 
@@ -273,6 +285,11 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+		}
+		
+		path = {
+			leads_to_tech = jet_fighter2a
+			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
@@ -1363,7 +1380,7 @@ technologies = {
 		}
 
 		#folder = {
-		#	name = air_techs_folder
+		#	name = bba_air_techs_folder
 		#	position = { x = -2 y = 8 }
 		#}
 		
@@ -1372,4 +1389,330 @@ technologies = {
 		}
 		################
 	}
+	
+	#End of Vanilla
+	#Start of DV
+	
+		jet_fighter2a = {
+
+		enable_equipments = {
+			jet_fighter_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1950
+
+		path = {
+			leads_to_tech = jet_fighter_a
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @fighter y = @1950 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+			air_equipment
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1950.1.1 }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { FTR_tech_focus = yes } }
+		}
+	}
+	
+	###------> New Jet Fighters   <><> <><> <><> <><> <><>
+
+	jet_fighter_a = {
+
+		on_research_complete = { 
+			#if = {
+			#	limit = { is_ai = yes check_variable = { air_xp > 130 } }
+				#hidden_effect = { variant_upgrade_JFTR = yes }
+			#}
+		}
+
+		enable_equipments = {
+			jet_fighter_equipment_3
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1955
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @fighter y = @1955 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1955.1.1 }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { FTR_tech_focus = yes } }
+		}
+	}
+
+	jet_fighter_b = {
+
+		enable_equipments = {
+			jet_fighter_equipment_4
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_c
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @fighter y = @1960 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1960.1.1 }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { FTR_tech_focus = yes } }
+		}
+	}
+
+	jet_fighter_c = {
+
+		enable_equipments = {
+			jet_fighter_equipment_5
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_d
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1965
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @fighter y = @1965 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1965.1.1 }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { FTR_tech_focus = yes } }
+		}
+	}
+
+	jet_fighter_d = {
+
+		enable_equipments = {
+			jet_fighter_equipment_6
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_e
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1970
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @fighter y = @1970 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1970.1.1 }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { FTR_tech_focus = yes } }
+		}
+	}
+
+	jet_fighter_e = {
+
+		enable_equipments = {
+			jet_fighter_equipment_7
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_f
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1975
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @fighter y = @1975 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1975.1.1 }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { FTR_tech_focus = yes } }
+		}
+	}
+
+	jet_fighter_f = {
+
+		enable_equipments = {
+			jet_fighter_equipment_8
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_g
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1980
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @fighter y = @1980 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1980.1.1 }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { FTR_tech_focus = yes } }
+		}
+	}
+
+	jet_fighter_g = {
+
+		enable_equipments = {
+			jet_fighter_equipment_9
+		}
+
+		path = {
+			leads_to_tech = jet_fighter_h
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1985
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @fighter y = @1985 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1985.1.1 }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { FTR_tech_focus = yes } }
+		}
+	}
+
+	jet_fighter_h = {
+
+		enable_equipments = {
+			jet_fighter_equipment_10
+		}
+
+		research_cost = 2
+		start_year = 1990
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @fighter y = @1990 }
+		}
+
+		categories = {
+			light_air
+			jet_technology
+		}
+
+		ai_will_do = { 
+			factor = 10
+
+			#DATE
+			modifier = { factor = 0 date < 1990.1.1 }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { FTR_tech_focus = yes } }
+		}
+	}
+	
+	
+	
 }
