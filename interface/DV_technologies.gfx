@@ -1501,6 +1501,125 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Air/USA_FIGHTER_1990.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_jet_tactical_bomber2a_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1950.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tactical_bomber_b_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1965.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tactical_bomber_c_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tactical_bomber_d_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1975.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tactical_bomber_e_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tactical_bomber_f_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1990.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_b_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1960.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_c_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1965.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_d_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber_e_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1975.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tac_bomber_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1950.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tac_bomber_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tac_bomber_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1965.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tac_bomber_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tac_bomber_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1975.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tac_bomber_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_tac_bomber_equipment_8_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TACTICAL_1990.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strat_bomber_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strat_bomber_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1960.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strat_bomber_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1965.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strat_bomber_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_jet_strat_bomber_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1975.dds"
+	}
 	
 
 

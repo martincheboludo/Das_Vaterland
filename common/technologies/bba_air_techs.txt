@@ -1,6 +1,8 @@
 technologies = {
 
 	@fighter = 0
+	@tactical = 2
+	@strategic = 0
 
 	@1950 = 14
 	@1955 = 16
@@ -533,6 +535,11 @@ technologies = {
 		research_cost = 2
 		start_year = 1945
 		
+		path = {
+			leads_to_tech = jet_tactical_bomber2a
+			research_cost_coeff = 1
+		}
+		
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 2 y = 12 }
@@ -727,10 +734,15 @@ technologies = {
 		dependencies = {
 			jet_engines = 1
 		}
+		
+		path = {
+			leads_to_tech = jet_strategic_bomber_a
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = @1950 }
 		}
 		
 		categories = {
@@ -1713,6 +1725,459 @@ technologies = {
 		}
 	}
 	
+	jet_tactical_bomber2a = {
+		enable_equipments = {
+			jet_tac_bomber_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1950
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @tactical y = @1950 }
+		}
+
+		path = {
+			leads_to_tech = jet_tactical_bomber_a
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1946.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 10 is_major  = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { TAC_tech_focus = yes } }
+		}
+	}
+	
+	###------> New Jet Tactical Bombers  <><> <><> <><> <><> <><>
+
+	jet_tactical_bomber_a = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_3
+		}
+
+		path = {
+			leads_to_tech = jet_tactical_bomber_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @tactical y = @1955 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1955.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 10 is_major  = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { TAC_tech_focus = yes } }
+		}
+	}
+
+	jet_tactical_bomber_b = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_4
+		}
+
+		research_cost = 2
+		start_year = 1965
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @tactical y = @1965 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		path = {
+			leads_to_tech = jet_tactical_bomber_c
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1965.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 10 is_major  = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { TAC_tech_focus = yes } }
+		}
+	}
+
+	jet_tactical_bomber_c = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_5
+		}
+
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @tactical y = @1970 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		path = {
+			leads_to_tech = jet_tactical_bomber_d
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1970.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 10 is_major  = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { TAC_tech_focus = yes } }
+		}
+	}
+
+	jet_tactical_bomber_d = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_6
+		}
+
+		research_cost = 2
+		start_year = 1975
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @tactical y = @1975 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		path = {
+			leads_to_tech = jet_tactical_bomber_e
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1975.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 10 is_major  = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { TAC_tech_focus = yes } }
+		}
+	}
+
+	jet_tactical_bomber_e = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_7
+		}
+
+		research_cost = 2
+		start_year = 1985
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @tactical y = @1985 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		path = {
+			leads_to_tech = jet_tactical_bomber_f
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1985.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 10 is_major  = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { TAC_tech_focus = yes } }
+		}
+	}
+
+	jet_tactical_bomber_f = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_8
+		}
+
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @tactical y = @1990 }
+		}
+
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1990.1.1 }
+
+			#WEIGHT
+			modifier = { factor = 10 is_major  = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { TAC_tech_focus = yes } }
+		}
+	}
+	
+	
+	
+	jet_strategic_bomber_a = {
+
+		enable_equipments = {
+			jet_strat_bomber_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1955
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @strategic y = @1955 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		path = {
+			leads_to_tech = jet_strategic_bomber_b
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1955.1.1 }
+
+			#WEIGHT
+			#modifier = { factor = 50 STR_tech_focus = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { STR_tech_focus = yes } date < 1944.1.1 }
+		}
+	}
+
+	jet_strategic_bomber_b = {
+
+		enable_equipments = {
+			jet_strat_bomber_equipment_3
+		}
+
+		research_cost = 2
+		start_year = 1960
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @strategic y = @1960 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		path = {
+			leads_to_tech = jet_strategic_bomber_c
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1960.1.1 }
+
+			#WEIGHT
+			#modifier = { factor = 50 STR_tech_focus = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { STR_tech_focus = yes } date < 1944.1.1 }
+		}
+	}
+
+	jet_strategic_bomber_c = {
+
+		enable_equipments = {
+			jet_strat_bomber_equipment_4
+		}
+
+		research_cost = 2
+		start_year = 1965
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @strategic y = @1965 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		path = {
+			leads_to_tech = jet_strategic_bomber_d
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1965.1.1 }
+
+			#WEIGHT
+			#modifier = { factor = 50 STR_tech_focus = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { STR_tech_focus = yes } date < 1944.1.1 }
+		}
+	}
+
+	jet_strategic_bomber_d = {
+
+		enable_equipments = {
+			jet_strat_bomber_equipment_5
+		}
+
+		research_cost = 2
+		start_year = 1970
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @strategic y = @1970 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		path = {
+			leads_to_tech = jet_strategic_bomber_e
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1970.1.1 }
+
+			#WEIGHT
+			#modifier = { factor = 50 STR_tech_focus = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { STR_tech_focus = yes } date < 1944.1.1 }
+		}
+	}
+
+	jet_strategic_bomber_e = {
+
+		enable_equipments = {
+			jet_strat_bomber_equipment_6
+		}
+
+		research_cost = 2
+		start_year = 1975
+
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @strategic y = @1975 }
+		}
+
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+
+		ai_will_do = { 
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1975.1.1 }
+
+			#WEIGHT
+			#modifier = { factor = 50 STR_tech_focus = yes }
+
+			#RESTRICTIONS
+			#modifier = { factor = 0 NOT = { STR_tech_focus = yes } date < 1944.1.1 }
+		}
+	}
 	
 	
 }
