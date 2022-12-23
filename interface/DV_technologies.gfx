@@ -1621,6 +1621,20 @@ SpriteType = {
 		texturefile = "gfx/interface/technologies/Air/USA_STRATEGIC_1975.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_transport_plane_equipment_20_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TRANSPORT_1944.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_transport_plane_equipment_30_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TRANSPORT_1960.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_transport_plane_equipment_40_medium"
+		texturefile = "gfx/interface/technologies/Air/USA_TRANSPORT_1985.dds"
+	}
 
 
 }

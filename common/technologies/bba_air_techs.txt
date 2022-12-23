@@ -686,6 +686,7 @@ technologies = {
 		enable_equipments = {
 			large_plane_airframe_3
 			large_plane_maritime_patrol_plane_airframe_3
+			transport_plane_equipment_20
 		}
 		
 		path = {
@@ -2083,6 +2084,7 @@ technologies = {
 
 		enable_equipments = {
 			jet_strat_bomber_equipment_3
+			transport_plane_equipment_30
 		}
 
 		research_cost = 2
@@ -2200,6 +2202,7 @@ technologies = {
 
 		enable_equipments = {
 			jet_strat_bomber_equipment_6
+			transport_plane_equipment_40
 		}
 
 		research_cost = 2
