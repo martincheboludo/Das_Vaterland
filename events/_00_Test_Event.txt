@@ -148,16 +148,180 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "End Puppets"
+		name = "Everyone Generic Focus"
+		
+		every_country = {
+					limit = {
+						exists = yes
+					}
+					load_focus_tree = generic_focus
+				}
+
+
+	}
+	
+	option = {
+		name = "Form Uber Greater Germany"
+	
+		USA = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = { annex_country = { target = USA transfer_troops = yes } }
+		
+		CAN = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = { annex_country = { target = CAN transfer_troops = yes } }
+		
+		SAF = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = { annex_country = { target = SAF transfer_troops = yes } }
+		
+		ARG = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = { annex_country = { target = ARG transfer_troops = yes } }
+		
+		CHL = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = { annex_country = { target = CHL transfer_troops = yes } }
+		
+		PAR = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = { annex_country = { target = PAR transfer_troops = yes } }
+		
+		URG = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = { annex_country = { target = URG transfer_troops = yes } }
+		
+		SWE = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		GER = { annex_country = { target = SWE transfer_troops = yes } }
+		
+		GER = { annex_country = { target = NOR transfer_troops = yes } }
+		GER = { annex_country = { target = DEN transfer_troops = yes } }
+		GER = { annex_country = { target = PGG transfer_troops = yes } }
+		GER = { annex_country = { target = RPB transfer_troops = yes } }
+		GER = { annex_country = { target = RKB transfer_troops = yes } }
+		GER = { annex_country = { target = RKH transfer_troops = yes } }
+		GER = { annex_country = { target = RKN transfer_troops = yes } }
+		GER = { annex_country = { target = RPD transfer_troops = yes } }
+		
+		GER = { annex_country = { target = CRI transfer_troops = yes } }
+		
+		GER = { annex_country = { target = RKO transfer_troops = yes } }
+		GER = { annex_country = { target = RKU transfer_troops = yes } }
+		GER = { annex_country = { target = RKD transfer_troops = yes } }
+		GER = { annex_country = { target = RKK transfer_troops = yes } }
+		GER = { annex_country = { target = RKT transfer_troops = yes } }
+		GER = { annex_country = { target = RKM transfer_troops = yes } }
+		
+		FRA = { annex_country = { target = ENG transfer_troops = yes } }
+		FRA = { annex_country = { target = VIF transfer_troops = yes } }
+		
+		ENG = {
+			every_unit_leader = {
+				set_nationality = FRA
+			}
+		}
+		
+		SWI = {
+			every_unit_leader = {
+				set_nationality = GER
+			}
+		}
+		
+		GER = { annex_country = { target = SWI transfer_troops = yes } }
 		
 		GER = {
-			end_puppet = ARG
-			end_puppet = BRA
-			end_puppet = PRU
-			end_puppet = COL
-			end_puppet = MEX
-			end_puppet = USA
+			transfer_state = 764
+			transfer_state = 785
+			transfer_state = 17
+			transfer_state = 18
+			transfer_state = 501
+			transfer_state = 502
+			transfer_state = 503
+			transfer_state = 39
+			transfer_state = 850
+			transfer_state = 736
+			transfer_state = 852
+			transfer_state = 853
+			transfer_state = 160
 		}
+		
+		FRA = {
+			release = ENG
+		}
+		
+		GER = { annex_country = { target = ENG transfer_troops = no } }
+		
+		IRE = {
+			transfer_state = 119
+		}
+		
+		
+		
+
+
+	}
+	
+	option = {
+		name = "Core all states"
+	
+		#every_owned_state = { add_core_of = GER }
+		
+		GER = {
+			transfer_state = 39
+			transfer_state = 850
+			transfer_state = 736
+			transfer_state = 852
+			transfer_state = 853
+			transfer_state = 160
+			
+			add_state_core = 39
+			add_state_core = 850
+			add_state_core = 736
+			add_state_core = 852
+			add_state_core = 853
+			add_state_core = 160
+		}
+		
+
+
+	}
+	
+	option = {
+		name = "Test"
+	
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			declare_war_on = { type = annex_everything	target = GER }
+		}
+		
+		
 
 
 	}
