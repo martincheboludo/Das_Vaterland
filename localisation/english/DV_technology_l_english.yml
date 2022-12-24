@@ -1081,3 +1081,11 @@ irbm_equipment:0 "Intermediate-Range Ballistic Missiles"
  light_cruiser_1956_desc:0 "A light cruiser is a type of small or medium-sized warship. The term is a shortening of the phrase 'light armored cruiser', describing a small ship that carried armor in the same way as an armored cruiser: a protective belt and deck."
  corvette_1_desc:0 "A corvette is a small warship. It is traditionally the smallest class of vessel considered to be a proper warship. The warship class above the corvette is that of the frigate, while the class below was historically that of the sloop-of-war."
  corvette_2_desc:0 "A corvette is a small warship. It is traditionally the smallest class of vessel considered to be a proper warship. The warship class above the corvette is that of the frigate, while the class below was historically that of the sloop-of-war."
+ 
+ battleship_1948:0 "Battleship 1948"
+ battleship_1952:0 "Battleship 1952"
+ battleship_1956:0 "Battleship 1956"
+ 
+ battleship_1948_desc:0 "A battleship is a large armored warship with a main battery consisting of large caliber guns. It dominated naval warfare in the late 19th and early 20th centuries."
+ battleship_1952_desc:0 "A battleship is a large armored warship with a main battery consisting of large caliber guns. It dominated naval warfare in the late 19th and early 20th centuries."
+ battleship_1956_desc:0 "A battleship is a large armored warship with a main battery consisting of large caliber guns. It dominated naval warfare in the late 19th and early 20th centuries."

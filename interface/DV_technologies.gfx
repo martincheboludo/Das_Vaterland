@@ -1686,7 +1686,22 @@ SpriteType = {
 	SpriteType = {	
 		name = "GFX_corvette2_medium"
 		texturefile = "gfx/interface/technologies/Naval/Light_Cruiser/Corvette_1980.dds"
-
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_battleship0_medium"
+		texturefile = "gfx/interface/technologies/Naval/Battleship/Battleship_1948.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_battleship1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Battleship/Battleship_1952.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_battleship2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Battleship/Battleship_1956.dds"
+	}
 
 }
 

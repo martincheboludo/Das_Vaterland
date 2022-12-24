@@ -1209,6 +1209,176 @@ equipments = {
 		}
 		manpower = 4000
 	}
+	
+	#End of Vanilla
+	#Start of DV
+	
+	### COLD WAR NEW SHIPS
+
+	battleship_1948 = {
+		year = 1948
+		visual_level = 1
+		archetype = ship_hull_heavy
+		priority = 1500
+		parent = battleship_4
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_bb_3
+			front_1_custom_slot = ship_anti_air_4
+			mid_1_custom_slot = ship_anti_air_4
+			mid_2_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_heavy_battery_4
+		}
+		hg_armor_piercing = 4.7
+		hg_attack = 3.5
+
+		lg_armor_piercing = 0.9
+		lg_attack = 1.2
+
+		torpedo_attack = 0
+
+		anti_air_attack = 2.7
+
+		armor_value = 44
+
+
+		surface_detection = 40
+		sub_detection = 5
+		surface_visibility = 30
+		naval_speed = 30
+		reliability = 0.92
+
+		naval_range = 6000
+
+		max_strength = 610
+
+
+
+		build_cost_ic = 6660
+		resources = {
+			##oil = 2
+			steel = 1
+			chromium = 1
+		}
+		manpower = 7400
+
+	}
+
+	battleship_1952 = {
+		year = 1952
+		visual_level = 1
+		archetype = ship_hull_heavy
+		priority = 1500
+		parent = battleship_1948
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_bb_3
+			front_1_custom_slot = ship_anti_air_4
+			mid_1_custom_slot = ship_anti_air_4
+			mid_2_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_heavy_battery_4
+		}
+		hg_armor_piercing = 10
+		hg_attack = 7.3
+
+		lg_armor_piercing = 1.9
+		lg_attack = 2.4
+
+		torpedo_attack = 0
+
+		anti_air_attack = 5.7
+
+		armor_value = 49
+
+
+		surface_detection = 40
+		sub_detection = 6
+		surface_visibility = 30
+		naval_speed = 30
+		reliability = 0.92
+
+		naval_range = 6000
+
+		max_strength = 677
+
+
+
+		build_cost_ic = 7392
+		resources = {
+			##oil = 2
+			steel = 1
+			chromium = 1
+		}
+		manpower = 7400
+
+	}
+
+	battleship_1956 = {
+		year = 1956
+		visual_level = 1
+		archetype = ship_hull_heavy
+		priority = 1500
+		parent = battleship_1952
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_bb_3
+			front_1_custom_slot = ship_anti_air_4
+			mid_1_custom_slot = ship_anti_air_4
+			mid_2_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_heavy_battery_4
+		}
+		hg_armor_piercing = 15.8
+		hg_attack = 11.6
+
+		lg_armor_piercing = 2.9
+		lg_attack = 3.9
+
+		torpedo_attack = 0
+
+		anti_air_attack = 9.0
+
+		armor_value = 56
+
+
+		surface_detection = 40
+		sub_detection = 7
+		surface_visibility = 30
+		naval_speed = 30
+		reliability = 0.92
+
+		naval_range = 6000
+
+		max_strength = 752
+
+
+
+		build_cost_ic = 8205
+		resources = {
+			##oil = 2
+			steel = 1
+			chromium = 1
+		}
+		manpower = 7400
+
+	}
 
 
 	
