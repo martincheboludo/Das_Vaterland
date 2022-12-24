@@ -1937,7 +1937,7 @@ early_ship_hull_carrier = {
 		start_year = 1948
 
 		folder = {
-			name = naval_folder
+			name = mtgnavalfolder
 			position = {  x = 0 y = @1948 }
 		}
 
@@ -1967,7 +1967,7 @@ early_ship_hull_carrier = {
 		start_year = 1952
 
 		folder = {
-			name = naval_folder
+			name = mtgnavalfolder
 			position = {  x = 0 y = @1952 }
 		}
 
@@ -1992,7 +1992,7 @@ early_ship_hull_carrier = {
 		start_year = 1956
 
 		folder = {
-			name = naval_folder
+			name = mtgnavalfolder
 			position = {  x = 0 y = @1956 }
 		}
 
