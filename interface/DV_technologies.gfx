@@ -1662,6 +1662,30 @@ SpriteType = {
 		name = "GFX_md_destroyer2_medium"
 		texturefile = "gfx/interface/technologies/Naval/Destroyer/Destroyer_1980.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_cw_light_cruiser0_medium"
+		texturefile = "gfx/interface/technologies/Naval/Light_Cruiser/Light_Cruiser_1948.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_light_cruiser1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Light_Cruiser/Light_Cruiser_1952.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_light_cruiser2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Light_Cruiser/Light_Cruiser_1956.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_corvette1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Light_Cruiser/Corvette_1960.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_corvette2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Light_Cruiser/Corvette_1980.dds"
 
 
 }
