@@ -1635,6 +1635,33 @@ SpriteType = {
 		name = "GFX_transport_plane_equipment_40_medium"
 		texturefile = "gfx/interface/technologies/Air/USA_TRANSPORT_1985.dds"
 	}
+	
+	### Naval Techs
+
+	SpriteType = {
+		name = "GFX_cw_destroyer0_medium"
+		texturefile = "gfx/interface/technologies/Naval/Destroyer/Destroyer_1948.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_destroyer1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Destroyer/Destroyer_1952.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_destroyer2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Destroyer/Destroyer_1956.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_md_destroyer1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Destroyer/Destroyer_1960.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_md_destroyer2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Destroyer/Destroyer_1980.dds"
+	}
 
 
 }

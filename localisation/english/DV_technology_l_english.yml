@@ -1031,3 +1031,41 @@ irbm_equipment:0 "Intermediate-Range Ballistic Missiles"
  transport_plane_equipment_20_desc:0 "A military transport aircraft, military cargo aircraft or airlifter is a military-owned transport aircraft used to support military operations by airlifting troops and military equipment. Transport aircraft are crucial to maintaining supply lines to forward bases that are difficult to reach by ground or waterborne access, and can be used for both strategic and tactical missions. They are also often used for civilian emergency relief missions by transporting humanitarian aid."
  transport_plane_equipment_30_desc:0 "A military transport aircraft, military cargo aircraft or airlifter is a military-owned transport aircraft used to support military operations by airlifting troops and military equipment. Transport aircraft are crucial to maintaining supply lines to forward bases that are difficult to reach by ground or waterborne access, and can be used for both strategic and tactical missions. They are also often used for civilian emergency relief missions by transporting humanitarian aid."
  transport_plane_equipment_40_desc:0 "A military transport aircraft, military cargo aircraft or airlifter is a military-owned transport aircraft used to support military operations by airlifting troops and military equipment. Transport aircraft are crucial to maintaining supply lines to forward bases that are difficult to reach by ground or waterborne access, and can be used for both strategic and tactical missions. They are also often used for civilian emergency relief missions by transporting humanitarian aid."
+ 
+ #Naval
+ 
+  destroyer_1948:0 "Destroyer 1948"
+ destroyer_1952:0 "Destroyer 1952"
+ destroyer_1956:0 "Destroyer 1956"
+ destroyer_1960:0 "Destroyer 1960" #1960
+ destroyer_1980:0 "Destroyer 1980" #1980
+ 
+ destroyer_1948_desc:"In naval terminology, a destroyer is a fast, manoeuvrable, long-endurance warship intended to escort larger vessels in a fleet, convoy or battle group and defend them against powerful short range attackers."
+ destroyer_1952_desc:"In naval terminology, a destroyer is a fast, manoeuvrable, long-endurance warship intended to escort larger vessels in a fleet, convoy or battle group and defend them against powerful short range attackers."
+ destroyer_1956_desc:"In naval terminology, a destroyer is a fast, manoeuvrable, long-endurance warship intended to escort larger vessels in a fleet, convoy or battle group and defend them against powerful short range attackers."
+ destroyer_1960_desc:"In naval terminology, a destroyer is a fast, manoeuvrable, long-endurance warship intended to escort larger vessels in a fleet, convoy or battle group and defend them against powerful short range attackers."
+ destroyer_1980_desc:"In naval terminology, a destroyer is a fast, manoeuvrable, long-endurance warship intended to escort larger vessels in a fleet, convoy or battle group and defend them against powerful short range attackers."
+ 
+ submarine_1948:0 "Submarine 1948"
+ submarine_1952:0 "Submarine 1952"
+ submarine_1956:0 "Submarine 1956"
+ submarine_1960:0 "Submarine 1960" #1960
+ submarine_1980:0 "Submarine 1980" #1980
+ 
+ submarine_1948_desc:"A submarine (or sub) is a watercraft capable of independent operation underwater. It differs from a submersible, which has more limited underwater capability."
+ submarine_1952_desc:"A submarine (or sub) is a watercraft capable of independent operation underwater. It differs from a submersible, which has more limited underwater capability."
+ submarine_1956_desc:"A submarine (or sub) is a watercraft capable of independent operation underwater. It differs from a submersible, which has more limited underwater capability."
+ submarine_1960_desc:"A submarine (or sub) is a watercraft capable of independent operation underwater. It differs from a submersible, which has more limited underwater capability."
+ submarine_1980_desc:"A submarine (or sub) is a watercraft capable of independent operation underwater. It differs from a submersible, which has more limited underwater capability."
+ 
+ carrier_1948:0 "Carrier 1948"
+ carrier_1952:0 "Carrier 1952"
+ carrier_1956:0 "Carrier 1956"
+ carrier_1960:0 "Carrier 1960" #1960
+ carrier_1980:0 "Carrier 1980" #1980
+ 
+ carrier_1948_desc:"An aircraft carrier is a warship that serves as a seagoing airbase, equipped with a full-length flight deck and facilities for carrying, arming, deploying, and recovering aircraft."
+ carrier_1952_desc:"An aircraft carrier is a warship that serves as a seagoing airbase, equipped with a full-length flight deck and facilities for carrying, arming, deploying, and recovering aircraft."
+ carrier_1956_desc:"An aircraft carrier is a warship that serves as a seagoing airbase, equipped with a full-length flight deck and facilities for carrying, arming, deploying, and recovering aircraft."
+ carrier_1960_desc:"An aircraft carrier is a warship that serves as a seagoing airbase, equipped with a full-length flight deck and facilities for carrying, arming, deploying, and recovering aircraft."
+ carrier_1980_desc:"An aircraft carrier is a warship that serves as a seagoing airbase, equipped with a full-length flight deck and facilities for carrying, arming, deploying, and recovering aircraft."

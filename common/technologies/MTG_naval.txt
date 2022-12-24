@@ -1,5 +1,11 @@
 technologies = {
 
+	@1948 = 26
+	@1952 = 32
+	@1956 = 38
+	@1960 = 44
+	@1980 = 50
+
 #   ###  ##  #  # ###      ## #  # ### ###   ##
 #    #  #    #  #  #      #   #  #  #  #  # #
 #    #  # ## ####  #       #  ####  #  ###   #
@@ -156,6 +162,11 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			light_ship_engine_4
+		}
+		
+		path = {
+			leads_to_tech = cw_destroyer0
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2
@@ -1598,4 +1609,163 @@ early_ship_hull_carrier = {
 			always = no
 		}
 	}
+	
+	#End of Vanilla
+	#Start of DV
+	
+	cw_destroyer0 = {
+
+		enable_equipments = {
+			destroyer_1948
+		}
+
+		path = {
+			leads_to_tech = cw_destroyer1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 1948
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1948 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	cw_destroyer1 = {
+
+		enable_equipments = {
+			destroyer_1952
+		}
+
+		path = {
+			leads_to_tech = cw_destroyer2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+
+		start_year = 1952
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1952 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	cw_destroyer2 = {
+
+		enable_equipments = {
+			destroyer_1956
+		}
+
+		research_cost = 1.25
+
+		start_year = 1956
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1956 }
+		}
+
+		path = {
+			leads_to_tech = md_destroyer1
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+
+
+	##DESTROYERS##
+
+	md_destroyer1 = {
+
+		enable_equipments = {
+			destroyer_1960
+		}
+
+		path = {
+			leads_to_tech = md_destroyer2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	md_destroyer2 = {
+
+		enable_equipments = {
+			destroyer_1980
+		}
+
+		path = {
+			leads_to_tech = md_destroyer3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	
 }
