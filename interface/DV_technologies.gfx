@@ -1702,6 +1702,57 @@ SpriteType = {
 		name = "GFX_cw_battleship2_medium"
 		texturefile = "gfx/interface/technologies/Naval/Battleship/Battleship_1956.dds"
 	}
+	
+		
+	SpriteType = {
+		name = "GFX_cw_submarine0_medium"
+		texturefile = "gfx/interface/technologies/Naval/Submarine/Submarine_1948.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_submarine1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Submarine/Submarine_1952.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_submarine2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Submarine/Submarine_1956.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_md_submarine1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Submarine/Submarine_1960.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_md_submarine2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Submarine/Submarine_1980.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_carrier0_medium"
+		texturefile = "gfx/interface/technologies/Naval/Carrier/Carrier_1948.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_carrier1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Carrier/Carrier_1952.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_carrier2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Carrier/Carrier_1956.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_md_carrier1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Carrier/Carrier_1960.dds"
+	}
+
+	SpriteType = {	
+		name = "GFX_md_carrier2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Carrier/Carrier_1980.dds"
+	}
 
 }
 

@@ -511,4 +511,238 @@ equipments = {
 			chromium = 1
 		}
 	}
+	
+	#End of Vanilla
+	#Start of DV
+	
+	submarine_1948 = {
+		year = 1948
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_4
+		module_slots = inherit
+
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 4
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+
+		surface_detection = 70
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 10
+		naval_speed = 16
+		reliability = 0.80
+
+		naval_range = 6000
+
+		max_strength = 38.9
+
+
+
+		build_cost_ic = 543
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 1
+		}
+		type = {
+			submarine
+		}
+	}
+
+	submarine_1952 = {
+		year = 1952
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_1948
+		module_slots = inherit
+
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 8.4
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+
+		surface_detection = 70
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 10
+		naval_speed = 16
+		reliability = 0.80
+
+		naval_range = 6000
+
+		max_strength = 43.1
+
+
+
+		build_cost_ic = 603
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 1
+		}
+		type = {
+			submarine
+		}
+	}
+
+	submarine_1956 = {
+		year = 1956
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_1952
+		module_slots = inherit
+
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 13.2
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+
+		surface_detection = 70
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 10
+		naval_speed = 16
+		reliability = 0.80
+
+		naval_range = 6000
+
+		max_strength = 47.9
+
+
+
+		build_cost_ic = 670
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 1
+		}
+		type = {
+			submarine
+		}
+	}
+
+	submarine_1960 = {
+		year = 1960
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_1956
+		module_slots = inherit
+
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 18.7
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+
+		surface_detection = 70
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 10
+		naval_speed = 16
+		reliability = 0.80
+
+		naval_range = 6000
+
+		max_strength = 53.1
+
+
+
+		build_cost_ic = 743
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 1
+		}
+		type = {
+			submarine
+		}
+	}
+
+	submarine_1980 = {
+		year = 1980
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_1960
+		module_slots = inherit
+
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 24.7
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+
+		surface_detection = 70
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 10
+		naval_speed = 16
+		reliability = 0.80
+
+		naval_range = 6000
+
+		max_strength = 59
+
+
+
+		build_cost_ic = 825
+		resources = {
+			#oil = 2
+			steel = 3
+			chromium = 1
+		}
+		type = {
+			submarine
+		}
+	}
+	
 }

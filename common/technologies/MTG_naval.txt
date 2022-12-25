@@ -1240,6 +1240,12 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = {
 			carrier_ship_engine_4
 		}
+		
+		path = {
+			leads_to_tech = cw_carrier0
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 1.5
 
 		start_year = 1944
@@ -1413,6 +1419,11 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = {
 			ship_torpedo_sub_4
 			sub_ship_engine_4
+		}
+		
+		path = {
+			leads_to_tech = cw_submarine0
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2.0
@@ -2005,6 +2016,306 @@ early_ship_hull_carrier = {
 			bb_tech
 			bc_tech
 		}
+	}
+	
+	cw_submarine0 = {
+
+		enable_equipments = {
+			submarine_1948
+		}
+
+		path = {
+			leads_to_tech = cw_submarine1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.02
+
+		start_year = 1948
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = @1948 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	cw_submarine1 = {
+
+		enable_equipments = {
+			submarine_1952
+		}
+
+		path = {
+			leads_to_tech = cw_submarine2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.02
+
+		start_year = 1952
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = @1952 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	cw_submarine2 = {
+
+		enable_equipments = {
+			submarine_1956
+		}
+
+
+		research_cost = 1.02
+
+		start_year = 1956
+
+		folder = {
+			name = naval_folder
+			position = { x = -2 y = @1956 }
+		}
+
+		path = {
+			leads_to_tech = md_submarine1
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	md_submarine1 = {
+
+		enable_equipments = {
+			submarine_1960
+		}
+
+		path = {
+			leads_to_tech = md_submarine2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0.75
+
+		start_year = 1960
+
+		folder = {
+			name = naval_folder
+			position = { x = -2 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+
+	}
+
+
+	md_submarine2 = {
+
+		enable_equipments = {
+			submarine_1980
+		}
+
+		research_cost = 1.25
+
+		start_year = 1980
+
+		folder = {
+			name = naval_folder
+			position = { x = -2 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+
+	}
+	
+	cw_carrier0 = {
+
+		enable_equipments = {
+			carrier_1948
+		}
+
+		path = {
+			leads_to_tech = cw_carrier1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 1948
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = @1948 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	cw_carrier1 = {
+
+		enable_equipments = {
+			carrier_1952
+		}
+
+		path = {
+			leads_to_tech = cw_carrier2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 1952
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = @1952 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	cw_carrier2 = {
+
+		enable_equipments = {
+			carrier_1956
+		}
+
+		research_cost = 2
+
+		start_year = 1956
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = @1956 }
+		}
+
+		path = {
+			leads_to_tech = md_carrier1
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	##CARRIERS##
+
+	md_carrier1 = {
+
+		enable_equipments = {
+			carrier_1960
+		}
+
+		path = {
+			leads_to_tech = md_carrier2
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 3
+
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+
+	}
+
+
+	md_carrier2 = {
+
+		enable_equipments = {
+			carrier_1980
+		}
+
+		research_cost = 4
+
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = @1980 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+
 	}
 	
 	
