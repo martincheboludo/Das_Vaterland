@@ -92,6 +92,6 @@ set_popularities = {
 	create_country_leader = {
 		name = "Dalai Lama"
 		picture = "Dalai_Lama.dds"
-		ideology = absolute_monarchy
+		ideology = despotism
 	}
 }

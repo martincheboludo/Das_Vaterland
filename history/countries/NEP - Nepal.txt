@@ -110,6 +110,6 @@ set_popularities = {
 	create_country_leader = {
 		name = "Tribhuvan Bir Bikram Shah"
 		picture = "Tribhuvan_Bir_Bikram_Shah.dds"
-		ideology = absolute_monarchy
+		ideology = despotism
 	}
 }
