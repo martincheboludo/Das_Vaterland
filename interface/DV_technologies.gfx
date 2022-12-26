@@ -1771,7 +1771,7 @@ SpriteType = {
 	
 	SpriteType = {	
 		name = "GFX_frigate1_medium"
-		texturefile = "gfx/interface/technologies/Naval/Heavy_Cruiser/Heavy_Cruiser_1960.dds"
+		texturefile = "gfx/interface/technologies/Naval/Heavy_Cruiser/Frigate_1960.dds"
 	}
 
 }

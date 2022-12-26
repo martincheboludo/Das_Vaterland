@@ -2341,7 +2341,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1948 }
+			position = { x = 1 y = @1948 }
 		}
 
 		ai_will_do = {
@@ -2373,7 +2373,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1952 }
+			position = { x = 1 y = @1952 }
 		}
 
 		ai_will_do = {
@@ -2399,7 +2399,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1956 }
+			position = { x = 1 y = @1956 }
 		}
 
 		path = {
@@ -2430,7 +2430,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1960 }
+			position = { x = 1 y = @1960 }
 		}
 
 		ai_will_do = {
