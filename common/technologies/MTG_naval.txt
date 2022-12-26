@@ -655,6 +655,11 @@ technologies = {
 			leads_to_tech = cw_light_cruiser0
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = cw_heavy_cruiser0
+			research_cost_coeff = 1
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -2316,6 +2321,127 @@ early_ship_hull_carrier = {
 			cv_tech
 		}
 
+	}
+	
+		cw_heavy_cruiser0 = {
+
+		enable_equipments = {
+			heavy_cruiser_1948
+		}
+
+		path = {
+			leads_to_tech = cw_heavy_cruiser1
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 2
+
+		start_year = 1948
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -3 y = @1948 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+
+	cw_heavy_cruiser1 = {
+
+		enable_equipments = {
+			heavy_cruiser_1952
+		}
+
+		path = {
+			leads_to_tech = cw_heavy_cruiser2
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 2
+
+		start_year = 1952
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -3 y = @1952 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+
+	cw_heavy_cruiser2 = {
+
+		enable_equipments = {
+			heavy_cruiser_1956
+		}
+
+		research_cost = 2
+
+		start_year = 1956
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -3 y = @1956 }
+		}
+
+		path = {
+			leads_to_tech = frigate1
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+
+	frigate1 = {
+
+		enable_equipments = {
+			frigate_1
+		}
+
+		research_cost = 1
+
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -3 y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
 	}
 	
 	

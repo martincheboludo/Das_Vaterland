@@ -1753,6 +1753,26 @@ SpriteType = {
 		name = "GFX_md_carrier2_medium"
 		texturefile = "gfx/interface/technologies/Naval/Carrier/Carrier_1980.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_cw_heavy_cruiser0_medium"
+		texturefile = "gfx/interface/technologies/Naval/Heavy_Cruiser/Heavy_Cruiser_1948.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_heavy_cruiser1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Heavy_Cruiser/Heavy_Cruiser_1952.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_cw_heavy_cruiser2_medium"
+		texturefile = "gfx/interface/technologies/Naval/Heavy_Cruiser/Heavy_Cruiser_1956.dds"
+	}
+	
+	SpriteType = {	
+		name = "GFX_frigate1_medium"
+		texturefile = "gfx/interface/technologies/Naval/Heavy_Cruiser/Heavy_Cruiser_1960.dds"
+	}
 
 }
 

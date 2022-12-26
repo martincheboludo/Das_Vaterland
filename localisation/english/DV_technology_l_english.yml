@@ -1089,3 +1089,13 @@ irbm_equipment:0 "Intermediate-Range Ballistic Missiles"
  battleship_1948_desc:0 "A battleship is a large armored warship with a main battery consisting of large caliber guns. It dominated naval warfare in the late 19th and early 20th centuries."
  battleship_1952_desc:0 "A battleship is a large armored warship with a main battery consisting of large caliber guns. It dominated naval warfare in the late 19th and early 20th centuries."
  battleship_1956_desc:0 "A battleship is a large armored warship with a main battery consisting of large caliber guns. It dominated naval warfare in the late 19th and early 20th centuries."
+ 
+ heavy_cruiser_1948:0 "Heavy Cruiser 1948"
+ heavy_cruiser_1952:0 "Heavy Cruiser 1952"
+ heavy_cruiser_1956:0 "Heavy Cruiser 1956"
+ frigate_1:0 "Frigate I"
+ 
+ heavy_cruiser_1948_desc:0 "The heavy cruiser was a type of cruiser, a naval warship designed for long range and high speed, armed generally with naval guns of roughly 203 mm (8 inches) in caliber, whose design parameters were dictated by the Washington Naval Treaty of 1922 and the London Naval Treaty of 1930."
+ heavy_cruiser_1952_desc:0 "The heavy cruiser was a type of cruiser, a naval warship designed for long range and high speed, armed generally with naval guns of roughly 203 mm (8 inches) in caliber, whose design parameters were dictated by the Washington Naval Treaty of 1922 and the London Naval Treaty of 1930."
+ heavy_cruiser_1956_desc:0 "The heavy cruiser was a type of cruiser, a naval warship designed for long range and high speed, armed generally with naval guns of roughly 203 mm (8 inches) in caliber, whose design parameters were dictated by the Washington Naval Treaty of 1922 and the London Naval Treaty of 1930."
+ frigate_1_desc:0 "A frigate is a type of warship. In different eras, the roles and capabilities of ships classified as frigates have varied somewhat."
