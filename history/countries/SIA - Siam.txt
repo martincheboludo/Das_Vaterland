@@ -272,6 +272,6 @@ if = {
 	create_country_leader = {
 		name = "Rama VIII"
 		picture = "gfx/leaders/SIA/Rama_VIII.dds"
-		ideology = absolute_monarchy
+		ideology = despotism
 	}
 }
