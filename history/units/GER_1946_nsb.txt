@@ -76,10 +76,15 @@ division_template = {
 
 	regiments = {
 		light_armor = { x = 0 y = 0 }		# REVISIT -- L Arm = Pz IIC (variant?) for all
-		motorized = { x = 1 y = 0 }			
-		motorized = { x = 1 y = 1 }
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
 		motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
 	}
 	support = {
 		mot_recon = { x = 0 y = 0 }
@@ -91,13 +96,16 @@ division_template = {
 	division_names_group = GER_Arm_01
 
 	regiments = {
-		light_armor = { x = 0 y = 0 }		# REVISIT -- L Arm = Pz IIC (variant?) for all
-		light_armor = { x = 0 y = 1 }		
-		light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
+		medium_armor = { x = 0 y = 0 }		# REVISIT -- L Arm = Pz IIC (variant?) for all
+		medium_armor = { x = 0 y = 1 }		
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
 		motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
 	}
 	support = {
 		mot_recon = { x = 0 y = 0 }
@@ -121,7 +129,8 @@ division_template = {
 		WSS_motorized = { x = 3 y = 2 }
 	}
 	support = {
-        artillery = { x = 0 y = 0 }			
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
 	}
 	priority = 2
 }
@@ -1075,26 +1084,18 @@ units = {
 		start_experience_factor = 0.3
 	}
 
-	### 10. Armee (CO: von Reicheneau) ###
-	division= {	# "1. Leichte Division"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 6
-		}
+	### "10. SS-Panzerdivision 'Frundsberg'"
+	division= {	# "10. SS-Panzerdivision 'Frundsberg'"
+		name = "10. SS-Panzerdivision 'Frundsberg'"
 		location = 1406
-		division_template = "Leichte Division"
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_1 = { owner = GER version_name = "Panzer 35(t)" } }
+		division_template = "SS-Panzerdivision"
+		start_experience_factor = 1.0
 	}
-	division= {	# "3. Leichte Division"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 8
-		}
+	division= {	# "12. SS-Panzerdivision 'Hitlerjugend'"
+		name = "12. SS-Panzerdivision 'Hitlerjugend'"
 		location = 1406
-		division_template = "Leichte Division"
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_1 = { owner = GER version_name = "Panzer 35(t)" } }
+		division_template = "SS-Panzerdivision"
+		start_experience_factor = 1.0
 	}
 	# IV. Armeekorps (CO: von Schwedler) #
 	division= {	# "4. Infanterie-Division"
@@ -1162,26 +1163,19 @@ units = {
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	# XV. Armeekorps (Mot) (CO: Hoth) #
-	division= {	# "2. Leichte Division"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 7
-		}
+	# "9. SS-Panzerdivision 'Hohenstaufen'"
+	division= {	# "9. SS-Panzerdivision 'Hohenstaufen'"
+		name = "9. SS-Panzerdivision 'Hohenstaufen'"
 		location = 9417
-		division_template = "Leichte Division"
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_1 = { owner = GER version_name = "Panzer 35(t)" } }
+		division_template = "SS-Panzerdivision"
+		start_experience_factor = 1.0
 	}
-	# XVI. Armeekorps (Mot) (CO: Hoepner) #
-	division= {	# "1. Panzer-Division"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
+	# Panzergrenadier Division Großdeutschland
+	division= {	# "Panzergrenadier Division Großdeutschland"
+		name = "Panzergrenadier Division Großdeutschland"
 		location = 3151
 		division_template = "Panzer-Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 1.0
 	}
 	division= {	# "14. Infanterie-Division"
 		division_name = {
@@ -1293,25 +1287,18 @@ units = {
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	# XVIII. Armeekorps (CO: Beyer) #
-	division= {	# "2. Panzer-Division"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
+	# Fallschirm-Panzer-Division 1. Hermann Göring
+	division= {	# "Fallschirm-Panzer-Division 1. Hermann Göring"
+		name = "Fallschirm-Panzer-Division 1. Hermann Göring"
 		location = 9508
 		division_template = "Panzer-Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 1.0
 	}
-	division= {	# "4. Leichte Division"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 9
-		}
+	division= {	# 5th SS Panzer Division Wiking
+		name = "5. SS-Panzerdivision Wiking"
 		location = 3544
-		division_template = "Leichte Division"
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_1 = { owner = GER version_name = "Panzer 35(t)" } }
+		division_template = "SS-Panzerdivision"
+		start_experience_factor = 1.0
 	}
 	division= {	# "3. Gebirgs-Division"
 		division_name = {
