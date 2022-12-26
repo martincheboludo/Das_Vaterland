@@ -10,7 +10,7 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = BHU_jigme_wangchuck
+#recruit_character = BHU_jigme_wangchuck
 recruit_character = BHU_tsarong_wangyal
 recruit_character = BHU_gendün_rinpoche
 recruit_character = BHU_andruk_tashi
@@ -30,6 +30,12 @@ recruit_character = BHU_sonam_pradukha
 recruit_character = BHU_jigme_palden_dorji
 recruit_character = BHU_sonam_tobgay_dorji
 recruit_character = BHU_mang_pos_bhur_bai
+
+	create_country_leader = {
+		name = "Jigme Wangchuk"
+		picture = "gfx/leaders/BHU/portrait_bhu_jigme_wangchuk.dds"
+		ideology = absolute_monarchy
+	}
 
 
 1939.1.1 = {

@@ -155,7 +155,7 @@ set_politics = {
 		name = "Faisal II"
 		desc = "POLITICS_FAISAL_II_DESC"
 		picture = "gfx/leaders/IRQ/Faisal_II.dds"
-		ideology = despotism
+		ideology = absolute_monarchy
 	}
 
 }

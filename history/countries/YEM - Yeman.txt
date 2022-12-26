@@ -13,7 +13,7 @@ if = {
 	set_technology = { camelry = 1 }
 }
 
-recruit_character = YEM_imam_yahya
+#recruit_character = YEM_imam_yahya
 recruit_character = YEM_chandler_ibn_khalid
 recruit_character = YEM_mustafa_ibn_umar
 recruit_character = YEM_fuad_ibn_yusuf
@@ -33,6 +33,12 @@ recruit_character = YEM_yusuf_ibn_khalid
 recruit_character = YEM_fuad_ibn_falil
 recruit_character = YEM_cecil_barrington_hurst
 recruit_character = YEM_nae_m_al_abdul
+
+	create_country_leader = {
+		name = "Imam Yahya"
+		picture = "gfx/leaders/YEM/portrait_yem_imam_yaha.dds"
+		ideology = absolute_monarchy
+	}
 
 
 set_war_support = 0.1

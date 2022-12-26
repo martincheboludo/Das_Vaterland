@@ -146,7 +146,7 @@ set_politics = {
 create_country_leader = {
 	name = "Mohammad Reza Pahlavi"
 	picture = "gfx/leaders/PER/Iran_Mohammad_Reza_Pahlavi.dds"
-	ideology = despotism
+	ideology = absolute_monarchy
 }
 
 }

@@ -38,7 +38,7 @@ if = {
 	}
 }
 
-recruit_character = AFG_mohammed_zahir_shah
+#recruit_character = AFG_mohammed_zahir_shah
 recruit_character = AFG_akram_sattari
 recruit_character = AFG_yaqub_khan
 recruit_character = AFG_mihrdil_shahnawaz
@@ -60,6 +60,11 @@ recruit_character = AFG_haji_faiz_muhammed_zikeria
 recruit_character = AFG_mohammad_hashim_khan
 recruit_character = AFG_muhammed_nowroz
 
+	create_country_leader = {
+		name = "Mohammed Zahir Shah"
+		picture = "gfx/leaders/AFG/Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+		ideology = absolute_monarchy
+	}
 
 1939.1.1 = {
 
