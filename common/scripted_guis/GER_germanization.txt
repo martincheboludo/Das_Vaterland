@@ -1,0 +1,77 @@
+scripted_gui = {
+
+	ger_germanization_scripted_gui = {
+		context_type = selected_state_context
+		parent_window_token = selected_state_view 
+		window_name = "ger_germanization_ui_window"
+		visible = {
+			THIS = {
+				NOT = {
+					is_core_of = GER
+				}
+				is_controlled_by_ROOT_or_subject = yes
+			}
+			
+		}
+		properties = {
+			germanization_progressbar = {
+				frame = var:germanization_value
+			}
+			
+		}
+		effects = {
+			germanization_icon_click = {
+				#if = {
+				#	limit ={
+				#		check_variable = {
+				#			germanization_value > 99
+				#		}
+				#	}
+					add_core_of = ROOT
+				#}
+				
+				hidden_effect = {
+					# You don't have the required germanization
+					if = {
+						limit ={
+							check_variable = {
+								germanization_value < 100
+							}
+						}
+						remove_core_of = ROOT
+					}
+				}
+    				
+				
+			}
+		}
+		triggers = {
+            germanization_icon_enabled = {
+				custom_trigger_tooltip = {
+                	check_variable = {
+						germanization_value > 99
+					}
+					tooltip = germanization_at_100_tt
+				}
+            }
+			german_militias_enabled = {
+				custom_trigger_tooltip = {
+					check_variable = {
+						germanization_value > 49
+					}
+					tooltip = germanization_at_50_tt
+				}
+			}
+            propaganda_icon_enabled = {
+				custom_trigger_tooltip = {
+					check_variable = {
+						germanization_value > 24
+					}
+					tooltip = germanization_at_25_tt
+				}
+			}
+        }
+	}
+	
+}
+

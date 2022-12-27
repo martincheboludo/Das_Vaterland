@@ -21,3 +21,16 @@
  GER_give_chaco_to_peru:0 "Give Chaco to Peru-Bolivien"
  GER_give_southwest_to_mexiko:0 "Give Southwest to Zentralamerika"
  GER_give_southwest_to_amerika:0 "Give Southwest to Nordamerika"
+
+
+ DV_GER_germanization:0 "Germanization"
+ GER_select_rk_to_germanize:0 "Organise Germanization Campaign in [FROM.GetName]"
+ GER_encourage_germanization_in_FROM:0 "Organise Siedlungscampaign in [FROM.GetName]"
+ GER_integrate_germanized_state:0 "Integrate [FROM.GetName]"
+ germanization_button_tt:0 "Complete Germanization \n§YRequires:§! [!germanization_icon_enabled] \n\n§YOn click:§! [!germanization_icon_click]"
+ germanization_at_100_tt:0 "§7State is fully germanized§!"
+ german_militias_tt:0 "German Militias \n§YRequires:§! [!german_militias_enabled]"
+ germanization_at_50_tt:0 "Germanization is at least at §750§!%"
+ germanization_at_25_tt:0 "Germanization is at least at §725§!%"
+ germanization_add_10_tt:0 "Germanization is increased by §710§!%"
+ propaganda_campaigns_tt:0 "Propaganda Campaigns \n§YRequires:§! [!propaganda_icon_enabled]"

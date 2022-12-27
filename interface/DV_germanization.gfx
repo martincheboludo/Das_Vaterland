@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	#### unit texticons
+
+
+	spriteType = {
+		name = "GFX_icon_megaphone"
+		texturefile = "gfx/interface/icon_megaphone.dds"
+		legacy_lazy_load = no
+	}
+
+}

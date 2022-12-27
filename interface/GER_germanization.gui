@@ -1,0 +1,52 @@
+
+guiTypes = {
+	containerWindowType = {
+		name = "ger_germanization_ui_window"
+		position = { x=5 y=-95 }
+		size = { width = 463 height = 100 }
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_paper_w_frame_bg"
+		}
+
+		iconType = {
+			name = "germanization_bar"
+			spriteType  = GFX_research_progressbar_frame
+			orientation = CENTER
+			centerposition = yes
+		}
+		iconType = {
+			name = "germanization_progressbar"
+			spriteType  = Gfx_research_progressbar
+			orientation = CENTER
+			centerposition = yes
+		}
+		
+
+		buttonType = {
+			name = "germanization_icon"
+			spriteType = GFX_population_icon
+			pdx_tooltip = germanization_button_tt
+			centerposition = yes
+			orientation = CENTER
+			position = {x = 200 y = 0}
+		}
+		iconType = {
+			name = "german_militias"
+			spriteType = GFX_button_kick
+			scale = 1.3
+			orientation = CENTER
+			centerposition = yes
+			pdx_tooltip = german_militias_tt
+		}
+		iconType = {
+			name = "propaganda_icon"
+			spriteType = GFX_icon_megaphone
+			orientation = CENTER
+			centerposition = yes
+			position = {x = -100 y = 0}
+			pdx_tooltip = propaganda_campaigns_tt
+		}
+	} 
+
+}

@@ -1286,4 +1286,111 @@ GER_give_southwest_to_amerika = {
 
 }
 
+DV_GER_germanization = {
+	GER_integrate_germanized_state = {
+		icon = ger_reichskommissariats
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_core_of = ROOT
+				check_variable = {germanization_value = 100}
+			}
+		}
+		complete_effect = {
+			ROOT = {
+				transfer_state = FROM
+			}
+		}
+		fire_only_once = yes
+	}
+	GER_select_rk_to_germanize = {
+		icon = ger_reichskommissariats
+		target_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+			}
+		}
+		complete_effect = {
+			set_variable = { GER.selected_rk = FROM }
+			hidden_effect= {
+				random_list = {
+					50 = {
+						FROM = {
+							set_variable = {GER.germanization_protest = FROM}
+						}
+					}
+					50 = {
+
+					}
+				}	
+			}
+		}
+	}
+	GER_encourage_germanization_in_FROM = {
+		icon = generic_political_discourse
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_controlled_by_ROOT_or_subject = yes
+				NOT = {
+					is_core_of = ROOT
+				}
+				
+			}
+		}
+		visible = {
+			FROM = {is_core_of = var:GER.selected_rk}
+		}
+		available = {
+			set_temp_variable = {
+				distance_factor = FROM.distance_to@64
+			}
+			multiply_temp_variable = {
+				distance_factor = FROM.state_population_k
+			}
+			divide_temp_variable = {
+				distance_factor = 7000
+			}
+			has_political_power > var:distance_factor
+			set_temp_variable = {
+				manpower_cost = FROM.state_population_k
+			}
+			multiply_temp_variable = {
+				manpower_cost = 10
+			}
+			has_manpower > var:manpower_cost
+		}
+		complete_effect = {
+			
+			set_temp_variable = {
+				distance_factor = FROM.distance_to@64
+			}
+			multiply_temp_variable = {
+				distance_factor = -1
+			}
+			multiply_temp_variable = {
+				distance_factor = FROM.state_population_k
+			}
+			divide_temp_variable = {
+				distance_factor = 7000
+			}
+			add_political_power = var:distance_factor
+			set_temp_variable = {
+				manpower_cost = FROM.state_population_k
+			}
+			multiply_temp_variable = {
+				manpower_cost = -10
+			}
+			add_manpower = var:manpower_cost
+			custom_effect_tooltip = germanization_add_10_tt
+			add_to_variable = {
+				FROM.germanization_value = 10
+			}
+		}
+	}
+
+	
+
+
+}
 #

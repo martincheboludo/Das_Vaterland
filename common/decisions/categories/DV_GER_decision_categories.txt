@@ -9,3 +9,9 @@ DV_GER_reichskommissariats = {
 	}
 
 }
+DV_GER_germanization = {
+	allowed = {
+		original_tag = GER
+	}
+	priority = 100
+}
