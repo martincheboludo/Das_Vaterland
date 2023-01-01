@@ -48,6 +48,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"JAP" = {
+			#minor = yes
+			history = "JAP_END_OF_WW2_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"VIF" = {
 			history = "VIF_END_OF_WW2_DESC"
 			ideology = neutrality
