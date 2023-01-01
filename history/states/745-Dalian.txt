@@ -23,6 +23,10 @@ state={
 				coastal_bunker = 1
 			}
 		}
+		1946.1.1 = {
+			owner = MAN
+			controller = MAN
+		}
 
 	
 	}
