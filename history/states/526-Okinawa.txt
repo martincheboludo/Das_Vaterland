@@ -18,10 +18,6 @@ state={
 			}
 
 		}
-		1946.1.1 = {
-			owner = USA
-			controller = USA
-		}
 		victory_points = {
 			11932 10 
 		}

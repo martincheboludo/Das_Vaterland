@@ -22,12 +22,6 @@ state= {
 		victory_points = {
 			12446 1
 		}
-		
-		1946.1.1 = {
-			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-		}
 
 	}
 	provinces=

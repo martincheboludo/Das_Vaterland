@@ -1780,6 +1780,17 @@ dismantle_faction = yes
 
 1946.1.1 = {
 
+create_faction = "Allies"
+add_to_faction = CAN
+add_to_faction = AUS
+add_to_faction = NZL
+add_to_faction = IRE
+add_to_faction = FRA
+add_to_faction = BEL
+add_to_faction = HOL
+add_to_faction = DEN
+add_to_faction = NOR
+
 set_oob = "ENG_1946_nsb"
 
 create_country_leader = {

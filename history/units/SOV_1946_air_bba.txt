@@ -21,7 +21,7 @@ air_wings = {
 		small_plane_cas_airframe_1 = { owner = "SOV" amount = 96 version_name = "MBR-2" }			# 8ya VMF Aviabrigada -- MBR-2
 					# 10ya VMF Aviabrigada -- MBR-2
 	}
-	570 = {																# Moscow 
+	566 = {																# Moscow 
 		### MVO Aviatsya Komandovaniya ###
 		small_plane_airframe_0 = { owner = "SOV" amount = 90  version_name = "I-15"}				# 2ya Istrebitel'nye Avia. Polk -- I-15
 						# 54ya Istrebitel'nye Avia. Polk -- I-15
@@ -43,11 +43,11 @@ air_wings = {
 					# 65ya Bombardirovochnye Avia. Polk -- DB-3A
 					# 70ya Bombardirovochnye Avia. Polk -- DB-3A
 	}
-	657 = {																# Smolensk 
+	566 = {																# Smolensk 
 		### KalVO Aviatsya Komandovaniya ###
 		small_plane_airframe_1 = { owner = "SOV" amount = 60 version_name = "I-16 Type 10"}				# 17ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
 	}
-	657 = {																# Kiev 
+	563 = {																# Kiev 
 		### KOVO Aviatsya Komandovaniya ###
 		small_plane_airframe_0 = { owner = "SOV" amount = 60 version_name = "I-153"}				# 22ya Istrebitel'nye Avia. Polk -- I-153 (REVISIT -- VARIANT)
 		small_plane_airframe_1 = { owner = "SOV" amount = 90 version_name = "I-16 Type 10"}				# 51ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
@@ -57,7 +57,7 @@ air_wings = {
 					# 10ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
 					# 62ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
 	}
-	655 = {																# Kharkov 
+	563 = {																# Kharkov 
 		### KhVO Aviatsya Komandovaniya ###
 		medium_plane_airframe_0 =  { owner = "SOV" amount = 60 version_name = "DB-3" }			# 19ya Bombardirovochnye Avia. Polk -- DB-3A
 	}
@@ -77,7 +77,7 @@ air_wings = {
 				# 7ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
 	}
 
-	408 = {																# Vladivostock 
+	570 = {																# Vladivostock 
 		### Dal'nevostochnyi Aviatsya Komandovaniya ###
 		small_plane_airframe_0 = { owner = "SOV" amount = 83  version_name = "I-15"}				# 31ya Istrebitel'nye Avia. Polk -- I-15
 		small_plane_airframe_0 = { owner = "SOV" amount = 83  version_name = "I-15"}				# 31ya Istrebitel'nye Avia. Polk -- I-15
@@ -95,14 +95,14 @@ air_wings = {
 				# 30ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
 				# 64ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
 	}
-	409 = {																# Chita 
+	570 = {																# Chita 
 		### ZbkVO Aviatsya Komandovaniya ###
 		small_plane_airframe_0 = { owner = "SOV" amount = 60  version_name = "I-15"}				# 100ya Istrebitel'nye Avia. Polk -- I-15
 		small_plane_airframe_1 = { owner = "SOV" amount = 45 version_name = "I-16 Type 10" }				# 67ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
 		medium_plane_airframe_1 =  { owner = "SOV" amount = 60 version_name = "ANT-40"}				# 23ya Shturmovye Avia. Polk -- SB-2M-100
 		medium_plane_airframe_0 =  { owner = "SOV" amount = 60 version_name = "DB-3" }			# 63ya Bombardirovochnye Avia. Polk -- DB-3A
 	}
-	409 = {																# Khabarovsk 
+	570 = {																# Khabarovsk 
 		### SibVO Aviatsya Komandovaniya ###
 		medium_plane_airframe_1 =  { owner = "SOV" amount = 60 version_name = "ANT-40" }				# 52ya Shturmovye Avia. Polk -- SB-2M-103 (REVISIT -- VARIANT)
 	}

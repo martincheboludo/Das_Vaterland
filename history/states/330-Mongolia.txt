@@ -23,6 +23,11 @@ state={
 
 		}
 		add_core_of = MON
+		1946.1.1 = {
+			owner = MEN
+			controller = MEN
+			add_core_of = MEN
+		}
 
 	}
 

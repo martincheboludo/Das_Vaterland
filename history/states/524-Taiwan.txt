@@ -24,10 +24,6 @@ state=
 		victory_points = {
 			12068 1 
 		}
-		1946.1.1 = {
-			owner = CHI
-			controller = CHI
-		}
 
 	}
 	provinces={

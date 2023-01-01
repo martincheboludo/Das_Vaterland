@@ -17,6 +17,11 @@ state={
 			1834 1 #Erdenet
 		}
 		add_core_of = MON
+		1946.1.1 = {
+			owner = MEN
+			controller = MEN
+			add_core_of = MEN
+		}
 	}
 	manpower=88200
 	buildings_max_level_factor=1.000

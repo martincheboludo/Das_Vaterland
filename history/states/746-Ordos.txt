@@ -30,8 +30,8 @@ state={
 
 		}
 		1946.1.1 = {
-			owner = CHI
-			controller = CHI
+			owner = MEN
+			controller = MEN
 		}
 	}
 	manpower=500000
