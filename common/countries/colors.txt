@@ -983,3 +983,33 @@ RK3 = {
 	color = HSV {0.1 0.15 0.4}
 	color_ui = rgb { 138 155 116 }
 }
+
+RK4 = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RK5 = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RK6 = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RK7 = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RK8 = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RK9 = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
