@@ -18,6 +18,7 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = ARG
+		add_core_of = RK4
 	}
 
 	provinces={

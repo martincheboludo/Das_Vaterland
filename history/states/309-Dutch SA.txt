@@ -12,6 +12,7 @@ state={
 
 	history={
 		add_core_of = SUR
+		add_core_of = RK5
 		owner = HOL
 		victory_points = {
 			10906 1

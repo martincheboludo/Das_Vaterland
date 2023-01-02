@@ -20,6 +20,7 @@ state={
 			}
 		}
 		add_core_of = BRA
+		add_core_of = RK5
 		victory_points = {
 			5107 3 
 		}

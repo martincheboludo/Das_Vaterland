@@ -15,6 +15,7 @@ state={
 			10929 1 
 		}
 		add_core_of = ZIM
+		add_core_of = RK9
 		1946.1.1 = {
 			owner = SAF
 			controller = SAF

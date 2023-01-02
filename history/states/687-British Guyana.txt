@@ -11,6 +11,7 @@ state={
 
 	history={
 		add_core_of = GYA
+		add_core_of = RK5
 		owner = ENG
 		victory_points = {
 			4982 1

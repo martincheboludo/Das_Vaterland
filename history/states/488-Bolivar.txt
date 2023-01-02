@@ -13,6 +13,7 @@ state={
 
 		}
 		add_core_of = VEN
+		add_core_of = RK6
 		victory_points = {
 			10879 1
 		}

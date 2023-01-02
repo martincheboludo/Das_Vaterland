@@ -15,6 +15,7 @@ state={
 			}
 		}
 		add_core_of = MEX
+		add_core_of = RK7
 		#victory_points = {
 		#	4977 3
 		#}

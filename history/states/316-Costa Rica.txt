@@ -22,6 +22,7 @@ state={
 			}
 		}
 		add_core_of = COS
+		add_core_of = RK7
 		victory_points = {
 			13087 3
 		}

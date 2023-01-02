@@ -24,6 +24,7 @@ state={
 			}
 		}
 		add_core_of = PAN
+		add_core_of = RK6
 		victory_points = {
 			7630 5 
 		}

@@ -16,6 +16,7 @@ state={
 
 		}
 		add_core_of = PRU
+		add_core_of = RK8
 		victory_points = {
 			2210 1 
 		}

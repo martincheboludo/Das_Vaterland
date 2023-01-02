@@ -9,6 +9,7 @@ state={
 	history={
 		owner = BRA
 		add_core_of = BRA
+		add_core_of = RK5
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
