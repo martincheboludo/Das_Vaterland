@@ -968,3 +968,18 @@ VIF = {
 	color = rgb { 0 18 127 }
 	color_ui = rgb { 0 18 127 }
 }
+
+RK1 = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RK2 = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}
+
+RK3 = {
+	color = HSV {0.1 0.15 0.4}
+	color_ui = rgb { 138 155 116 }
+}

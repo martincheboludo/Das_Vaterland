@@ -2,6 +2,8 @@
 #Category only allowed for GER
 DV_GER_reichskommissariats = {
 	GER_reichskommissariat_argentinien = {
+	
+		fire_only_once = yes
 
 		icon = ger_reichskommissariats
 
@@ -123,6 +125,8 @@ DV_GER_reichskommissariats = {
 	GER_reichskommissariat_peru_bolivien = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 
 		available = {
 			has_government = fascism
@@ -210,6 +214,8 @@ DV_GER_reichskommissariats = {
 	GER_reichskommissariat_grosskolumbien = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 
 		available = {
 			has_government = fascism
@@ -313,6 +319,8 @@ DV_GER_reichskommissariats = {
 	GER_reichskommissariat_brasilien = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 
 		available = {
 			has_government = fascism
@@ -409,6 +417,8 @@ DV_GER_reichskommissariats = {
 	GER_reichskommissariat_mexiko = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 
 		available = {
 			has_government = fascism
@@ -592,6 +602,8 @@ DV_GER_reichskommissariats = {
 	GER_reichskommissariat_nordamerika = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 
 		available = {
 			has_government = fascism
@@ -651,71 +663,22 @@ DV_GER_reichskommissariats = {
 
 		complete_effect = {
 		
-			if = {
-				limit = {
-					country_exists = USA
-					NOT = { USA = { has_government = fascism } }
+				RK1 = {
+					every_state = { limit = { is_core_of = USA is_controlled_by_ROOT_or_subject = yes } RK1 = { transfer_state = PREV } }
+					every_state = { limit = { is_core_of = CAN is_controlled_by_ROOT_or_subject = yes } RK1 = { transfer_state = PREV } }
 				}
-				hidden_effect = {
-					USA = { every_state = { limit = { is_core_of = USA is_controlled_by_ROOT_or_subject = yes  } USA = { set_state_controller = PREV } } }
-				}
-				USA = {
-					start_civil_war = {
-						ideology = fascism
-						size = 1
-
-						USA = { every_state = { limit = { is_core_of = USA is_controlled_by_ROOT_or_subject = yes  } USA = { transfer_state = PREV } } }
-						GER = {
-							puppet = PREV
-							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
-						}
-						set_cosmetic_tag = RK_USA
-						create_country_leader = {
-							name = "Militärregierung"
-							picture = "gfx/leaders/GER/Germany_Wehrmacht_Junta.dds"
-							ideology = nazism
-						}
-					}
-				}
-			}
-			else = {
-				USA = {
-					every_state = { limit = { is_core_of = USA is_controlled_by_ROOT_or_subject = yes } USA = { transfer_state = PREV } }
-					set_cosmetic_tag = RK_USA
-					create_country_leader = {
-						name = "Militärregierung"
-						picture = "gfx/leaders/GER/Germany_Wehrmacht_Junta.dds"
-						ideology = nazism
-					}
-				}
-				set_autonomy = { target = USA autonomy_state = autonomy_integrated_puppet }
-			}
-			
-			#Handle Canadian States
-			if = {
-				limit = {
-					country_exists = CAN
-					NOT = { is_subject_of = GER }
-				}
-				
-				USA = { every_state = { limit = { is_core_of = CAN is_controlled_by_ROOT_or_subject = yes } USA = { set_state_controller = PREV } } }
-				
-				
-				}
-			else = {
-				every_state = { limit = { is_core_of = CAN is_controlled_by_ROOT_or_subject = yes } USA = { transfer_state = PREV } }
-			}
-
+				set_autonomy = { target = RK1 autonomy_state = autonomy_integrated_puppet }
 			
 			
 			#Give Cores
-			every_state = { limit = { is_core_of = CAN } add_core_of = USA }
+			every_state = { limit = { is_core_of = USA } add_core_of = RK1 }
+			every_state = { limit = { is_core_of = CAN } add_core_of = RK1 }
 			
 			if = {
 				limit = { 463 = { is_controlled_by_ROOT_or_subject = yes } }
-				USA = { transfer_state = 463 }
+				RK1 = { transfer_state = 463 }
 			}
-			USA = { add_state_core = 463 }
+			RK1 = { add_state_core = 463 }
 			
 			
 		}
@@ -724,6 +687,8 @@ DV_GER_reichskommissariats = {
 	GER_give_paraguay_to_argentinien = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 		
 		#fire_only_once = no
 		#days_re_enable = 180
@@ -772,6 +737,8 @@ DV_GER_reichskommissariats = {
 
 		icon = ger_reichskommissariats
 		
+		fire_only_once = yes
+		
 		#fire_only_once = no
 		#days_re_enable = 180
 
@@ -817,6 +784,8 @@ DV_GER_reichskommissariats = {
 	GER_give_paraguay_to_brasilien = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 		
 		#fire_only_once = no
 		#days_re_enable = 180
@@ -865,6 +834,8 @@ DV_GER_reichskommissariats = {
 
 		icon = ger_reichskommissariats
 		
+		fire_only_once = yes
+		
 		#fire_only_once = no
 		#days_re_enable = 180
 
@@ -910,6 +881,8 @@ DV_GER_reichskommissariats = {
 	GER_give_ecuador_to_peru = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 		
 		#fire_only_once = no
 		#days_re_enable = 180
@@ -957,6 +930,8 @@ DV_GER_reichskommissariats = {
 
 		icon = ger_reichskommissariats
 		
+		fire_only_once = yes
+		
 		#fire_only_once = no
 		#days_re_enable = 180
 
@@ -1002,6 +977,8 @@ DV_GER_reichskommissariats = {
 	GER_give_panama_to_colombia = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 		
 		#fire_only_once = no
 		#days_re_enable = 180
@@ -1049,6 +1026,8 @@ DV_GER_reichskommissariats = {
 
 		icon = ger_reichskommissariats
 		
+		fire_only_once = yes
+		
 		#fire_only_once = no
 		#days_re_enable = 180
 
@@ -1094,6 +1073,8 @@ DV_GER_reichskommissariats = {
 	GER_give_chaco_to_peru = {
 
 		icon = ger_reichskommissariats
+		
+		fire_only_once = yes
 		
 		#fire_only_once = no
 		#days_re_enable = 180
@@ -1144,6 +1125,8 @@ GER_give_southwest_to_mexiko = {
 
 		icon = ger_reichskommissariats
 		
+		fire_only_once = yes
+		
 		#fire_only_once = no
 		#days_re_enable = 180
 
@@ -1167,30 +1150,12 @@ GER_give_southwest_to_mexiko = {
 		visible = {
 			has_government = fascism
 			MEX = { is_subject_of = GER }
-			USA = { is_subject_of = GER }
+			RK1 = { is_subject_of = GER }
 		}
 
 		complete_effect = {
 		
 		#Handle States
-			if = {
-				limit = {
-					country_exists = USA
-					NOT = { is_subject_of = GER }
-				}
-				
-				MEX = { set_state_controller = 378 }
-				MEX = { set_state_controller = 379 }
-				MEX = { set_state_controller = 380 }
-				MEX = { set_state_controller = 377 }
-				MEX = { set_state_controller = 382 }
-				MEX = { set_state_controller = 376 }
-				MEX = { set_state_controller = 375 }
-				
-				
-				
-				}
-			else = {
 				MEX = { transfer_state = 378 }
 				MEX = { transfer_state = 379 }
 				MEX = { transfer_state = 380 }
@@ -1198,7 +1163,6 @@ GER_give_southwest_to_mexiko = {
 				MEX = { transfer_state = 382 }
 				MEX = { transfer_state = 376 }
 				MEX = { transfer_state = 375 }
-			}
 			
 			MEX = { add_state_core = 378 }
 			MEX = { add_state_core = 379 }
@@ -1217,6 +1181,8 @@ GER_give_southwest_to_amerika = {
 
 		icon = ger_reichskommissariats
 		
+		fire_only_once = yes
+		
 		#fire_only_once = no
 		#days_re_enable = 180
 
@@ -1229,7 +1195,7 @@ GER_give_southwest_to_amerika = {
 			382 = { is_controlled_by_ROOT_or_subject = yes }
 			376 = { is_controlled_by_ROOT_or_subject = yes }
 			375 = { is_controlled_by_ROOT_or_subject = yes }
-			USA = { is_subject_of = GER }
+			RK1 = { is_subject_of = GER }
 		}
 
 		cost = 0
@@ -1239,47 +1205,28 @@ GER_give_southwest_to_amerika = {
 
 		visible = {
 			has_government = fascism
-			USA = { is_subject_of = GER }
+			RK1 = { is_subject_of = GER }
 			MEX = { is_subject_of = GER }
 		}
 
 		complete_effect = {
 		
 		#Handle States
-			if = {
-				limit = {
-					country_exists = USA
-					NOT = { is_subject_of = GER }
-				}
-				
-				USA = { set_state_controller = 378 }
-				USA = { set_state_controller = 379 }
-				USA = { set_state_controller = 380 }
-				USA = { set_state_controller = 377 }
-				USA = { set_state_controller = 382 }
-				USA = { set_state_controller = 376 }
-				USA = { set_state_controller = 375 }
-				
-				
-				
-				}
-			else = {
-				USA = { transfer_state = 378 }
-				USA = { transfer_state = 379 }
-				USA = { transfer_state = 380 }
-				USA = { transfer_state = 377 }
-				USA = { transfer_state = 382 }
-				USA = { transfer_state = 376 }
-				USA = { transfer_state = 375 }
-			}
+			RK1 = { transfer_state = 378 }
+				RK1 = { transfer_state = 379 }
+				RK1 = { transfer_state = 380 }
+				RK1 = { transfer_state = 377 }
+				RK1 = { transfer_state = 382 }
+				RK1 = { transfer_state = 376 }
+				RK1 = { transfer_state = 375 }
 			
-			USA = { add_state_core = 378 }
-			USA = { add_state_core = 379 }
-			USA = { add_state_core = 380 }
-			USA = { add_state_core = 377 }
-			USA = { add_state_core = 382 }
-			USA = { add_state_core = 376 }
-			USA = { add_state_core = 375 }
+			RK1 = { add_state_core = 378 }
+			RK1 = { add_state_core = 379 }
+			RK1 = { add_state_core = 380 }
+			RK1 = { add_state_core = 377 }
+			RK1 = { add_state_core = 382 }
+			RK1 = { add_state_core = 376 }
+			RK1 = { add_state_core = 375 }
 			
 		}
 	}

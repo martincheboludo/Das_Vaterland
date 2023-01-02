@@ -360,3 +360,66 @@ VIF = {
 	}
 	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
 }
+
+RK1 = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	
+	
+}
+
+RK2 = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	
+	
+}
+
+RK3 = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	
+	
+}

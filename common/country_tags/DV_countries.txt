@@ -16,3 +16,7 @@ ROS = "countries/RK_Ost-Siberien.txt"
 RWS = "countries/RK_West-Siberien.txt"
 PGG = "countries/General-Government.txt"
 VIF = "countries/Vichy France.txt"
+
+RK1 = "countries/RK_Nordamerika.txt"
+RK2 = "countries/RK_Grossbritannien.txt"
+RK3 = "countries/RK_Nordafrika.txt"
