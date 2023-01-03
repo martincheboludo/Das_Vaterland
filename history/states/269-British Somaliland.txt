@@ -15,6 +15,7 @@ state=
 		}
 		owner = ENG
 		add_core_of = SOM
+		add_core_of = AOI
 		buildings = {
 			infrastructure = 2
 			10833 = {

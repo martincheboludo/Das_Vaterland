@@ -13,6 +13,7 @@ state= {
 
 	history= {
 		add_core_of = SCO
+		add_core_of = RK2
 		owner = ENG
 		victory_points = {
 			6062 1 #Skye/Stornoway

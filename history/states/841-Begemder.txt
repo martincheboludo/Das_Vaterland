@@ -32,6 +32,7 @@ state = {
 		owner = ETH
 		add_core_of = ETH
 		add_core_of = QEM
+		add_core_of = AOI
 
 		1936.6.1 = {
 			owner = ITA
