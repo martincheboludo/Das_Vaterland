@@ -14,9 +14,10 @@ state = {
 		add_core_of = CKK
 		add_core_of = FER
 		add_core_of = ROS
+		add_core_of = JA4
 		1946.1.1 = {
-			owner = FER
-			controller = FER
+			owner = JA4
+			controller = JA4
 		}
 
 	}

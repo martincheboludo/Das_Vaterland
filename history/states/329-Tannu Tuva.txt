@@ -22,6 +22,7 @@ state={
 		add_core_of = TAN
 		add_core_of = SOV
 		add_core_of = ROS
+		add_core_of = JA4
 		1946.1.1 = {
 			owner = SOV
 			controller = SOV

@@ -27,6 +27,7 @@ state = {
 		add_core_of = FER
 		add_core_of = VLA
 		add_core_of = ROS
+		add_core_of = JA4
 		1946.1.1 = {
 			owner = MAN
 			controller = MAN

@@ -18,6 +18,7 @@ state = {
 		add_core_of = SOV
 		add_core_of = YAK
 		add_core_of = ROS
+		add_core_of = JA4
 	}
 
 	provinces = {
