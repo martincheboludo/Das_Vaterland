@@ -24,6 +24,7 @@ state={
 		}
 		add_core_of = COL
 		add_core_of = RK6
+		add_core_of = JA3
 		victory_points = {
 			2023 1 
 		}

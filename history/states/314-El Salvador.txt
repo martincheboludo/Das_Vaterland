@@ -23,6 +23,7 @@ state=
 		}
 		add_core_of = ELS
 		add_core_of = RK7
+		add_core_of = JA1
 		victory_points = {
 			12823 3
 		}

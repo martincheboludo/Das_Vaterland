@@ -21,6 +21,7 @@ state={
 		}
 		add_core_of = CHL
 		add_core_of = RK4
+		add_core_of = JA3
 		victory_points = {
 			12994 1
 		}

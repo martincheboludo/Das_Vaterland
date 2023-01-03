@@ -19,6 +19,7 @@ state={
 		}
 		add_core_of = PAN
 		add_core_of = RK6
+		add_core_of = JA1
 	}
 	
 	provinces={ 7617 }

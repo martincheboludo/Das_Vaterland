@@ -20,6 +20,7 @@ state = {
 		add_core_of = UZB
 		add_core_of = KKP
 		add_core_of = RKT
+		add_core_of = JA5
 		
 	}
 

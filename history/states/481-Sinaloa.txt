@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = MEX
 		add_core_of = RK7
+		add_core_of = JA1
 		victory_points = {
 			7921 10
 		}

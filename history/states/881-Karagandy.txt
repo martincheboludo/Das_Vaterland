@@ -9,6 +9,7 @@ state = {
 		#}
 		add_core_of = KAZ
 		add_core_of = RKT
+		add_core_of = JA5
 		buildings = {
 			infrastructure = 1
 

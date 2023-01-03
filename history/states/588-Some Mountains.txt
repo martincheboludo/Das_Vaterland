@@ -17,6 +17,7 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = RKT
+		add_core_of = JA5
 		victory_points = {
 			12594 1
 		}

@@ -15,6 +15,7 @@ state=
 		}
 		add_core_of = ECU
 		add_core_of = RK6
+		add_core_of = JA3
 	}
 	provinces= { 5023 }
 

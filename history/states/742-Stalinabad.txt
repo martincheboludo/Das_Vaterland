@@ -16,6 +16,7 @@ state = {
 		add_core_of = TAJ
 		add_core_of = BUK
 		add_core_of = RKT
+		add_core_of = JA5
 
 	}
 
