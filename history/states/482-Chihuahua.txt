@@ -15,6 +15,7 @@ state={
 		add_core_of = RK7
 		add_core_of = JA1
 		add_core_of = JA2
+		add_core_of = NEU
 
 		victory_points = {
 			8097 10

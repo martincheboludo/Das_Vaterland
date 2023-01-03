@@ -16,6 +16,7 @@ state={
 
 		}
 		add_core_of = SYR
+		add_core_of = IT2
 		1946.1.1 = {
 			owner = VIF
 			controller = VIF

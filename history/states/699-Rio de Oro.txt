@@ -8,6 +8,7 @@ state={
 	history={
 		owner = SPR
 		add_core_of = WES
+		add_core_of = IT1
 		buildings = {
 			infrastructure = 1
 			8038 = {

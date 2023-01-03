@@ -16,6 +16,7 @@ state={
 			}
 		}
 		add_core_of = CAN
+		add_core_of = RK1
 		1946.1.1 = {
 			owner = CAN
 			controller = CAN

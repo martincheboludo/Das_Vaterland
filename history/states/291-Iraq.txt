@@ -35,6 +35,7 @@ state={
 		}
 		add_core_of = IRQ
 		add_claim_by = KUR
+		add_core_of = IT2
 	}
 
 	provinces={

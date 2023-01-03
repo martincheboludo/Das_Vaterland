@@ -15,6 +15,7 @@ state={
 		owner = SPR
 		add_core_of = MOR
 		add_core_of = RIF
+		add_core_of = IT1
 		victory_points = {
 			9945 3
 		}
