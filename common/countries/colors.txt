@@ -1013,3 +1013,43 @@ RK9 = {
 	color = HSV {0.1 0.15 0.4}
 	color_ui = rgb { 138 155 116 }
 }
+
+NEU = {
+	color = rgb { 47 142 124 }
+	color_ui = rgb { 47 142 124 }
+}
+
+IT1 = {
+	color = rgb { 0 153 51 }
+	color_ui = rgb { 0 77 26 }
+}
+
+IT2 = {
+	color = rgb { 0 153 51 }
+	color_ui = rgb { 0 77 26 }
+}
+
+JA1 = {
+	color = rgb { 227 218 201 }
+	color_ui = rgb { 227 218 201 }
+}
+
+JA2 = {
+	color = rgb { 227 218 201 }
+	color_ui = rgb { 227 218 201 }
+}
+
+JA3 = {
+	color = rgb { 227 218 201 }
+	color_ui = rgb { 227 218 201 }
+}
+
+JA4 = {
+	color = rgb { 227 218 201 }
+	color_ui = rgb { 227 218 201 }
+}
+
+JA5 = {
+	color = rgb { 227 218 201 }
+	color_ui = rgb { 227 218 201 }
+}
