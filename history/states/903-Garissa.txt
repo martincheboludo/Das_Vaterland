@@ -14,6 +14,7 @@ state={
 		add_core_of = KEN
 		add_core_of = SOM
 		add_core_of = AOI
+		add_core_of = DMA
 
 	}
 

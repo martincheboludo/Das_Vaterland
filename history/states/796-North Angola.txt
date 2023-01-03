@@ -13,6 +13,7 @@ state={
 			2115 1 
 		}
 		add_core_of = ANG
+		add_core_of = DMA
 	}
 	provinces={
 		2115 
