@@ -1488,7 +1488,7 @@ create_faction = "Greater East Asia Co-Prosperity Sphere"
 add_to_faction = SIA
 add_to_faction = MAN
 add_to_faction = MEN
-add_to_faction = FER
+add_to_faction = JA4
 
 if = {
 	limit = {
@@ -1496,7 +1496,7 @@ if = {
 		not = { has_dlc = "Waking the Tiger" }
 	}
 	set_autonomy = {
-		target = FER
+		target = JA4
 		autonomous_state = autonomy_integrated_puppet
 	}
 }
@@ -1508,7 +1508,7 @@ if = {
 		}
 	}
 	set_autonomy = {
-		target = FER
+		target = JA4
 		autonomous_state = autonomy_puppet
 	}
 }
@@ -1517,7 +1517,7 @@ if = {
 		has_dlc = "Waking the Tiger"
 	}
 	set_autonomy = {
-		target = FER
+		target = JA4
 		autonomous_state = autonomy_wtt_imperial_protectorate
 	}
 }
