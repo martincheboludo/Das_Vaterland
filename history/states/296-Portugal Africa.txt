@@ -11,6 +11,7 @@ state={
 	history={
 		owner = POR
 		add_core_of = GNB
+		add_core_of = DMA
 		victory_points = {
 			12891 1
 		}

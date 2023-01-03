@@ -8,6 +8,7 @@ state={
 	history={
 		owner = FRA
 		add_core_of = VOL
+		add_core_of = DMA
 		victory_points = {
 			10836 1
 		}

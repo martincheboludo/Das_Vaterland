@@ -10,6 +10,7 @@ state=
 	{
 		owner = SPR
 		add_core_of = EQG
+		add_core_of = DMA
 		victory_points = {
 			1903 1 
 		}
