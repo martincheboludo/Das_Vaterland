@@ -15,6 +15,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = NEU
+		add_core_of = RK1
 		victory_points = {
 			4860 1 
 		}

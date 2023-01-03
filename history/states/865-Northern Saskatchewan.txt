@@ -8,6 +8,7 @@ state={
 		owner = CAN
 		add_core_of = CAN
 		add_core_of = NEU
+		add_core_of = RK1
 	}
 	manpower=65605
 	state_category = pastoral
