@@ -1129,13 +1129,14 @@ GER_give_southwest_to_mexiko = {
 
 		available = {
 			has_government = fascism
+			376 = { is_controlled_by_ROOT_or_subject = yes }
+			375 = { is_controlled_by_ROOT_or_subject = yes }
+			377 = { is_controlled_by_ROOT_or_subject = yes }
 			378 = { is_controlled_by_ROOT_or_subject = yes }
 			379 = { is_controlled_by_ROOT_or_subject = yes }
 			380 = { is_controlled_by_ROOT_or_subject = yes }
-			377 = { is_controlled_by_ROOT_or_subject = yes }
 			382 = { is_controlled_by_ROOT_or_subject = yes }
-			376 = { is_controlled_by_ROOT_or_subject = yes }
-			375 = { is_controlled_by_ROOT_or_subject = yes }
+			
 			MEX = { is_subject_of = GER }
 		}
 
