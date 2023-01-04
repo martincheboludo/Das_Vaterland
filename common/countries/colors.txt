@@ -1029,6 +1029,11 @@ IT2 = {
 	color_ui = rgb { 0 77 26 }
 }
 
+IT3 = {
+	color = rgb { 0 153 51 }
+	color_ui = rgb { 0 77 26 }
+}
+
 JA1 = {
 	color = rgb { 227 218 201 }
 	color_ui = rgb { 227 218 201 }
@@ -1052,4 +1057,59 @@ JA4 = {
 JA5 = {
 	color = rgb { 227 218 201 }
 	color_ui = rgb { 227 218 201 }
+}
+
+NG1 = {
+	color = rgb { 222 187 45 }
+	color_ui = rgb { 222 187 45 }
+}
+
+NG2 = {
+	color = rgb { 249 146 98 }
+	color_ui = rgb { 249 146 98 }
+}
+
+NG3 = {
+	color = rgb { 0 120 0 }
+	color_ui = rgb { 0 120 0 }
+}
+
+NG4 = {
+	color = rgb { 0 120 0 }
+	color_ui = rgb { 0 120 0 }
+}
+
+NG5 = {
+	color = rgb { 85 102 0 }
+	color_ui = rgb { 85 102 0 }
+}
+
+NG6 = {
+	color = rgb { 137 197 227 }
+	color_ui = rgb { 137 197 227 }
+}
+
+JA6 = {
+	color = rgb { 57 143 97 }
+	color_ui = rgb { 74 186 126 }
+}
+
+JA7 = {
+	color = rgb { 254 205 33 }
+	color_ui = rgb { 254 205 33 }
+}
+
+JA8 = {
+	color = rgb { 200  110  0 }
+	color_ui = rgb { 200  110  0 }
+}
+
+JA9 = {
+	color = rgb { 127 128 255 }
+	color_ui = rgb { 127 128 255 }
+}
+
+JE1 = {
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
 }

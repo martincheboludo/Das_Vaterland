@@ -639,6 +639,31 @@ IT2 = {
 	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso Robur Gino Giri }
 }
 
+IT3 = {
+	male = {
+		names = { 
+			Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+			Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+			Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+			Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+			Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio
+		
+		  }
+	}
+	female = {
+		names = { Maria Anna Sara Laura Sofia Stella Angela Giovanna Guiseppina Gianna Giulia Valentina }
+	}
+	surnames = {
+		Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+		Caviglia Ceccherini Cialdini Cusani Dezza "di Robilant" "di Savoia"
+		Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
+		Menabrea Orengo Pallavicino Pecori-Giraldi  Pelloux Perruchetti Pianelli Porro
+		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari Vaccari Zupelli
+	
+	 }
+	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso Robur Gino Giri }
+}
+
 JA1 = {
 	male = {
 		names = { 
@@ -827,4 +852,320 @@ JA5 = {
 		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
 	}
 	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+}
+
+JA6 = {
+	male = {
+		names = { 
+			Aritomo
+			Goro Gentaro Gonnohyoe
+			Heihachiro Hiroshi Hikonojo Hyoe Hayao
+			Iwao
+			Jiro Jinzaburo
+			Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+			Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+			Nariaki Nobuyoshi
+			Rokuro
+			Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+			Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+			Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+	}
+	female = {
+		names = { Aimi Asami Asuka Ai Aki Fujiko Kaori Kimiko Haruno Hanako Kotoe Masae Junko Itsumi Chie Chitose Chiyo Mai Maki Nodoka Ruri Sae Sachie Yae Nami Ritsuko }
+	}
+	surnames = { 
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+	}
+	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+}
+
+JA7 = {
+	male = {
+		names = { 
+			Aritomo
+			Goro Gentaro Gonnohyoe
+			Heihachiro Hiroshi Hikonojo Hyoe Hayao
+			Iwao
+			Jiro Jinzaburo
+			Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+			Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+			Nariaki Nobuyoshi
+			Rokuro
+			Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+			Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+			Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+	}
+	female = {
+		names = { Aimi Asami Asuka Ai Aki Fujiko Kaori Kimiko Haruno Hanako Kotoe Masae Junko Itsumi Chie Chitose Chiyo Mai Maki Nodoka Ruri Sae Sachie Yae Nami Ritsuko }
+	}
+	surnames = { 
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+	}
+	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+}
+
+JA8 = {
+	male = {
+		names = { 
+			Aritomo
+			Goro Gentaro Gonnohyoe
+			Heihachiro Hiroshi Hikonojo Hyoe Hayao
+			Iwao
+			Jiro Jinzaburo
+			Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+			Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+			Nariaki Nobuyoshi
+			Rokuro
+			Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+			Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+			Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+	}
+	female = {
+		names = { Aimi Asami Asuka Ai Aki Fujiko Kaori Kimiko Haruno Hanako Kotoe Masae Junko Itsumi Chie Chitose Chiyo Mai Maki Nodoka Ruri Sae Sachie Yae Nami Ritsuko }
+	}
+	surnames = { 
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+	}
+	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+}
+
+JA9 = {
+	male = {
+		names = { 
+			Aritomo
+			Goro Gentaro Gonnohyoe
+			Heihachiro Hiroshi Hikonojo Hyoe Hayao
+			Iwao
+			Jiro Jinzaburo
+			Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+			Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+			Nariaki Nobuyoshi
+			Rokuro
+			Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+			Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+			Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+	}
+	female = {
+		names = { Aimi Asami Asuka Ai Aki Fujiko Kaori Kimiko Haruno Hanako Kotoe Masae Junko Itsumi Chie Chitose Chiyo Mai Maki Nodoka Ruri Sae Sachie Yae Nami Ritsuko }
+	}
+	surnames = { 
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+	}
+	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+}
+
+JE1 = {
+	male = {
+		names = { 
+			Aritomo
+			Goro Gentaro Gonnohyoe
+			Heihachiro Hiroshi Hikonojo Hyoe Hayao
+			Iwao
+			Jiro Jinzaburo
+			Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+			Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+			Nariaki Nobuyoshi
+			Rokuro
+			Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+			Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+			Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+	}
+	female = {
+		names = { Aimi Asami Asuka Ai Aki Fujiko Kaori Kimiko Haruno Hanako Kotoe Masae Junko Itsumi Chie Chitose Chiyo Mai Maki Nodoka Ruri Sae Sachie Yae Nami Ritsuko }
+	}
+	surnames = { 
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+	}
+	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+}
+
+NG1 = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	
+	
+}
+
+NG2 = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	
+	
+}
+
+NG3 = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	
+	
+}
+
+NG4 = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	
+	
+}
+
+NG5 = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	
+	
+}
+
+NG6 = {
+	male = {
+		names = {  Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+			Markus Dieter Paul Ludwig Ralph Horst Alfred Erwin Helmuth Samuel Christian Philipp
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie Hildegard }
+	}
+	surnames = { 
+		Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn 
+		Becker Hoffmann Graf Ehrler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
+		Beisswenger Duttmann Wilbs Berglen Behrmann Huber Konig Kraus Vogt Zimmermann
+		Winter Wolff Kuhn Haas Brandt Winkler Sommer Lehmann Roth Dietrich Schulte
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+	
+	
 }
