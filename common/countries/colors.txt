@@ -1070,18 +1070,18 @@ NG2 = {
 }
 
 NG3 = {
-	color = rgb { 0 120 0 }
-	color_ui = rgb { 0 120 0 }
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
 }
 
 NG4 = {
-	color = rgb { 0 120 0 }
-	color_ui = rgb { 0 120 0 }
+	color = rgb { 85 102 0 }
+	color_ui = rgb { 85 102 0 }
 }
 
 NG5 = {
-	color = rgb { 85 102 0 }
-	color_ui = rgb { 85 102 0 }
+	color = rgb { 26 138 4 }
+	color_ui = rgb { 26 138 4 }
 }
 
 NG6 = {

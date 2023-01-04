@@ -4022,8 +4022,8 @@
  KHA_neutrality_ADJ:0 "Khakass"
 
  AOI:0 "Africa Orientale Italiana"
- AOI_fascism:0 "Italian State of East Africa"
- AOI_fascism_DEF:0 "The Italian State of East Africa"
+ AOI_fascism:0 "Africa Orientale Italiana"
+ AOI_fascism_DEF:0 "The Africa Orientale Italiana"
  AOI_democratic:0 "Italo-Ethiopian Federation"
  AOI_democratic_DEF:0 "The Italo-Ethiopian Federation"
  AOI_communism:0 "East African Commune"
