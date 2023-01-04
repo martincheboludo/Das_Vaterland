@@ -23,6 +23,7 @@ state={
 		add_core_of = ECU
 		add_core_of = RK6
 		add_core_of = JA3
+		add_core_of = RK8
 		victory_points = {
 			12798 5
 		}

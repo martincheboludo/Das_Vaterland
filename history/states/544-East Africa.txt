@@ -18,6 +18,7 @@ state={
 		}
 		add_core_of = MZB
 		add_core_of = DMA
+		add_core_of = RK9
 
 	}
 

@@ -880,8 +880,8 @@ TTS = {
 # Das Vaterland Countries
 
 DMA = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 136 104 60 }
+	color_ui = rgb { 136 104 60 }
 }
 
 RPB = {
@@ -970,48 +970,48 @@ VIF = {
 }
 
 RK1 = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 25 25 112 }
+	color_ui = rgb { 25 25 112 }
 }
 
 RK2 = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 208 12 39 }
+	color_ui = rgb { 208 12 39 }
 }
 
 RK3 = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 222 187 91 }
+	color_ui = rgb { 255 243 118 }
 }
 
 RK4 = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 59 52 129 }
+	color_ui = rgb { 59 52 129 }
 }
 
 RK5 = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 80 100 35 }
+	color_ui = rgb { 80 100 35 }
 }
 
 RK6 = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 255 255 51 }
+	color_ui = rgb { 255 255 51 }
 }
 
 RK7 = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 135 111 54 }
+	color_ui = rgb { 135 111 54 }
 }
 
 RK8 = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 100 189 204 }
+	color_ui = rgb { 100 189 204 }
 }
 
 RK9 = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 195 107 160 }
+	color_ui = rgb { 198 169 248 }
 }
 
 NEU = {
