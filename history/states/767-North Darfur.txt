@@ -10,6 +10,7 @@ state=
 	history= {
 		add_core_of = SUD
 		add_core_of = AOI
+		add_core_of = NG2
 		owner = ENG
 		buildings = {
 			infrastructure = 0

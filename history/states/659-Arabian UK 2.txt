@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = YEM
 		add_core_of = IT2
+		add_core_of = NG4
 
 	}
 

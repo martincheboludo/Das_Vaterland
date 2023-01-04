@@ -18,6 +18,7 @@ state={
 		add_claim_by = SOM
 		add_core_of = AOI
 		add_core_of = IT2
+		add_core_of = NG2
 	}
 
 	provinces={

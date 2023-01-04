@@ -13,6 +13,9 @@ state={
 		add_core_of = TUR
 		add_core_of = SYR
 		add_core_of = IT2
+		add_core_of = NG4
+		add_core_of = NG5
+		add_core_of = IT3
 		victory_points = {
 			12029 1
 		}

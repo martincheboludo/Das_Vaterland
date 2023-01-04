@@ -8,6 +8,7 @@ state={
 		owner = SAU
 		add_core_of = SAU
 		add_core_of = IT2
+		add_core_of = NG4
 	}
 	manpower=5000
 	state_category = pastoral

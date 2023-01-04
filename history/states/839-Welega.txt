@@ -37,6 +37,7 @@ state = {
 		add_core_of = BEG
 		add_core_of = ORO
 		add_core_of = AOI
+		add_core_of = NG2
 
 		1936.6.1 = {
 			owner = ITA

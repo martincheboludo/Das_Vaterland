@@ -20,6 +20,8 @@ state={
 			}
 		}
 		add_core_of = TUR
+		add_core_of = NG5
+		add_core_of = IT3
 	}
 
 	provinces={

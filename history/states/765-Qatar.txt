@@ -8,6 +8,7 @@ state={
 	history={
 		add_core_of = QAT
 		add_core_of = IT2
+		add_core_of = NG4
 		owner = ENG
 		victory_points = {
 			8051 1

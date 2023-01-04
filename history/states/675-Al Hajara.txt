@@ -15,6 +15,9 @@ state={
 		}
 		add_core_of = IRQ
 		add_core_of = IT2
+		add_core_of = NG4
+		add_core_of = NG5
+		add_core_of = IT3
 	}
 	
 	provinces={

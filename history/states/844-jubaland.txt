@@ -9,6 +9,7 @@ state = {
 		owner = ITA
 		add_core_of = SOM
 		add_core_of = AOI
+		add_core_of = NG2
 		victory_points = {
 		 	12941 1 
 		}
