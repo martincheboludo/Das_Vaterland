@@ -1115,6 +1115,6 @@ JE1 = {
 }
 
 NG7 = {
-	color = rgb { 140 65 166 }
-	color_ui = rgb { 140 65 166 }
+	color = rgb { 174 113 113 }
+	color_ui = rgb { 174 113 113 }
 }

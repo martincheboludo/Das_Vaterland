@@ -7,6 +7,7 @@ state={
 
 	history={
 		add_core_of = GDL
+		add_core_of = NG7
 		owner = FRA
 		victory_points = {
 			9377 1
