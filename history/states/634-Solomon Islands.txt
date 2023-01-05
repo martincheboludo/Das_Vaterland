@@ -5,6 +5,7 @@ state={
 	history={
 		owner = AST
 		add_core_of = SOL
+		add_core_of = JA6
 		buildings = {
 			infrastructure = 1
 			1269 = {

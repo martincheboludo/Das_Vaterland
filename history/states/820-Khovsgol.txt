@@ -17,6 +17,7 @@ state={
 			1834 1 #Erdenet
 		}
 		add_core_of = MON
+		add_core_of = JA7
 		1946.1.1 = {
 			owner = MEN
 			controller = MEN

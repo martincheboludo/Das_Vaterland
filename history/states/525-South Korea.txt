@@ -24,6 +24,7 @@ state=
 		}
 
 		add_core_of = KOR
+		add_core_of = JA7
 
 	}
 	provinces={

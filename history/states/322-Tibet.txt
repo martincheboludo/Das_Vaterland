@@ -13,6 +13,7 @@ state={
 
 		}
 		add_core_of = TIB
+		add_core_of = JA7
 
 	}
 

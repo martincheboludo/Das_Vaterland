@@ -16,6 +16,7 @@ state={
 	{
 		owner = INS
 		add_core_of = INS
+		add_core_of = JE1
 		victory_points = {
 			4652 1 
 		}

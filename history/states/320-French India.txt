@@ -9,6 +9,7 @@ state={
 	history={
 		owner = FRA
 		add_core_of = RAJ
+		add_core_of = JA8
 		buildings = {
 			infrastructure = 3 #was: 5
 			10149 = {

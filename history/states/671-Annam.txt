@@ -14,6 +14,7 @@ state={
 
 	history={
 		add_core_of = VIN
+		add_core_of = JA9
 		owner = FRA
 		victory_points = {
 			4075 1 
