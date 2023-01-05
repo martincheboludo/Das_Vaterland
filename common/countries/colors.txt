@@ -890,8 +890,8 @@ RPB = {
 }
 
 RPD = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 159 20 20 }
+	color_ui = rgb { 159 20 20 }
 }
 
 SSB = {
@@ -900,8 +900,8 @@ SSB = {
 }
 
 RKH = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 203 138 8 }
+	color_ui = rgb { 203 138 8 }
 }
 
 RKK = {
@@ -915,8 +915,8 @@ RKM = {
 }
 
 RKN = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 161 213 230 }
+	color_ui = rgb { 161 213 230 }
 }
 
 RKO = {
@@ -950,8 +950,8 @@ RWS = {
 }
 
 RKB = {
-	color = HSV {0.1 0.15 0.4}
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 193 120 8  }
+	color_ui = rgb { 193 120 8  }
 }
 
 RKD = {

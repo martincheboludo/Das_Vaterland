@@ -1551,19 +1551,26 @@
  
  #Puppets
  #German
+
+ RPD_GER_autonomy_reichsprotectorate:0 "Reichsprotektorat Dänemark"
+ RPD_GER_autonomy_reichskommissariat:0 "Reichsprotektorat Dänemark"
+ RPD_GER_autonomy_reichsprotectorate_DEF:0 "The Reichsprotektorat Dänemark"
+ RPD_GER_autonomy_reichskommissariat_DEF:0 "The Reichsprotektorat Dänemark"
  
- RKN_cosmetic_fascism:0 "Norwegian Rike"
- RPD_cosmetic_fascism:0 "Danish Rike"
- RKB_cosmetic_fascism:0 "Belgian State"
- RKH_cosmetic_fascism:0 "Dutch State"
- RKN_cosmetic_fascism_ADJ:0 "Norwegian"
- RPD_cosmetic_fascism_ADJ:0 "Danish"
- RKB_cosmetic_fascism_ADJ:0 "Belgian"
- RKH_cosmetic_fascism_ADJ:0 "Dutch"
- RKN_cosmetic_fascism_DEF:0 "The Norwegian Rike"
- RPD_cosmetic_fascism_DEF:0 "The Danish Rike"
- RKB_cosmetic_fascism_DEF:0 "The Belgian State"
- RKH_cosmetic_fascism_DEF:0 "The Dutch State"
+ RKB_GER_autonomy_reichsprotectorate:0 "Reichskommissariat Belgien-Norfrankreich"
+ RKB_GER_autonomy_reichskommissariat:0 "Reichskommissariat Belgien-Norfrankreich"
+ RKB_GER_autonomy_reichsprotectorate_DEF:0 "The Reichskommissariat Belgien-Norfrankreich"
+ RKB_GER_autonomy_reichskommissariat_DEF:0 "The Reichskommissariat Belgien-Norfrankreich"
+ 
+ RKH_GER_autonomy_reichsprotectorate:0 "Reichskommissariat Niderlande"
+ RKH_GER_autonomy_reichskommissariat:0 "Reichskommissariat Niderlande"
+ RKH_GER_autonomy_reichsprotectorate_DEF:0 "The Reichskommissariat Niderlande"
+ RKH_GER_autonomy_reichskommissariat_DEF:0 "The Reichskommissariat Niderlande"
+ 
+ RKN_GER_autonomy_reichsprotectorate:0 "Reichskommissariat Norwegen"
+ RKN_GER_autonomy_reichskommissariat:0 "Reichskommissariat Norwegen"
+ RKN_GER_autonomy_reichsprotectorate_DEF:0 "The Reichskommissariat Norwegen"
+ RKN_GER_autonomy_reichskommissariat_DEF:0 "The Reichskommissariat Norwegen"
  
  RK1_GER_autonomy_reichsprotectorate:0 "Reichskommissariat Nordamerika"
  RK1_GER_autonomy_reichskommissariat:0 "Reichskommissariat Nordamerika"

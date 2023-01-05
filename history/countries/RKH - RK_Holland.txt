@@ -587,8 +587,6 @@ oob = "HOL_1946"
 set_naval_oob = "HOL_1946_naval_mtg"
 set_air_oob = "HOL_1946_air_bba"
 
-set_cosmetic_tag = RKH_cosmetic
-
 set_politics = {
 	ruling_party = fascism
 	last_election = "1940.1.1"

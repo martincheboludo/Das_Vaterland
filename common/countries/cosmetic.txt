@@ -989,22 +989,6 @@ RUS_Cosmetic = {
 	color_ui = rgb { 40 90 40 }
 }
 
-RKB_cosmetic = { 
-	color = rgb { 193 120 8  }
-	color_ui = rgb { 193 120 8  }
-}
-RKH_cosmetic = { 
-	color = rgb { 203 138 8 }
-	color_ui = rgb { 203 138 8 }
-}
-RKN_cosmetic = {
-	color = rgb { 161 213 230 }
-	color_ui = rgb { 161 213 230 }
-}
-RPD_cosmetic = {
-	color = rgb { 159 20 20 }
-	color_ui = rgb { 159 20 20 }
-}
 CRI_GER = {
 	color = HSV {0.1 0.15 0.4}
 	color_ui = rgb { 138 155 116 }

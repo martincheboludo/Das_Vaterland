@@ -159,8 +159,6 @@ set_stability = 0.75
 
 oob = "BEL_1946"
 
-set_cosmetic_tag = RKB_cosmetic
-
 set_politics = {
 	ruling_party = fascism
 	last_election = "1940.1.1"
