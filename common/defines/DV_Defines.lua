@@ -12,3 +12,8 @@ NDefines.NMilitary.MAX_AIR_EXPERIENCE = 2500
 
 NDefines_Graphics.NFrontend.CAMERA_MIN_HEIGHT = 25.0
 NDefines_Graphics.NFrontend.CAMERA_MAX_HEIGHT = 4000.0
+
+NGame = {
+	START_DATE = "1945.1.1.12",
+	END_DATE = "1990.1.1.1",
+},

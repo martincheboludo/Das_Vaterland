@@ -1,0 +1,12 @@
+﻿
+focus_tree = {
+	id = DV_Generic_focus
+	
+	country = {
+		factor = 100
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+}
