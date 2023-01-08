@@ -289,7 +289,7 @@ islamism_on_the_rise = {
 		cost = 50
 		
 		complete_effect = {
-			set_politics = { ruling_party = islamismelections_allowed = no }
+			set_politics = { ruling_party = islamism elections_allowed = no }
 			clr_country_flag = preparation_for_islamism_civil_war
 			clr_country_flag = military_support_for_islamism_civil_war
 			clr_country_flag = civil_support_for_islamism_civil_war

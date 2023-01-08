@@ -129,6 +129,50 @@ country_event = {
 		}
 	}
 	option = {
+		name = "Monarchism"
+		ai_chance = {
+			factor = 100
+		}
+		every_country = {
+			if = {
+				limit = {
+					NOT = {
+						has_government = monarchism
+					}
+				}
+				set_politics = {
+					ruling_party = monarchism
+					elections_allowed = no
+				}
+				set_popularities = {
+					monarchism = 100
+				}
+			}
+		}
+	}
+	option = {
+		name = Islamism"
+		ai_chance = {
+			factor = 100
+		}
+		every_country = {
+			if = {
+				limit = {
+					NOT = {
+						has_government = islamism
+					}
+				}
+				set_politics = {
+					ruling_party = islamism
+					elections_allowed = no
+				}
+				set_popularities = {
+					islamism = 100
+				}
+			}
+		}
+	}
+	option = {
 		name = "Back"
 		ai_chance = {
 			factor = 100

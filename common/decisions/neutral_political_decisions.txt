@@ -1,19 +1,19 @@
-monarchism_on_the_rise = {
-	prepare_for_monarchism_civil_war = {
+neutrality_on_the_rise = {
+	prepare_for_neutrality_civil_war = {
 
 		icon = generic_prepare_civil_war
 
 		available = {
-			monarchism> 0.1
+			neutrality > 0.1
 			num_of_controlled_states > 1
 		}
 
 		visible = {
-			NOT = { has_country_flag = preparation_for_monarchism_civil_war }
+			NOT = { has_country_flag = preparation_for_neutrality_civil_war }
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			
 		}
 		
@@ -22,7 +22,7 @@ monarchism_on_the_rise = {
 		cost = 50
 		
 		complete_effect = {
-			set_country_flag = preparation_for_monarchism_civil_war
+			set_country_flag = preparation_for_neutrality_civil_war
 		}
 		
 		ai_will_do = {
@@ -30,19 +30,19 @@ monarchism_on_the_rise = {
 		}
 	}
 	
-	expand_civil_monarchism_support = {
+	expand_civil_neutrality_support = {
 
 		icon = generic_civil_support
 
 		visible = {
 			OR = {
-				has_country_flag = preparation_for_monarchism_civil_war
-				has_country_flag = open_up_political_discourse_monarchism
+				has_country_flag = preparation_for_neutrality_civil_war
+				has_country_flag = open_up_political_discourse_neutrality
 			}
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			
 		}
 
@@ -59,7 +59,7 @@ monarchism_on_the_rise = {
 		days_remove = 30
 
 		modifier = {
-			monarchism_drift = 0.02
+			neutrality_drift = 0.02
 			stability_weekly = -0.03
  			political_power_gain = -0.2
 		}
@@ -69,16 +69,16 @@ monarchism_on_the_rise = {
 		}
 	}
 	
-	army_support_for_monarchism_civil_war = {
+	army_support_for_neutrality_civil_war = {
 
 		icon = generic_army_support
 
 		visible = {
-			has_country_flag = preparation_for_monarchism_civil_war
+			has_country_flag = preparation_for_neutrality_civil_war
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			
 		}
 
@@ -111,7 +111,7 @@ monarchism_on_the_rise = {
 				}
 				add_to_variable = { var = army_support_var value = 0.1 } 
 			}
-			set_country_flag = military_support_for_monarchism_civil_war
+			set_country_flag = military_support_for_neutrality_civil_war
 			custom_effect_tooltip = army_support_TT
 		}
 		
@@ -123,20 +123,20 @@ monarchism_on_the_rise = {
 		}
 	}
 
-	ensure_general_loyalty_for_monarchism_civil_war = {
+	ensure_general_loyalty_for_neutrality_civil_war = {
 
 		icon = generic_army_support
 
 		available = {
-			has_country_flag = military_support_for_monarchism_civil_war
+			has_country_flag = military_support_for_neutrality_civil_war
 		}
 
 		visible = {
-			has_country_flag = preparation_for_monarchism_civil_war
+			has_country_flag = preparation_for_neutrality_civil_war
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			any_army_leader = {
 				is_field_marshal = no
 				NOT = { has_trait = hidden_sympathies }
@@ -157,20 +157,20 @@ monarchism_on_the_rise = {
 		}
 	}
 
-	ensure_marshal_loyalty_for_monarchism_civil_war = {
+	ensure_marshal_loyalty_for_neutrality_civil_war = {
 
 		icon = generic_army_support
 
 		available = {
-			has_country_flag = military_support_for_monarchism_civil_war
+			has_country_flag = military_support_for_neutrality_civil_war
 		}
 
 		visible = {
-			has_country_flag = preparation_for_monarchism_civil_war
+			has_country_flag = preparation_for_neutrality_civil_war
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
 			}
@@ -194,23 +194,23 @@ monarchism_on_the_rise = {
 		}
 	}
 
-	siphon_equipment_stockpiles_for_monarchism_civil_war = {
+	siphon_equipment_stockpiles_for_neutrality_civil_war = {
 
 		icon = generic_prepare_civil_war
 
 		available = {
-			has_country_flag = military_support_for_monarchism_civil_war
+			has_country_flag = military_support_for_neutrality_civil_war
 			has_equipment = { infantry_equipment > 1000 }
 			command_power > 2
 		}
 
 		visible = {
-			has_country_flag = preparation_for_monarchism_civil_war
-			has_country_flag = military_support_for_monarchism_civil_war
+			has_country_flag = preparation_for_neutrality_civil_war
+			has_country_flag = military_support_for_neutrality_civil_war
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			
 		}
 	
@@ -232,21 +232,21 @@ monarchism_on_the_rise = {
 		}
 	}
 
-	formulate_surprise_attack_plan_for_monarchism_civil_war = {
+	formulate_surprise_attack_plan_for_neutrality_civil_war = {
 
 		icon = generic_army_support
 
 		available = {
-			has_country_flag = military_support_for_monarchism_civil_war
+			has_country_flag = military_support_for_neutrality_civil_war
 			command_power > 2
 		}
 
 		visible = {
-			has_country_flag = preparation_for_monarchism_civil_war
+			has_country_flag = preparation_for_neutrality_civil_war
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			
 		}
 	
@@ -265,21 +265,21 @@ monarchism_on_the_rise = {
 		}
 	}
 	
-	ignite_the_monarchism_civil_war_single_state = {
+	ignite_the_neutrality_civil_war_single_state = {
 		icon = generic_ignite_civil_war
-		name = ignite_the_monarchism_civil_war
+		name = ignite_the_neutrality_civil_war
 
 		available = {
 			has_stability < 0.5
-			monarchism> 0.50
+			neutrality > 0.50
 		}
 
 		visible = {
-			has_country_flag = preparation_for_monarchism_civil_war
+			has_country_flag = preparation_for_neutrality_civil_war
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			
 			check_variable = { num_owned_states = 1 }
 		}
@@ -289,10 +289,10 @@ monarchism_on_the_rise = {
 		cost = 50
 		
 		complete_effect = {
-			set_politics = { ruling_party = monarchism elections_allowed = no }
-			clr_country_flag = preparation_for_monarchism_civil_war
-			clr_country_flag = military_support_for_monarchism_civil_war
-			clr_country_flag = civil_support_for_monarchism_civil_war
+			set_politics = { ruling_party = neutrality elections_allowed = no }
+			clr_country_flag = preparation_for_neutrality_civil_war
+			clr_country_flag = military_support_for_neutrality_civil_war
+			clr_country_flag = civil_support_for_neutrality_civil_war
 		}
 		
 		ai_will_do = {
@@ -300,7 +300,7 @@ monarchism_on_the_rise = {
 		}
 	}
 	
-	ignite_the_monarchism_civil_war = {
+	ignite_the_neutrality_civil_war = {
 
 		icon = generic_ignite_civil_war
 
@@ -309,11 +309,11 @@ monarchism_on_the_rise = {
 		}
 
 		visible = {
-			has_country_flag = preparation_for_monarchism_civil_war
+			has_country_flag = preparation_for_neutrality_civil_war
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			
 			check_variable = { num_owned_states > 1 }
 		}
@@ -368,16 +368,16 @@ monarchism_on_the_rise = {
 				}
 			}
 			start_civil_war = {
-				ruling_party = monarchism
+				ruling_party = neutrality
 				ideology = ROOT
 				size = civil_war_size_var
 				keep_unit_leaders_trigger = {
 					has_trait = hidden_sympathies
 				}
 			}
-			clr_country_flag = preparation_for_monarchism_civil_war
-			clr_country_flag = military_support_for_monarchism_civil_war
-			clr_country_flag = civil_support_for_monarchism_civil_war
+			clr_country_flag = preparation_for_neutrality_civil_war
+			clr_country_flag = military_support_for_neutrality_civil_war
+			clr_country_flag = civil_support_for_neutrality_civil_war
 			set_country_flag = ideology_civil_war
 		}
 		
@@ -386,12 +386,12 @@ monarchism_on_the_rise = {
 		}
 	}
 
-	rebuild_the_nation_monarchism= {
+	rebuild_the_nation_neutrality = {
 
 		icon = generic_construction
 
 		visible = {
-			has_government = monarchism
+			has_government = neutrality
 			has_country_flag = won_ideology_civil_war
 		}
 
@@ -415,7 +415,7 @@ monarchism_on_the_rise = {
 		}
 	}
 
-	open_up_political_discourse_monarchism= {
+	open_up_political_discourse_neutrality = {
 
 		icon = generic_political_discourse
 
@@ -423,20 +423,20 @@ monarchism_on_the_rise = {
 			fascism < 0.9
 			democratic < 0.9
 			communism < 0.9
-			monarchism< 0.9
+			neutrality < 0.9
 		}
 
 		visible = {
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
-			NOT = { has_country_flag = open_up_political_discourse_monarchism}
-			NOT = { has_government = monarchism}
+			NOT = { has_country_flag = open_up_political_discourse_neutrality }
+			NOT = { has_government = neutrality }
 			
 		}
 		
 		remove_trigger = {
-			has_government = monarchism
+			has_government = neutrality
 		}
 		
 		fire_only_once = yes
@@ -444,7 +444,7 @@ monarchism_on_the_rise = {
 		cost = 75
 		
 		complete_effect = {
-			set_country_flag = open_up_political_discourse_monarchism
+			set_country_flag = open_up_political_discourse_neutrality
 		}
 		
 		ai_will_do = {
@@ -452,7 +452,7 @@ monarchism_on_the_rise = {
 		}
 	}
 	
-	discredit_government_monarchism= {
+	discredit_government_neutrality = {
 
 		icon = generic_political_discourse
 
@@ -460,20 +460,20 @@ monarchism_on_the_rise = {
 			fascism < 0.8
 			democratic < 0.8
 			communism < 0.8
-			monarchism< 0.8
+			neutrality < 0.8
 			OR = {
-				has_idea_with_trait = monarchism_advocate
+				has_idea_with_trait = centrist_advocate
 			}
 		}
 
 		visible = {
-			has_country_flag = open_up_political_discourse_monarchism
-			NOT = { has_government = monarchism}
+			has_country_flag = open_up_political_discourse_neutrality
+			NOT = { has_government = neutrality }
 			
 		}
 		
 		remove_trigger = {
-			has_government = monarchism
+			has_government = neutrality
 		}
 		
 		fire_only_once = yes
@@ -516,25 +516,25 @@ monarchism_on_the_rise = {
 		}
 	}
 	
-	hold_the_monarchism_national_referendum = {
+	hold_the_neutrality_national_referendum = {
 
 		icon = generic_political_discourse
 
 		available = {
-			monarchism> 0.5
+			neutrality > 0.5
 		}
 
 		visible = {
-			NOT = { has_government = monarchism}
+			NOT = { has_government = neutrality }
 			OR = {
-				monarchism> 0.6
-				has_country_flag = open_up_political_discourse_monarchism
+				neutrality > 0.6
+				has_country_flag = open_up_political_discourse_neutrality
 			}
 			
 		}
 		
 		remove_trigger = {
-			has_government = monarchism
+			has_government = neutrality
 		}
 		
 		fire_only_once = yes
@@ -542,13 +542,13 @@ monarchism_on_the_rise = {
 		cost = 100
 		
 		complete_effect = {
-			country_event = { id = monarchism_political.4 }
+			country_event = { id = neutrality_political.4 }
 		}
 		
 		ai_will_do = {
 			factor = 210
 			modifier = {
-				monarchism> 0.6
+				neutrality > 0.6
 				factor = 10
 			}
 		}
