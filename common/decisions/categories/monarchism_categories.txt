@@ -1,0 +1,9 @@
+monarchism_on_the_rise = {
+	icon = power_struggle
+
+	allowed = {
+	}
+	
+	visible = {
+	}
+}

@@ -1,0 +1,27 @@
+characters = {	
+	generic_monarchism_advisor={
+		advisor={
+			slot = political_advisor
+			idea_token = monarchism_advisor
+			allowed = {
+			}
+			traits = {
+				monarchism_advocate 
+			}
+			visible = {
+				always = yes
+			}
+			available = {
+				always = yes
+			}
+			do_effect  = {
+				not  = {
+					has_government  = monarchism
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+}

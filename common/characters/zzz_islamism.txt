@@ -1,0 +1,27 @@
+characters = {	
+	generic_islamism_advisor={
+		advisor={
+			slot = political_advisor
+			idea_token = islamism_advisor
+			allowed = {
+			}
+			traits = {
+				islamism_advocate 
+			}
+			visible = {
+				always = yes
+			}
+			available = {
+				always = yes
+			}
+			do_effect  = {
+				not  = {
+					has_government  = islamism
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+}
