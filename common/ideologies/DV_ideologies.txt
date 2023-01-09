@@ -99,6 +99,6 @@ ideologies = {
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
-		ai_ideology_wanted_units_factor = 1.65
+		ai_ideology_wanted_units_factor = 1.15
 	}
 }
