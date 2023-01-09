@@ -1,0 +1,134 @@
+RON_ww2_allies = {
+	AND = {
+		OR = {
+			tag = USA
+			tag = ENG
+			tag = FRA
+			tag = POL
+			tag = YUG
+			tag = GRE
+			tag = HOL
+			tag = BEL
+			tag = NOR
+			tag = CZE
+			tag = LUX
+			tag = RAJ
+			tag = CAN
+			tag = AST
+			tag = NZL
+			tag = SAF
+			tag = PHI
+			tag = BRA
+			tag = MEX
+		}
+		OR = {
+			has_government = democratic
+			has_government = neutrality
+		}
+	}
+}
+
+RON_ww2_axis = {
+	AND = {
+		OR = {
+			tag = GER
+			tag = ITA
+			tag = HUN
+			tag = ROM
+			tag = BUL
+			tag = SLO
+			tag = CRO
+			tag = IRQ
+			tag = FIN
+			tag = SPR
+		}
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+		}
+	}
+}
+
+RON_ww2_japan_faction = {
+	AND = {
+		OR = {
+			tag = JAP
+			tag = SIA
+			tag = MAN
+			tag = MEN
+		}
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+		}
+	}
+}
+
+RON_ww2_italy_faction = {
+	AND = {
+		OR = {
+			tag = YUG
+			tag = GRE
+			tag = ALB
+			tag = TUR
+			tag = BUL
+			tag = SER
+			tag = CRO
+		}
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+		}
+	}
+}
+
+RON_ww2_comintern = {
+	AND = {
+		OR = {
+			tag = SOV
+			tag = MON
+			tag = TAN
+		}
+		has_government = communism
+	}
+}
+
+RON_can_join_allies = {
+	OR = {
+		RON_ww2_allies = yes
+		threat > 0.9
+		is_ai = no
+	}
+}
+
+RON_can_join_comintern = {
+	OR = {
+		RON_ww2_comintern = yes
+		threat > 0.9
+		is_ai = no
+	}
+}
+
+RON_can_join_axis = {
+	OR = {
+		RON_ww2_axis = yes
+		threat > 0.9
+		is_ai = no
+	}
+}
+
+RON_can_join_italy = {
+	OR = {
+		RON_ww2_italy_faction = yes
+		threat > 0.9
+		is_ai = no
+	}
+}
+
+RON_can_join_japan = {
+	OR = {
+		RON_ww2_japan_faction = yes
+		threat > 0.9
+		is_ai = no
+	}
+}
