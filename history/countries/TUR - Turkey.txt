@@ -43,7 +43,7 @@ if = {
 #TUR_democratic
 #TUR_fascism
 #TUR_neutrality
-set_cosmetic_tag = TUR_neutrality
+#set_cosmetic_tag = TUR_neutrality
 
 set_research_slots = 3
 
