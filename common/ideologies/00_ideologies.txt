@@ -84,6 +84,11 @@ ideologies = {
 			}
 
 			anarchist_communism = {
+				can_be_randomly_selected = no
+			}
+			
+			lw_strasserism = {
+				can_be_randomly_selected = no
 			}
 		}
 

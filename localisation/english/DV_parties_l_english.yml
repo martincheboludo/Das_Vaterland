@@ -34,3 +34,8 @@
  emiratism_desc:0 "An emirate is a political territory that is ruled by a dynastic Arabic or Islamic monarch styled emir."
  jihadism:0 "Jihadism"
  jihadism_desc:0 "Jihad is an Arabic word which literally means striving or struggling, especially with a praiseworthy aim. In an Islamic context, it is most frequently associated with war."
+ 
+ #Left Wing
+ 
+ lw_strasserism:0 "Strasserism"
+ lw_strasserism_desc:0 "Strasserism refers to a political movement, which emerged from the NSDAP, deriving its name from the Strasser brothers. The movement was more socialistic than some of the older conservative, military and aristocratic elements in the government, with Adolf Hitler falling somewhere inbetween both camps. They promoted concepts such as"class conflict" and a warmer position on the Soviet Union."
