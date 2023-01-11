@@ -153,7 +153,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 201
 		}
-		location = 12446 #Toyohara
+		location = 1714 #Toyohara
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.2
 	}
@@ -166,14 +166,14 @@ units = {
 	}
 	division = {
 		name = "Ominato Kichi Shubitai"
-		location = 4196
+		location = 6969
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 	}
 	division = {
 		name = "Ominato Kichi Shubitai"
-		location = 1055
+		location = 11822
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -268,7 +268,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 19
 		}
-		location = 4052 #Pyongyang
+		location = 1714 #Pyongyang
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.2
 	}
@@ -394,7 +394,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 11771 # Mukden
+		location = 10572 # Mukden
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -403,7 +403,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 10433 # Harbin
+		location = 1805 # Harbin
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -418,7 +418,7 @@ units = {
 	### Kwantung Defense Force (groups of independent garrisons) (CO: ) ###
 	division = {
 		name = "Manshu Tetsudo Shubitai" # Manchuria Railway Guard"	
-		location = 11771 #Mukden
+		location = 10572 #Mukden
 		division_template = "Chuton-chi Shidan"			# Japanese garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -426,7 +426,7 @@ units = {
 	}
 	division = {
 		name = "Kantogun Shureibu Keibitai"
-		location = 4572 #Hsinking
+		location = 1805 #Hsinking
 		division_template = "Chuton-chi Shidan"			# Japanese garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -438,7 +438,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 10368
+		location = 1845
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.2
 	}
@@ -447,19 +447,19 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 10698
+		location = 7691
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "1 Senshadan"
-		location = 10698
+		location = 7691
 		division_template = "Senshadan"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "1 Kokkyou Keibitai"
-		location = 1732
+		location = 7785
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -484,7 +484,7 @@ units = {
 	}
 	division = {
 		name = "5 Kokkyou Keibitai"
-		location = 10675
+		location = 12537
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -492,7 +492,7 @@ units = {
 	}
 	division = {
 		name = "6 Kokkyou Keibitai"
-		location = 7848
+		location = 12537
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -500,7 +500,7 @@ units = {
 	}
 	division = {
 		name = "7 Kokkyou Keibitai"
-		location = 7832
+		location = 12543
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -508,7 +508,7 @@ units = {
 	}
 	division = {
 		name = "8 Kokkyou Keibitai"
-		location = 1693
+		location = 12543
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -516,7 +516,7 @@ units = {
 	}
 	division = {
 		name = "13 Kokkyou Keibitai"
-		location = 12548
+		location = 7785
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -529,19 +529,19 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 3944
+		location = 7772
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "3 Senshadan"
-		location = 3944
+		location = 7772
 		division_template = "Senshadan"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "2 Kokkyou Keibitai"
-		location = 6806
+		location = 12650
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -549,7 +549,7 @@ units = {
 	}
 	division = {
 		name = "3 Kokkyou Keibitai"
-		location = 810
+		location = 12650
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -557,7 +557,7 @@ units = {
 	}
 	division = {
 		name = "4 Kokkyou Keibitai"
-		location = 3843
+		location = 12591
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -565,7 +565,7 @@ units = {
 	}
 	division = {
 		name = "9 Kokkyou Keibitai"
-		location = 5427
+		location = 12591
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -573,7 +573,7 @@ units = {
 	}
 	division = {
 		name = "10 Kokkyou Keibitai"
-		location = 9798
+		location = 1730
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -581,7 +581,7 @@ units = {
 	}
 	division = {
 		name = "11 Kokkyou Keibitai"
-		location = 12500
+		location = 1730
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -589,7 +589,7 @@ units = {
 	}
 	division = {
 		name = "12 Kokkyou Keibitai"
-		location = 10521
+		location = 1845
 		division_template = "Chuton-chi Shidan"			# Japanese Border Guard garrison (better experience, equipment than Manchukuo militia)
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -624,7 +624,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 35
 		}
-		location = 7129
+		location = 3427
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -633,7 +633,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 41
 		}
-		location = 9937
+		location = 10629
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -642,7 +642,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 110
 		}
-		location = 7571
+		location = 1137
 		division_template = "Hohei Shidan"			# Garrison division (lower experience, older equipment)
 		start_experience_factor = 0.2
 	}
@@ -651,7 +651,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 1519
+		location = 6904
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -660,7 +660,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 4634
+		location = 6904
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -669,7 +669,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 1575
+		location = 7631
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -678,7 +678,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 10098
+		location = 10854
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -687,17 +687,16 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 10079
+		location = 1959
 		division_template = "Kihei Shidan"				# represents both 3rd and 4th independent cavalry brigades
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "Hankow Kichi Shubitai"
-		location = 4619 # Wuhan
+		location = 7158 # Wuhan
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
-
 	}
 	### 1 Homengun (CO: Shinozuka) ###
 	division = { # "36 'Yuki' Hohei Shidan"
@@ -705,7 +704,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 36
 		}
-		location = 4619 # Wuhan
+		location = 1865 # Wuhan
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -714,7 +713,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 37
 		}
-		location = 7167
+		location = 10125
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	} 
@@ -723,7 +722,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 40
 		}
-		location = 4631
+		location = 10558
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -732,16 +731,484 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 4158
+		location = 12880
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 10689 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 10689 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4786 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4786 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1781 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1781 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 10560 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 10560 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1855 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1855 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7808 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7808 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7870 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7870 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7870 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1774 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 10539 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4751 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7843 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12695 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12695 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7773 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7773 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1689 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12649 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12579 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4882 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1791 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1791 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7676 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7676 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7717 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7717 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 10554 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 10554 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4862 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4862 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12533 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12533 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12665 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4792 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 957 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 11771 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 11752 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7072 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4572 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1117 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7169 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1025 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7093 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7093 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 9948 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 9948 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12065 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12065 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7518 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7518 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12008 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12008 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12319 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12319 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12392 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12392 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12433 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12433 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4568 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4568 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4401 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7432 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12612 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12189 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1185 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 10032 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 12446 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 1399 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4052 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 4792 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Chuton-chi Shidan"
+		location = 7743 # Wuhan
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.1
 	}
 	division = { # "3 Dokuritsu Konsei Ryodan"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 10462
+		location = 1774
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -750,18 +1217,17 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 4619 # Wuhan
+		location = 9604 # Wuhan
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
-
 	### 12 Homengun (CO: Iida) ###
 	division = { # "21 'Tou' Hohei Shidan"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 9958
+		location = 4986
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -770,7 +1236,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 6932
+		location = 7631
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -779,7 +1245,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 32
 		}
-		location = 11931
+		location = 10451
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -788,7 +1254,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 114
 		}
-		location = 4114
+		location = 10451
 		division_template = "Hohei Shidan"			# Garrison division (lower experience, older equipment)
 		start_experience_factor = 0.2
 	}
@@ -797,7 +1263,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 1575
+		location = 1137
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -806,7 +1272,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 1004
+		location = 10451
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -815,7 +1281,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 9958
+		location = 4986
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -826,7 +1292,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 26
 		}
-		location = 4186
+		location = 12043
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -835,7 +1301,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 10507
+		location = 9776
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}
@@ -844,7 +1310,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 101
 		}
-		location = 12300
+		location = 9776
 		division_template = "Kihei Shidan"
 		start_experience_factor = 0.2
 	}
@@ -853,7 +1319,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 102
 		}
-		location = 4174
+		location = 9776
 		division_template = "Kihei Shidan"
 		start_experience_factor = 0.2
 	}
@@ -907,7 +1373,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 108
 		}
-		location = 12880
+		location = 1714
 		division_template = "Kihei Shidan"
 		start_experience_factor = 0.2
 	}
@@ -919,7 +1385,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 34
 		}
-		location = 4173
+		location = 1865
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -928,13 +1394,13 @@ units = {
 			is_name_ordered = yes
 			name_order = 39
 		}
-		location = 11937
+		location = 10540
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "Shanghai Kichi Shubitai"
-		location = 7014 # Shanghai
+		location = 12043 # Shanghai
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -945,13 +1411,13 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 7014 # Shanghai
+		location = 12043 # Shanghai
 		division_template = "Rikusentai"
 		start_experience_factor = 0.5
 	}
 	division = {
 		name = "1 Yokosuka Rikustentai"
-		location = 4023 # Hainan
+		location = 3955 # Hainan
 		division_template = "Rikusentai"
 		start_experience_factor = 0.5
 	}
@@ -960,7 +1426,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 7071 # Hainan
+		location = 11607 # Hainan
 		division_template = "Rikusentai"
 		start_experience_factor = 0.5
 	}
@@ -970,7 +1436,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 11988
+		location = 10558
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 	}
@@ -979,7 +1445,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 7653
+		location = 10424
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.4
 	}
@@ -988,7 +1454,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 4185
+		location = 13062
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -997,7 +1463,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 33
 		}
-		location = 4038
+		location = 13062
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -1006,7 +1472,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 101
 		}
-		location = 1153
+		location = 10540
 		division_template = "Hohei Shidan"			# Garrison division (lower experience, older equipment)
 		start_experience_factor = 0.2
 	}
@@ -1015,7 +1481,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 106
 		}
-		location = 3992
+		location = 10424
 		division_template = "Hohei Shidan"			# Garrison division (lower experience, older equipment)
 		start_experience_factor = 0.2
 	}
@@ -1026,7 +1492,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 10014
+		location = 7158
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -1035,7 +1501,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 17
 		}
-		location = 11991
+		location = 11607
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -1044,7 +1510,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 7058
+		location = 11822
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -1053,7 +1519,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 116
 		}
-		location = 9974
+		location = 11822
 		division_template = "Hohei Shidan"			# Garrison division (lower experience, older equipment)
 		start_experience_factor = 0.2
 	}
@@ -1064,7 +1530,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 11941
+		location = 3955
 		division_template = "Jidousha Shidan"
 		start_experience_factor = 0.4
 	}
@@ -1073,7 +1539,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 1202
+		location = 6969
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -1082,7 +1548,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 38
 		}
-		location = 11938
+		location = 3955
 		division_template = "Chugata Hohei Shidan"
 		start_experience_factor = 0.3
 	}
@@ -1091,7 +1557,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 204
 		}
-		location = 9938
+		location = 6969
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
 	}

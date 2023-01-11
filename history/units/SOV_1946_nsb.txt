@@ -792,7 +792,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 33
 		}
-		location = 7233
+		location = 1676
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -861,7 +861,7 @@ units = {
 	### Kavaleriyskaya-Mekhanizirovanaya Gruppa (CO: Boldin) ###		
 	division= {			
 		name = "15ya Tankovaya Korpus"		
-		location = 10140
+		location = 10681
 		division_template = "Tankovaya Korpus"			# BT-7s
 		start_experience_factor = 0.3
 		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
@@ -987,7 +987,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 85
 		}
-		location = 7313
+		location = 10713
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1395,7 +1395,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 182
 		}
-		location = 4824
+		location = 10597
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1476,7 +1476,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 183
 		}
-		location = 12543
+		location = 4832
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1484,7 +1484,7 @@ units = {
 	}
 	division= {			
 		name = "1ya KOVO Tankovaya Gruppa"		
-		location = 12543
+		location = 4832
 		division_template = "Legko-Tankovaya Brigada"		# 29ya TB (BT-7), 42ya TB (BT-7)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1496,7 +1496,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 7851
+		location = 1676
 		division_template = "Motostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1507,7 +1507,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 124
 		}
-		location = 7851
+		location = 10681
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1518,7 +1518,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 131
 		}
-		location = 10678
+		location = 4675
 		division_template = "Motostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1530,7 +1530,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 140
 		}
-		location = 10678
+		location = 4675
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1541,7 +1541,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 146
 		}
-		location = 12657
+		location = 4821
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1552,7 +1552,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 31
 		}
-		location = 12657
+		location = 4821
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1564,7 +1564,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 62
 		}
-		location = 7763
+		location = 7844
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1575,7 +1575,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 141
 		}
-		location = 7763
+		location = 7844
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1586,7 +1586,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 187
 		}
-		location = 4725
+		location = 10608
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1598,7 +1598,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 58
 		}
-		location = 4725
+		location = 10608
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1609,7 +1609,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 95
 		}
-		location = 10655
+		location = 10667
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1620,7 +1620,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 197
 		}
-		location = 10655
+		location = 10667
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1634,7 +1634,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 44
 		}
-		location = 7801
+		location = 4752
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1645,7 +1645,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 81
 		}
-		location = 7801
+		location = 4752
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1653,7 +1653,7 @@ units = {
 	}
 	division= {			
 		name = "2ya KOVO Tankovaya Gruppa"		
-		location = 10722
+		location = 7746
 		division_template = "Legko-Tankovaya Brigada"		# 36ya TB (T-26), 38ya TB (T-26)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1665,7 +1665,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 45
 		}
-		location = 10722
+		location = 7746
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1676,7 +1676,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 60
 		}
-		location = 7672
+		location = 1878
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1687,7 +1687,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 87
 		}
-		location = 7672
+		location = 1878
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1701,7 +1701,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 96
 		}
-		location = 4805
+		location = 12623
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1712,7 +1712,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 97
 		}
-		location = 4805
+		location = 12623
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1720,7 +1720,7 @@ units = {
 	}
 	division= {			
 		name = "3ya KOVO Tankovaya Gruppa"		
-		location = 12189
+		location = 4878
 		division_template = "Tyazolaya-Tankovaya Brigada"		# 10ya TB (T-35), 24ya TB (T-26)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1733,7 +1733,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 12189
+		location = 4878
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1744,7 +1744,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 10466
+		location = 12634
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1755,7 +1755,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 10466
+		location = 12634
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1765,7 +1765,7 @@ units = {
 	### 12ya Armiya (CO: Tyulenev) ###		
 	division= {			
 		name = "25ya Tankovaya Korpus"		
-		location = 11643
+		location = 4229
 		division_template = "Tankovaya Korpus"			# BT-7s
 		start_experience_factor = 0.3
 		force_equipment_variants = { light_tank_chassis_2 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
@@ -1776,7 +1776,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 72
 		}
-		location = 11643
+		location = 4229
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1787,7 +1787,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 99
 		}
-		location = 6686
+		location = 12592
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1799,7 +1799,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 32
 		}
-		location = 6686
+		location = 12592
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1810,7 +1810,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 34
 		}
-		location = 664
+		location = 4455
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1818,7 +1818,7 @@ units = {
 	}
 	division= {			
 		name = "4ya KOVO Tankovaya Gruppa"		
-		location = 664
+		location = 4455
 		division_template = "Legko-Tankovaya Brigada"		# 23ya TB (T-26), 26ya TB (T-26)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1830,7 +1830,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 6684
+		location = 1819
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1841,7 +1841,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 16
 		}
-		location = 6684
+		location = 1819
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1856,7 +1856,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 23
 		}
-		location = 3787
+		location = 4677
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1867,7 +1867,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 80
 		}
-		location = 3787
+		location = 4677
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1878,7 +1878,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 116
 		}
-		location = 6838
+		location = 7786
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1890,7 +1890,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 147
 		}
-		location = 6838
+		location = 7786
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1901,7 +1901,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 156
 		}
-		location = 3977
+		location = 10683
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1909,7 +1909,7 @@ units = {
 	}
 	division= {			
 		name = "OdVO Voz.-Desantnye Voyska"		
-		location = 3977
+		location = 10683
 		division_template = "Vozdushno-Desantnaya"		# 5ya, 6ya VD Brigades		
 		start_experience_factor = 0.3
 	}			
@@ -1921,7 +1921,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 11879
+		location = 12507
 		division_template = "NKVD Pogranichnaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -1934,7 +1934,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 25
 		}
-		location = 11879
+		location = 12507
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1945,7 +1945,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 51
 		}
-		location = 957
+		location = 7860
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1956,7 +1956,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 151
 		}
-		location = 12446
+		location = 4766
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2140,7 +2140,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 7477
+		location = 12610
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -2151,7 +2151,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 12696
+		location = 10597
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -2162,7 +2162,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 4728
+		location = 4766
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -2185,7 +2185,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 118
 		}
-		location = 855
+		location = 4766
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2196,7 +2196,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 160
 		}
-		location = 12192
+		location = 12623
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2207,7 +2207,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 171
 		}
-		location = 7844
+		location = 4675
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2221,7 +2221,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 63
 		}
-		location = 1707
+		location = 1877
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2232,7 +2232,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 76
 		}
-		location = 4705
+		location = 1877
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2243,7 +2243,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 77
 		}
-		location = 1707
+		location = 1877
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2254,7 +2254,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 4734
+		location = 1810
 		division_template = "NKVD Pogranichnaya Diviziya"	
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2278,7 +2278,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 10253
+		location = 7804
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2289,7 +2289,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 47
 		}
-		location = 10312
+		location = 7804
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2300,7 +2300,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 17
 		}
-		location = 9292
+		location = 7804
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -2314,7 +2314,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 68
 		}
-		location = 1459
+		location = 1762
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2326,7 +2326,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 83
 		}
-		location = 1459
+		location = 1762
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2338,7 +2338,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 16
 		}
-		location = 1459
+		location = 1762
 		division_template = "NKVD Pogranichnaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2351,7 +2351,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 19
 		}
-		location = 12805
+		location = 7703
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2363,7 +2363,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 10417
+		location = 7703
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2376,7 +2376,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 18
 		}
-		location = 756
+		location = 12610
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2388,7 +2388,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 12239
+		location = 12610
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2400,7 +2400,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 12218
+		location = 7703
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2416,7 +2416,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 957
+		location = 7860
 		division_template = "NKVD Pogranichnaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2429,7 +2429,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 79
 		}
-		location = 6686
+		location = 12592
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2440,7 +2440,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 101
 		}
-		location = 11643
+		location = 4229
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2454,7 +2454,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 3977
+		location = 10683
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2465,7 +2465,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 6838
+		location = 7786
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2476,7 +2476,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 26
 		}
-		location = 3787
+		location = 4677
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2488,7 +2488,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 92
 		}
-		location = 12189
+		location = 4878
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2499,7 +2499,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 10466
+		location = 12634
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2507,7 +2507,7 @@ units = {
 	}
 	division= {			
 		name = "DVVO Tankovaya Gruppa"		
-		location = 12189
+		location = 4878
 		division_template = "Legko-Tankovaya Brigada"		# 3ya TB (T-26), 11ya TB (T-26)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2519,7 +2519,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 32
 		}
-		location = 11879
+		location = 12507
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2530,7 +2530,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 40
 		}
-		location = 11879
+		location = 12507
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2542,7 +2542,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 66
 		}
-		location = 6684
+		location = 1819
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2553,7 +2553,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 105
 		}
-		location = 664
+		location = 4455
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2565,7 +2565,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 39
 		}
-		location = 4805
+		location = 12623
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2576,7 +2576,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 59
 		}
-		location = 7672
+		location = 1878
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2589,7 +2589,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 69
 		}
-		location = 12657
+		location = 4821
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2601,7 +2601,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 10722
+		location = 7746
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2612,7 +2612,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 34
 		}
-		location = 7801
+		location = 4752
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2623,7 +2623,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 35
 		}
-		location = 10655
+		location = 10667
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2635,7 +2635,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 4725
+		location = 10608
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2646,7 +2646,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 78
 		}
-		location = 7763
+		location = 7844
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -2714,7 +2714,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 93
 		}
-		location = 12543
+		location = 4832
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2726,7 +2726,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 94
 		}
-		location = 12543
+		location = 4832
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2738,7 +2738,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 114
 		}
-		location = 7851
+		location = 10681
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2790,7 +2790,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 71
 		}
-		location = 1287
+		location = 1810
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2802,7 +2802,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 1287
+		location = 1810
 		division_template = "NKVD Pogranichnaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2815,7 +2815,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 91
 		}
-		location = 1818
+		location = 12509
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2827,7 +2827,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 119
 		}
-		location = 10610
+		location = 12509
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2839,7 +2839,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 166
 		}
-		location = 1818
+		location = 12509
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2852,7 +2852,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 107
 		}
-		location = 1591
+		location = 10543
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2864,7 +2864,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 133
 		}
-		location = 1591
+		location = 10543
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2876,7 +2876,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 178
 		}
-		location = 1591
+		location = 10543
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2889,7 +2889,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 37
 		}
-		location = 10619
+		location = 10597
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2901,7 +2901,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 102
 		}
-		location = 12529
+		location = 10713
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2913,7 +2913,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 194
 		}
-		location = 12662
+		location = 10713
 		division_template = "Gornostrelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.1
@@ -2938,21 +2938,21 @@ units = {
 	}
 	division= {	# "6ya Kubansko-Terskaya Kazachya Kavaleryskaya Diviziya"		
 		name = "6ya Kubansko-Terskaya Kazachya Kav. Div."		
-		location = 7243
+		location = 4837
 		division_template = "Kazachya Kavaleryskaya Diviziya"	
 		start_experience_factor = 0.8
 		start_equipment_factor = 1.0
 	}
 	division= {	# "10ya Tersko-Stavropolskay Kazachya Kavaleryskaya Diviziya"		
 		name = "10ya Tersko-Stavropolskaya Kazachya Kav. Div"		
-		location = 7243
+		location = 4837
 		division_template = "Kazachya Kavaleryskaya Diviziya"	
 		start_experience_factor = 0.8
 		start_equipment_factor = 1.0
 	}
 	division= {	# "12ya Kubanskaya Kazachya Kavaleryskaya Diviziya"		
 		name = "12ya Kubanskaya Kazachya Kav. Div."		
-		location = 7243
+		location = 4837
 		division_template = "Kazachya Kavaleryskaya Diviziya"	
 		start_experience_factor = 0.8
 		start_equipment_factor = 1.0
