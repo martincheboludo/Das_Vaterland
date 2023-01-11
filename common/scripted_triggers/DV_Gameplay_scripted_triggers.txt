@@ -132,3 +132,10 @@ RON_can_join_japan = {
 		is_ai = no
 	}
 }
+
+DV_Has_Authoritarian_Ideology = {
+	OR = {
+		has_government = neutrality
+		has_government = monarchism
+	}
+}

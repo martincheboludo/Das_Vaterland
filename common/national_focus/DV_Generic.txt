@@ -323,11 +323,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					OR = {
-						has_government = monarchism
-						has_government = fascism
-						has_government = communism
-					}
+					NOT = { has_government = democratic }
 				}
 				add_ideas = {
 					RI_democrat_factories
@@ -497,9 +493,7 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				NOT = {
-					has_government = monarchism
-				}
+				DV_Has_Authoritarian_Ideology = no
 			}
 		}
 		completion_reward = {
@@ -525,19 +519,19 @@ focus_tree = {
 				popularity = 0.1
 				ideology = monarchism
 			}
+			add_popularity = {
+				popularity = 0.1
+				ideology = neutrality
+			}
 			if = {
 				limit = {
-					OR = {
-						has_government = democratic
-						has_government = fascism
-						has_government = communism
-					}
+					DV_Has_Authoritarian_Ideology = no
 				}
 				add_stability = -0.1
 			}
 			if = {
 				limit = {
-					has_government = monarchism
+					DV_Has_Authoritarian_Ideology = yes
 				}
 				add_stability = 0.1
 			}
@@ -560,19 +554,19 @@ focus_tree = {
 				popularity = 0.1
 				ideology = monarchism
 			}
+			add_popularity = {
+				popularity = 0.1
+				ideology = neutrality
+			}
 			if = {
 				limit = {
-					OR = {
-						has_government = democratic
-						has_government = fascism
-						has_government = communism
-					}
+					DV_Has_Authoritarian_Ideology = no
 				}
 				add_war_support = -0.1
 			}
 			if = {
 				limit = {
-					has_government = monarchism
+					DV_Has_Authoritarian_Ideology = yes
 				}
 				add_war_support = 0.1
 			}
@@ -596,11 +590,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					OR = {
-						has_government = democratic
-						has_government = fascism
-						has_government = communism
-					}
+					DV_Has_Authoritarian_Ideology = no
 				}
 				add_ideas = {
 					RI_disloyal_military
@@ -608,7 +598,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = monarchism
+					DV_Has_Authoritarian_Ideology = yes
 				}
 				add_ideas = {
 					RI_loyal_military
@@ -637,11 +627,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					OR = {
-						has_government = democratic
-						has_government = fascism
-						has_government = communism
-					}
+					DV_Has_Authoritarian_Ideology = no
 				}
 				add_ideas = {
 					RI_disloyal_people
@@ -649,7 +635,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = monarchism
+					DV_Has_Authoritarian_Ideology = yes
 				}
 				add_ideas = {
 					RI_loyal_people
@@ -675,11 +661,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					OR = {
-						has_government = democratic
-						has_government = fascism
-						has_government = communism
-					}
+					DV_Has_Authoritarian_Ideology = no
 				}
 				add_ideas = {
 					RI_monarchist_politics
@@ -687,7 +669,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = monarchism
+					DV_Has_Authoritarian_Ideology = yes
 				}
 				add_ideas = {
 					RI_monarchist_politics1
@@ -716,11 +698,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					OR = {
-						has_government = democratic
-						has_government = fascism
-						has_government = communism
-					}
+					DV_Has_Authoritarian_Ideology = no
 				}
 				add_ideas = {
 					RI_monarchist_opposition
@@ -728,7 +706,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = monarchism
+					DV_Has_Authoritarian_Ideology = yes
 				}
 				add_ideas = {
 					RI_monarchist_opposition1
@@ -737,6 +715,10 @@ focus_tree = {
 			add_popularity = {
 				popularity = 0.1
 				ideology = monarchism
+			}
+			add_popularity = {
+				popularity = 0.1
+				ideology = neutrality
 			}
 		}
 	}
@@ -1085,7 +1067,7 @@ focus_tree = {
 						has_government = democratic
 						has_government = fascism
 						has_government = communism
-						has_government = monarchism
+						DV_Has_Authoritarian_Ideology = yes
 					}
 				}
 				add_ideas = RI_islamist_militias
@@ -1490,6 +1472,10 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {
 				popularity = 0.1
+				ideology = monarchism
+			}
+			add_popularity = {
+				popularity = 0.1
 				ideology = neutrality
 			}
 		}
@@ -1504,6 +1490,10 @@ focus_tree = {
 			focus = cw_stability
 		}
 		completion_reward = {
+			add_popularity = {
+				popularity = 0.1
+				ideology = monarchism
+			}
 			add_popularity = {
 				popularity = 0.1
 				ideology = neutrality
@@ -1964,7 +1954,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			OR = {
 				JAP = {
@@ -2000,7 +1990,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			JAP = {
 				has_government = fascism
@@ -2037,7 +2027,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			JAP = {
 				has_government = fascism
@@ -2065,7 +2055,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			JAP = {
 				has_government = fascism
@@ -2090,7 +2080,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			JAP = {
 				has_government = fascism
@@ -2121,7 +2111,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 
 			JAP = {
@@ -2151,7 +2141,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			RON_can_join_japan = yes
 
@@ -2179,7 +2169,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			OR = {
 				JAP = {
@@ -2225,7 +2215,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			ITA = {
 				has_government = fascism
@@ -2262,7 +2252,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			ITA = {
 				has_government = fascism
@@ -2296,7 +2286,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			ITA = {
 				has_government = fascism
@@ -2321,7 +2311,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			ITA = {
 				has_government = fascism
@@ -2366,7 +2356,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			ITA = {
 				has_government = fascism
@@ -2391,7 +2381,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			ITA = {
 				has_government = fascism
@@ -2419,7 +2409,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			OR = {
 				ITA = {
@@ -2465,7 +2455,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			GER = {
 				has_government = fascism
@@ -2502,7 +2492,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			GER = {
 				has_government = fascism
@@ -2527,7 +2517,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			GER = {
 				has_government = fascism
@@ -2552,7 +2542,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			GER = {
 				has_government = fascism
@@ -2583,7 +2573,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			GER = {
 				has_government = fascism
@@ -2611,7 +2601,7 @@ focus_tree = {
 			is_puppet = no
 			OR = {
 				has_government = fascism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			GER = {
 				has_government = fascism
@@ -2640,7 +2630,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			any_country = {
 				OR = {
@@ -2671,7 +2661,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			any_country = {
 				has_government = democratic
@@ -2707,7 +2697,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			any_country = {
 				has_government = democratic
@@ -2740,7 +2730,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			any_country = {
 				has_government = democratic
@@ -2765,7 +2755,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			USA = {
 				has_government = democratic
@@ -2808,7 +2798,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			any_country = {
 				has_government = democratic
@@ -2836,7 +2826,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			USA = {
 				has_government = democratic
@@ -2865,7 +2855,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			any_country = {
 				has_government = fascism
@@ -2891,7 +2881,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			GER = {
 				has_government = fascism
@@ -2919,7 +2909,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			JAP = {
 				has_government = fascism
@@ -2947,7 +2937,7 @@ focus_tree = {
 			OR = {
 				has_government = democratic
 				has_government = communism
-				has_government = monarchism
+				DV_Has_Authoritarian_Ideology = yes
 			}
 			ITA = {
 				has_government = fascism

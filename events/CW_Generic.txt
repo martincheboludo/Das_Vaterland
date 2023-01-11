@@ -159,8 +159,22 @@ country_event = {
 			days = 7
 		}
 	}
+	option = {
+		name = cwtree.8.b
+		set_politics = {
+			ruling_party = neutrality
+		}
+		add_popularity = {
+			popularity = 0.1
+			ideology = neutrality
+		}
+		country_event = {
+			id = cwtree.9
+			days = 7
+		}
+	}
 }
-
+#Authoritarian Unforseen
 country_event = {
 	id = cwtree.9
 	title = cwtree.9.t

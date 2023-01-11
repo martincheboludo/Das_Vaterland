@@ -1299,6 +1299,7 @@ ideas = {
 			}
 			modifier = {
 				monarchism_drift = 0.2
+				neutrality_drift = 0.2
 			}
 		}
 		RI_disloyal_military = {
