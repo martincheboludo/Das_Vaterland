@@ -61,7 +61,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 40
 		}
-		location = 4066
+		location = 11761
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
@@ -72,7 +72,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 76
 		}
-		location = 4066
+		location = 11761
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -84,7 +84,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 427
 		}
-		location = 7656
+		location = 11761
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
@@ -95,7 +95,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 30
 		}
-		location = 7656
+		location = 11761
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -106,7 +106,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 56
 		}
-		location = 10364
+		location = 12026
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -117,7 +117,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 68
 		}
-		location = 10364
+		location = 12026
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -129,7 +129,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 12012
+		location = 9843
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
@@ -141,7 +141,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 69
 		}
-		location = 7508
+		location = 12026
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -152,7 +152,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 99
 		}
-		location = 1603
+		location = 6828
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -163,7 +163,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 205
 		}
-		location = 7508
+		location = 12026
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -176,7 +176,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 12426
+		location = 7659
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
@@ -188,7 +188,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 467
 		}
-		location = 10434
+		location = 9843
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
@@ -199,7 +199,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 38
 		}
-		location = 10434
+		location = 9843
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -210,7 +210,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 47
 		}
-		location = 10434
+		location = 9843
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -221,7 +221,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 96
 		}
-		location = 10434
+		location = 9843
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -233,7 +233,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 7580
+		location = 10004
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
@@ -244,7 +244,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 15
 		}
-		location = 7580
+		location = 10004
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -255,7 +255,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 17
 		}
-		location = 7580
+		location = 10004
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -267,7 +267,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 19
 		}
-		location = 12426
+		location = 4121
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -278,7 +278,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 61
 		}
-		location = 12426
+		location = 4121
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -289,7 +289,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 12426
+		location = 4121
 		division_template = "Qibing Jun"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -301,7 +301,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 22
 		}
-		location = 10446
+		location = 4140
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -312,7 +312,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 35
 		}
-		location = 10446
+		location = 4140
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -323,7 +323,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 201
 		}
-		location = 10446
+		location = 4140
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -331,7 +331,7 @@ units = {
 	}
 	division = {
 		name = "Dongbei Xianqian Zu"
-		location = 10446
+		location = 4140
 		division_template = "Juntuán"		# Manchurian Advance Group (militia-quality guerrila group)
 		start_equipment_factor = 0.5
 
@@ -342,7 +342,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 410
 		}
-		location = 7126
+		location = 10068
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 	}
@@ -351,7 +351,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 483
 		}
-		location = 7126
+		location = 10068
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 	}
@@ -360,7 +360,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 7126
+		location = 10068
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 	}
@@ -369,7 +369,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 98
 		}
-		location = 7126
+		location = 10068
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -383,7 +383,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 28
 		}
-		location = 11961
+		location = 7803
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -394,7 +394,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 91
 		}
-		location = 11961
+		location = 7803
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -406,7 +406,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 7101
+		location = 8055
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -417,7 +417,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 50
 		}
-		location = 7101
+		location = 8055
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -429,7 +429,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 100
 		}
-		location = 9984
+		location = 10880
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -441,7 +441,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 25
 		}
-		location = 4083
+		location = 12598
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 	}
@@ -450,7 +450,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 29
 		}
-		location = 4083
+		location = 12598
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 	}
@@ -460,7 +460,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 51
 		}
-		location = 10501
+		location = 1172
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -471,7 +471,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 57
 		}
-		location = 10501
+		location = 1172
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -482,7 +482,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 89
 		}
-		location = 10501
+		location = 1172
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -496,7 +496,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 10105
+		location = 1114
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -507,7 +507,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 65
 		}
-		location = 7137
+		location = 1114
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -519,7 +519,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 62
 		}
-		location = 7067
+		location = 1196
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -530,7 +530,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 63
 		}
-		location = 4207
+		location = 1196
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -541,7 +541,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 66
 		}
-		location = 1162
+		location = 1196
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -552,7 +552,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 498
 		}
-		location = 1120
+		location = 1114
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -564,7 +564,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 46
 		}
-		location = 4092
+		location = 1522
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -575,7 +575,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 64
 		}
-		location = 12077
+		location = 1522
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -587,7 +587,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 9963
+		location = 1522
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -601,7 +601,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 39
 		}
-		location = 12495
+		location = 10480
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
@@ -612,7 +612,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 84
 		}
-		location = 12495
+		location = 10480
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -624,7 +624,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 12495
+		location = 10480
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -634,7 +634,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 48
 		}
-		location = 12495
+		location = 10480
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -646,7 +646,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 41
 		}
-		location = 1640
+		location = 4783
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -657,7 +657,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 45
 		}
-		location = 1640
+		location = 4783
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -669,7 +669,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 44
 		}
-		location = 9999
+		location = 4783
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -680,7 +680,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 67
 		}
-		location = 9999
+		location = 4783
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -692,7 +692,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 404
 		}
-		location = 12467
+		location = 4656
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 	}
@@ -701,7 +701,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 411
 		}
-		location = 12467
+		location = 4656
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 	}
@@ -710,7 +710,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 489
 		}
-		location = 12467
+		location = 4656
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 	}
@@ -719,7 +719,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 7625
+		location = 4074
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.3
 	}
@@ -728,7 +728,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 85
 		}
-		location = 7625
+		location = 4074
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -739,7 +739,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 92
 		}
-		location = 7625
+		location = 4074
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -751,7 +751,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 55
 		}
-		location = 9934
+		location = 12432
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -762,7 +762,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 59
 		}
-		location = 9934
+		location = 12432
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -773,7 +773,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 77
 		}
-		location = 9934
+		location = 12432
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -787,7 +787,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 480
 		}
-		location = 4169
+		location = 8081
 		division_template = "Juntuán"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -795,7 +795,7 @@ units = {
 	}
 	division = {
 		name = "Fujian Jingbei"
-		location = 1166
+		location = 10724
 		division_template = "Sanjiao Jun"	# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.3
 
@@ -807,7 +807,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 457
 		}
-		location = 7097
+		location = 7314
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -818,7 +818,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 7097
+		location = 7314
 		division_template = "Motuo Hua Bubing Jun"
 		start_experience_factor = 0.2
 	}
@@ -827,7 +827,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 75
 		}
-		location = 7097
+		location = 7314
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -839,7 +839,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 58
 		}
-		location = 4013
+		location = 1469
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -850,7 +850,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 60
 		}
-		location = 1195
+		location = 1469
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -861,7 +861,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 203
 		}
-		location = 11947
+		location = 1469
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -873,7 +873,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 402
 		}
-		location = 7054
+		location = 7727
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -884,7 +884,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 425
 		}
-		location = 7054
+		location = 7727
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -895,7 +895,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 37
 		}
-		location = 7054
+		location = 7727
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -906,7 +906,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 52
 		}
-		location = 7054
+		location = 7727
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -917,7 +917,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 79
 		}
-		location = 7054
+		location = 12598
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -929,7 +929,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 32
 		}
-		location = 10058
+		location = 10724
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -940,7 +940,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 49
 		}
-		location = 7146
+		location = 10724
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -951,7 +951,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 70
 		}
-		location = 12059
+		location = 7659
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -963,7 +963,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 414
 		}
-		location = 10086
+		location = 7659
 		division_template = "Juntuán"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
@@ -974,7 +974,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 53
 		}
-		location = 10086
+		location = 7659
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
@@ -985,7 +985,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 87
 		}
-		location = 1125
+		location = 7659
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -997,7 +997,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 7104
+		location = 6828
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1009,7 +1009,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 72
 		}
-		location = 12019
+		location = 6828
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1020,7 +1020,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 78
 		}
-		location = 12019
+		location = 6828
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1032,7 +1032,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 403
 		}
-		location = 7097
+		location = 7314
 		division_template = "Juntuán"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -1043,7 +1043,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 73
 		}
-		location = 7097
+		location = 10880
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1054,7 +1054,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 206
 		}
-		location = 7097
+		location = 10880
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1067,7 +1067,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 16
 		}
-		location = 7625
+		location = 10507
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1079,7 +1079,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 27
 		}
-		location = 7625
+		location = 10507
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1090,7 +1090,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 90
 		}
-		location = 7625
+		location = 10507
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1103,7 +1103,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 43
 		}
-		location = 6999
+		location = 1778
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1114,7 +1114,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 86
 		}
-		location = 6999
+		location = 1778
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1126,7 +1126,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 409
 		}
-		location = 6999
+		location = 1778
 		division_template = "Juntuán"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -1137,7 +1137,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 436
 		}
-		location = 6999
+		location = 1778
 		division_template = "Juntuán"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -1148,18 +1148,356 @@ units = {
 			is_name_ordered = yes
 			name_order = 487
 		}
-		location = 6999
+		location = 4843
 		division_template = "Juntuán"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 
 	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 12671 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 12671 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 12671 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 12671 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7737 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7737 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7737 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7737 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4849 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4849 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4849 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4849 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4823 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4823 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4823 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4823 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7693 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7693 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7693 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7693 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 11913 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 11913 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 10000 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4205 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7014 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Sanjiao Jun"
+		location = 9974 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4196 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 1047 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 1070 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7097 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 1069 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7940 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 6999 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 6999 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7101 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7418 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 9958 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 3992 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 10404 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 4925 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7965 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 2045 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 1519 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7191 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7294 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7222 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 8049 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Sanjiao Jun"
+		location = 7101 # Wuhan
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+	}
+
 	division = { # "88 Bubing Shi"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 488
 		}
-		location = 6999
+		location = 4843
 		division_template = "Juntuán"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -1170,7 +1508,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6999
+		location = 4843
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -1181,7 +1519,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 6999
+		location = 4843
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -1193,7 +1531,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 406
 		}
-		location = 4925
+		location = 10899
 		division_template = "Juntuán"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -1204,7 +1542,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 4925
+		location = 10899
 		division_template = "Juntuán"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -1215,7 +1553,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 64
 		}
-		location = 4925
+		location = 10899
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1227,7 +1565,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 23
 		}
-		location = 4925
+		location = 10899
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1238,7 +1576,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 26
 		}
-		location = 4925
+		location = 4783
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1249,21 +1587,21 @@ units = {
 	### Yunnan ###
 	division = {
 		name = "Kunming Jingbei"
-		location = 12789
+		location = 12598
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.3
 
 	}
 	division = {
 		name = "Yunnan Baoan Ke"
-		location = 10346
+		location = 10776
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.3
 
 	}
 	division = {
 		name = "Dali Baoan Ke"
-		location = 10346
+		location = 10776
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.3
 
@@ -1271,7 +1609,7 @@ units = {
 	### Guangxi ###
 	division = {
 		name = "Guilin Jingbei"
-		location = 10404
+		location = 10776
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.3
 
@@ -1305,7 +1643,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 202
 		}
-		location = 1647
+		location = 8055
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1324,7 +1662,7 @@ units = {
 	}
 	division = {
 		name = "Golmud Jingbei"
-		location = 12846
+		location = 7803
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.3
 

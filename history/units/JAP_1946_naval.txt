@@ -216,10 +216,10 @@ units = {
 	### China Area Fleet ###
 	fleet = {
 		name = "Chikogu Eira Kantai"			
-		naval_base = 7014	# Shanghai
+		naval_base = 1150	# Shanghai
 		task_force = {
 			name = "3 Kantai"		# CO: Koga
-			location = 1070	# Hainan
+			location = 11932	# Hainan
 			ship = { name = "Akagi" definition = carrier equipment = { ship_hull_carrier_conversion_bb = {amount = 1 owner = JAP version_name = "Akagi Class" } }
 				
 			}
@@ -247,7 +247,7 @@ units = {
 		}
 		task_force = {
 			name = "4 Kantai"
-			location = 10000	# Tsingtao
+			location = 12446	# Tsingtao
 			ship = { name = "Ashigara" definition = heavy_cruiser start_experience_factor = 0.5 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Myoko Class" } } }
 			ship = { name = "Natori" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
 			ship = { name = "Kiso" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
@@ -263,7 +263,7 @@ units = {
 		}
 		task_force = {
 			name = "5 Kantai"
-			location = 7014	# Shanghai
+			location = 9998	# Shanghai
 			ship = { name = "Kaga" definition = carrier start_experience_factor = 0.5 equipment = { ship_hull_carrier_conversion_bb = {amount = 1 owner = JAP version_name = "Kaga Class" } }
 				
 			}
@@ -288,7 +288,7 @@ units = {
 		}
 		task_force = {
 			name = "Shanghai Kantai"
-			location = 7014	# Shanghai
+			location = 9998	# Shanghai
 			ship = { name = "Izumo" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Izumo Class"} } }
 			ship = { name = "Iwate" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Izumo Class"} } }
 			ship = { name = "Hirado" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Chikuma Class"} } }
