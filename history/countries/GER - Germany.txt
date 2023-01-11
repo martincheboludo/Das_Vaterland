@@ -1284,8 +1284,8 @@ if = {
 	}
 	set_party_name = { 
 		ideology = monarchism
-		long_name = "Haus Hohenzollern" 
-		name = "Haus Hohenzollern" 
+		long_name = "NSDAP - Willhelmine Faction" 
+		name = "NSDAP/WF" 
 	}
 
 	create_country_leader = {
