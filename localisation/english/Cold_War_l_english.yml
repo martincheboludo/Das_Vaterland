@@ -308,6 +308,8 @@
  cwtree.13.d:0 "Shocking news reached us today: Several anti-islamist militaries have deserted or, even worse, are now open rebelling against our new regime. And if it wasn't already bad enough, many officials have stopped working and multiple high-ranking popular politicians are openly defaming us, stating that we are a “Corrupt, fanatical and totalitarian regime, that violently overthrew our old government for the sake of their own lust for power, which they covered in the quest for Allah.“\n\nWith having a large part of the military and the population against us, quick action is required or we will end like our old rulers."
  cwtree.13.a:0 "Traitors! All of them!"
  cwtree.14.t:0 "Countrywide Religious Raids"
+ cwtree.14.d:0 "Militants from the radical jihadist group the [ROOT.GetRulingParty] have set fire to several churches in the [ROOT.GetNonIdeologyAdjective] largest city of [Root.Capital.GetName]. The burning of the church is the latest in a series of destruction of Christian property in [Root.Capital.GetName], which was taken by the Islamist rebels last month, along with other swathes of [ROOT.GetNonIdeologyAdjective]."
+ cwtree.14.a:0 "We Will Break The Cross"
 
 
 ## Cosmetic Tags ##
