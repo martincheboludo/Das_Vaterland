@@ -1,4 +1,5 @@
 add_namespace = cwtree
+#
 country_event = {
 	id = cwtree.1
 	title = cwtree.1.t
