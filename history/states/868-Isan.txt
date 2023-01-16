@@ -14,6 +14,7 @@ state={
 		}
 		add_core_of = SIA
 		add_core_of = JA9
+		add_core_of = GE4
 	}
 	manpower=2000000
 	state_category = rural

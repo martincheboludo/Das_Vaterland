@@ -11,6 +11,7 @@ state={
 		owner = AST
 		add_core_of = AST
 		add_core_of = JA6
+		add_core_of = GE1
 	}
 	state_category = wasteland
 	manpower=1000

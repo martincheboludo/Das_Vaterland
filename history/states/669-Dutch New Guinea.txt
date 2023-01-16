@@ -10,6 +10,8 @@ state={
 		add_core_of = INS
 		add_core_of = JE1
 		add_core_of = JA6
+		add_core_of = GE1
+		add_core_of = GE5
 		victory_points = {
 			12371 1 
 		}

@@ -8,6 +8,7 @@ state={
 		owner = NZL
 		add_core_of = SAM
 		add_core_of = JA6
+		add_core_of = GE1
 		buildings = {
 			infrastructure = 2
 			7290 = {

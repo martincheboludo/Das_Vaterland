@@ -1115,3 +1115,123 @@ JE1 = {
 		}
 	}
 }
+
+GE1 = {
+	army = {
+		male = {
+			"GFX_Portrait_Germany_Generic_land_1"
+			"GFX_Portrait_Germany_Generic_land_2"
+			"GFX_Portrait_Germany_Generic_land_3"
+			"GFX_Portrait_Germany_Generic_land_4"
+			"GFX_Portrait_Germany_Generic_land_5"
+			"GFX_Portrait_Germany_Generic_land_6"
+			"GFX_Portrait_Germany_Generic_land_7"
+			"GFX_Portrait_Germany_Generic_land_8"
+			"GFX_Portrait_Germany_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Germany_Generic_navy_1"
+			"GFX_Portrait_Germany_Generic_navy_2"
+			"GFX_Portrait_Germany_Generic_navy_3"
+		}
+	}
+}
+
+GE2 = {
+	army = {
+		male = {
+			"GFX_Portrait_Germany_Generic_land_1"
+			"GFX_Portrait_Germany_Generic_land_2"
+			"GFX_Portrait_Germany_Generic_land_3"
+			"GFX_Portrait_Germany_Generic_land_4"
+			"GFX_Portrait_Germany_Generic_land_5"
+			"GFX_Portrait_Germany_Generic_land_6"
+			"GFX_Portrait_Germany_Generic_land_7"
+			"GFX_Portrait_Germany_Generic_land_8"
+			"GFX_Portrait_Germany_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Germany_Generic_navy_1"
+			"GFX_Portrait_Germany_Generic_navy_2"
+			"GFX_Portrait_Germany_Generic_navy_3"
+		}
+	}
+}
+
+GE3 = {
+	army = {
+		male = {
+			"GFX_Portrait_Germany_Generic_land_1"
+			"GFX_Portrait_Germany_Generic_land_2"
+			"GFX_Portrait_Germany_Generic_land_3"
+			"GFX_Portrait_Germany_Generic_land_4"
+			"GFX_Portrait_Germany_Generic_land_5"
+			"GFX_Portrait_Germany_Generic_land_6"
+			"GFX_Portrait_Germany_Generic_land_7"
+			"GFX_Portrait_Germany_Generic_land_8"
+			"GFX_Portrait_Germany_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Germany_Generic_navy_1"
+			"GFX_Portrait_Germany_Generic_navy_2"
+			"GFX_Portrait_Germany_Generic_navy_3"
+		}
+	}
+}
+
+GE4 = {
+	army = {
+		male = {
+			"GFX_Portrait_Germany_Generic_land_1"
+			"GFX_Portrait_Germany_Generic_land_2"
+			"GFX_Portrait_Germany_Generic_land_3"
+			"GFX_Portrait_Germany_Generic_land_4"
+			"GFX_Portrait_Germany_Generic_land_5"
+			"GFX_Portrait_Germany_Generic_land_6"
+			"GFX_Portrait_Germany_Generic_land_7"
+			"GFX_Portrait_Germany_Generic_land_8"
+			"GFX_Portrait_Germany_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Germany_Generic_navy_1"
+			"GFX_Portrait_Germany_Generic_navy_2"
+			"GFX_Portrait_Germany_Generic_navy_3"
+		}
+	}
+}
+
+GE5 = {
+	army = {
+		male = {
+			"GFX_Portrait_Germany_Generic_land_1"
+			"GFX_Portrait_Germany_Generic_land_2"
+			"GFX_Portrait_Germany_Generic_land_3"
+			"GFX_Portrait_Germany_Generic_land_4"
+			"GFX_Portrait_Germany_Generic_land_5"
+			"GFX_Portrait_Germany_Generic_land_6"
+			"GFX_Portrait_Germany_Generic_land_7"
+			"GFX_Portrait_Germany_Generic_land_8"
+			"GFX_Portrait_Germany_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Germany_Generic_navy_1"
+			"GFX_Portrait_Germany_Generic_navy_2"
+			"GFX_Portrait_Germany_Generic_navy_3"
+		}
+	}
+}

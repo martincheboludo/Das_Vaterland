@@ -28,6 +28,7 @@ state={
 		}
 		add_core_of = NZL
 		add_core_of = JA6
+		add_core_of = GE1
 	}
 
 	provinces={

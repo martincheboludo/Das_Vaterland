@@ -1118,3 +1118,24 @@ NG7 = {
 	color = rgb { 174 113 113 }
 	color_ui = rgb { 174 113 113 }
 }
+
+GE1 = {
+	color = rgb { 57 143 97 }
+	color_ui = rgb { 74 186 126 }
+}
+GE2 = {
+	color = rgb { 237 152 18 }
+	color_ui = rgb { 224 139 5 }
+}
+GE3 = {
+	color = rgb { 80  165  10 }
+	color_ui = rgb { 80  165  10 }
+}
+GE4 = {
+	color = rgb { 255 255 51 }
+	color_ui = rgb { 255 255 51 }
+}
+GE5 = {
+	color = rgb { 40  50  120 }
+	color_ui = rgb { 40  50  120 }
+}
