@@ -11,5 +11,5 @@ tags={
 }
 name="Das_Vaterland"
 picture="DV.png"
-supported_version="1.12.7"
+supported_version="1.12.11"
 replace_path="events"
